@@ -1,0 +1,31 @@
+Designator,MPN, Quantity, Datasheet
+CB9 CB10 ,TMK212BJ105KG-T,2,https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf
+CB1 CB4 CB6 ,0402F105M6R3CT,3,https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf
+CB2 CB3 CB5 CB8 ,"	VJ0402G104KXQCW1BC",4,https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf
+CB7 ,0402X104K160CT,1,https://datasheet.lcsc.com/szlcsc/1811061035_Walsin-Tech-Corp-0402X104K160CT_C301997.pdf
+CRST1 ,0805X106K250NT,1,https://datasheet.lcsc.com/szlcsc/1811061719_FH-Guangdong-Fenghua-Advanced-Tech-0805X106K250NT_C40894.pdf
+CRST2 ,CL21B472KBANNNC,1,https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf
+CSH1 CSH2 ,CL21B472KBANNNC,2,https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf
+CSI1 CSO1 ,GRM21BR71E105KA99L,2,https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf
+CUSB1 ,CC0805KRX7R9BB104,1,https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D58 D59 D60 D61 D62 D63 D64 D65 D66 D67 D68 D69 D70 ,"	1N4148W",70,https://datasheet.lcsc.com/szlcsc/1912111437_Slkor-SLKORMICRO-Elec-1N4148W_C444720.pdf
+DF1 ,SMF9.0CA,1,https://datasheet.lcsc.com/szlcsc/1912111437_AnBon-SMF9-0CA_C435473.pdf
+DL1 ,"	19-217/R6C-AL1M2VY/3T",1,https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-R6C-AL1M2VY-3T_C72044.pdf
+DRST1 ,B0520LW,1,https://datasheet.lcsc.com/szlcsc/1810061612_Changjiang-Electronics-Tech-CJ-B0520LW_C8570.pdf
+DS1 DSH1 ,RB060M-60TR,2,https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf
+F1 ,BSMD1812-050-24V,1,https://datasheet.lcsc.com/szlcsc/2010191134_BHFUSE-BSMD1812-050-24V_C883140.pdf
+J1 ,"	TYPE-C-31-M-13",1,https://datasheet.lcsc.com/szlcsc/1811101526_Korean-Hroparts-Elec-TYPE-C-31-M-13_C223906.pdf
+L1 ,ACM2012-900-2P-T002,1,https://datasheet.lcsc.com/szlcsc/2006291108_TDK-ACM2012-900-2P-T002_C19972.pdf
+L2 ,MGFL1608F1R0MT-LF,1,https://datasheet.lcsc.com/szlcsc/1811141852_microgate-MGFL1608F1R0MT-LF_C281108.pdf
+L3 ,"	CMI322513U1R0KT",1,https://datasheet.lcsc.com/szlcsc/1811141420_FH-Guangdong-Fenghua-Advanced-Tech-CMI322513U1R0KT_C99412.pdf
+QRST1 ,DTC123JKAT146,1,https://datasheet.lcsc.com/szlcsc/1808272202_ROHM-Semicon-DTC123JKAT146_C111724.pdf
+RCC1 RCC2 ,"	PTFR1206B5K10P9",2,https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf
+RL1 ,"	1206W4J0621T5E",1,https://datasheet.lcsc.com/szlcsc/1810301439_UNI-ROYAL-Uniroyal-Elec-1206W4J0621T5E_C25391.pdf
+RPU1 ,RC1206FR-071K5L,1,https://datasheet.lcsc.com/szlcsc/1810241211_YAGEO-RC1206FR-071K5L_C114929.pdf
+RRST1 RSI1 RSO1 ,RN73H2BTTD1003B25,3,https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf
+RSH1 RSH2 ,RMC12061M1%N,2,https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf
+RVDD1 ,RTT06R010FTP,1,https://datasheet.lcsc.com/szlcsc/1811081724_RALEC-RTT06R010FTP_C104920.pdf
+SWRST1 ,RS-187R05A2-DSMTRT,1,https://datasheet.lcsc.com/szlcsc/1810121646_C-K-RS-187R05A2-DSMTRT_C221929.pdf
+U1 ,STM32F072CBT6,1,https://datasheet.lcsc.com/szlcsc/1811151533_STMicroelectronics-STM32F072CBT6_C81720.pdf
+U2 ,USBLC6-2SC6,1,http://www2.st.com/resource/en/datasheet/CD00050750.pdf
+U3 ,MCP1700T-3302E/TT,1,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf

@@ -1,0 +1,35 @@
+Reference, Quantity, Value, Footprint, Datasheet, LCSC Part#, Mfr, Part#
+CB9 CB10 ,2,1µ,Capacitor_SMD:C_0805_2012Metric,https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf,"	C92829",Taiyo Yuden,TMK212BJ105KG-T
+CB1 CB4 CB6 ,3,1µ,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf,C408910,Walsin Tech Corp,0402F105M6R3CT
+CB2 CB3 CB5 CB8 ,4,100n,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf,"	C169292",Vishay Intertech,"	VJ0402G104KXQCW1BC"
+CB7 ,1,100nF,Capacitor_SMD:C_0402_1005Metric,https://datasheet.lcsc.com/szlcsc/1811061035_Walsin-Tech-Corp-0402X104K160CT_C301997.pdf,"	C301997",Walsin Tech Corp,0402X104K160CT
+CRST1 ,1,10u,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/1811061719_FH-Guangdong-Fenghua-Advanced-Tech-0805X106K250NT_C40894.pdf,C40894,FH(Guangdong Fenghua Advanced Tech),0805X106K250NT
+CRST2 ,1,4.7n,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf,C50131,Samsung Electro-Mechanics,CL21B472KBANNNC
+CSH1 CSH2 ,2,4.7nF,Capacitor_SMD:C_0805_2012Metric,https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf,"	C50131",Samsung Electro-Mechanics,CL21B472KBANNNC
+CSI1 CSO1 ,2,1µ,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf,C77080,"	Murata Electronics",GRM21BR71E105KA99L
+CUSB1 ,1,100n,Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder,https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf,C49678,"	YAGEO",CC0805KRX7R9BB104
+D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12 D13 D14 D15 D16 D17 D18 D19 D20 D21 D22 D23 D24 D25 D26 D27 D28 D29 D30 D31 D32 D33 D34 D35 D36 D37 D38 D39 D40 D41 D42 D43 D44 D45 D46 D47 D48 D49 D50 D51 D52 D53 D54 D55 D56 D57 D58 D59 D60 D61 D62 D63 D64 D65 D66 D67 D68 D69 D70 ,70,1N4148,acheron_Components:D_SOD-123,https://datasheet.lcsc.com/szlcsc/1912111437_Slkor-SLKORMICRO-Elec-1N4148W_C444720.pdf,C444720,"	Slkor(SLKORMICRO Elec.)","	1N4148W"
+DF1 ,1,SMF9.0CA,acheron_Components:D_SOD-123_Bidirectional,https://datasheet.lcsc.com/szlcsc/1912111437_AnBon-SMF9-0CA_C435473.pdf,C435473,"	AnBon",SMF9.0CA
+DL1 ,1,19-217/R6C-AL1M2VY/3T,LED_SMD:LED_0603_1608Metric,https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-R6C-AL1M2VY-3T_C72044.pdf,"	C72044",Everlight Elec,"	19-217/R6C-AL1M2VY/3T"
+DRST1 ,1,B0520LW,acheron_Components:D_SOD-123,https://datasheet.lcsc.com/szlcsc/1810061612_Changjiang-Electronics-Tech-CJ-B0520LW_C8570.pdf,"	C8570",Changjiang Electronics Tech (CJ),B0520LW
+DS1 DSH1 ,2,RB060M-60TR,acheron_Components:D_SOD-123,https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf,C114257,ROHM Semicon,RB060M-60TR
+F1 ,1,1A trip PTC,acheron_Components:Fuse_1812_4532,https://datasheet.lcsc.com/szlcsc/2010191134_BHFUSE-BSMD1812-050-24V_C883140.pdf,"	C883140",BHFUSE,BSMD1812-050-24V
+J1 ,1,TYPE-C-31-M12_13,acheron_Connectors:TYPE-C-31-M-12,https://datasheet.lcsc.com/szlcsc/1811101526_Korean-Hroparts-Elec-TYPE-C-31-M-13_C223906.pdf,C223906,Korean Hroparts Elec,"	TYPE-C-31-M-13"
+J3 ,1,Conn_ARM_JTAG_SWD_10,acheron_Connectors:Conn_ARM_JTAG_SWD_10,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,
+L1 ,1,ACM2012-900-2P-T002,acheron_Components:ACM2012-2P,https://datasheet.lcsc.com/szlcsc/2006291108_TDK-ACM2012-900-2P-T002_C19972.pdf,C19972,"	TDK",ACM2012-900-2P-T002
+L2 ,1,MGFL1608F1R0MT-LF,Inductor_SMD:L_0603_1608Metric,https://datasheet.lcsc.com/szlcsc/1811141852_microgate-MGFL1608F1R0MT-LF_C281108.pdf,C281108,microgate,MGFL1608F1R0MT-LF
+L3 ,1,CMI322513U1R0KT,Inductor_SMD:L_1210_3225Metric,https://datasheet.lcsc.com/szlcsc/1811141420_FH-Guangdong-Fenghua-Advanced-Tech-CMI322513U1R0KT_C99412.pdf,C99412,FH(Guangdong Fenghua Advanced Tech),"	CMI322513U1R0KT"
+QRST1 ,1,DTC123J,Package_TO_SOT_SMD:SOT-23,https://datasheet.lcsc.com/szlcsc/1808272202_ROHM-Semicon-DTC123JKAT146_C111724.pdf,C111724,ROHM Semicon,DTC123JKAT146
+RCC1 RCC2 ,2,5.1k,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf,C351456,Resistor.Today,"	PTFR1206B5K10P9"
+RL1 ,1,620R,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/1810301439_UNI-ROYAL-Uniroyal-Elec-1206W4J0621T5E_C25391.pdf,C25391,"	UNI-ROYAL(Uniroyal Elec)","	1206W4J0621T5E"
+RPU1 ,1,1.5k,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/1810241211_YAGEO-RC1206FR-071K5L_C114929.pdf,C114929,YAGEO,RC1206FR-071K5L
+RRST1 RSI1 RSO1 ,3,100k,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf,C346155,"	KOA Speer Elec",RN73H2BTTD1003B25
+RSH1 RSH2 ,2,1M,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf,C325894,TyoHM,RMC12061M1%N
+RVDD1 ,1,R010 1%,acheron_Components:R_SMD_1206,https://datasheet.lcsc.com/szlcsc/1811081724_RALEC-RTT06R010FTP_C104920.pdf,C104920,RALEC,RTT06R010FTP
+SWRST1 ,1,SW_Push,acheron_Hardware:smdPushBtn,https://datasheet.lcsc.com/szlcsc/1810121646_C-K-RS-187R05A2-DSMTRT_C221929.pdf,"	C221929","	C&K",RS-187R05A2-DSMTRT
+U1 ,1,STM32F072-LQFP48,acheron_Components:LQFP-48_7x7mm_P0.5mm,https://datasheet.lcsc.com/szlcsc/1811151533_STMicroelectronics-STM32F072CBT6_C81720.pdf,C81720,STMicroelectronics,STM32F072CBT6
+U2 ,1,USBLC6-2SC6,acheron_Components:SOT-23-6,http://www2.st.com/resource/en/datasheet/CD00050750.pdf,"	C7519",STMicroelectronics,USBLC6-2SC6
+U3 ,1,MCP1700-3302E_SOT23,Package_TO_SOT_SMD:SOT-23,http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf,"	C39051",Microchip Tech,MCP1700T-3302E/TT
+,,,,,,,
+,,,,,,,
+,113,,,,,,
