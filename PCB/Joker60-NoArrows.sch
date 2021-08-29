@@ -13,318 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CSI1
-U 1 1 5C44CEDC
-P 10275 19925
-F 0 "CSI1" V 10375 19925 39  0000 C CNN
-F 1 "1µ" V 10175 19925 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10275 19925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf" H 10275 19925 50  0001 C CNN
-F 4 "C77080" H 10275 19925 50  0001 C CNN "LCSC Part#"
-F 5 "	Murata Electronics" H 10275 19925 50  0001 C CNN "Mfr"
-F 6 "GRM21BR71E105KA99L" H 10275 19925 50  0001 C CNN "Part#"
-	1    10275 19925
-	-1   0    0    1   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CSO1
-U 1 1 5C44DAFA
-P 10975 19925
-F 0 "CSO1" H 11100 20000 39  0000 C CNN
-F 1 "1µ" H 11075 20075 39  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10975 19925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf" H 10975 19925 50  0001 C CNN
-F 4 "C77080" H 10975 19925 50  0001 C CNN "LCSC Part#"
-F 5 "	Murata Electronics" H 10975 19925 50  0001 C CNN "Mfr"
-F 6 "GRM21BR71E105KA99L" H 10975 19925 50  0001 C CNN "Part#"
-	1    10975 19925
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	10325 19700 10275 19700
-Connection ~ 10275 19700
-Text GLabel 11275 19700 2    50   Output ~ 0
-3.3V
-Text GLabel 19050 15875 2    50   BiDi ~ 0
-D+
-Text GLabel 19050 16125 2    50   BiDi ~ 0
-D-
-Wire Wire Line
-	19050 15875 19000 15875
-Wire Wire Line
-	19050 16125 19000 16125
-$Comp
-L Joker60-NoArrows-rescue:MCP1700-3302E_SOT23-Regulator_Linear-doddle60-rescue U3
-U 1 1 5D83639E
-P 10625 19700
-F 0 "U3" H 10625 19898 31  0000 C CNN
-F 1 "MCP1700-3302E_SOT23" H 10625 19836 31  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 10625 19925 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf" H 10625 19700 50  0001 C CNN
-F 4 "	C39051" H 10625 19700 50  0001 C CNN "LCSC Part#"
-F 5 "Microchip Tech" H 10625 19700 50  0001 C CNN "Mfr"
-F 6 "MCP1700T-3302E/TT" H 10625 19700 50  0001 C CNN "Part#"
-	1    10625 19700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10925 19700 10975 19700
-$Comp
-L power:GND #PWR018
-U 1 1 5D9C16B4
-P 10625 20075
-F 0 "#PWR018" H 10625 19825 50  0001 C CNN
-F 1 "GND" H 10625 19900 50  0000 C CNN
-F 2 "" H 10625 20075 50  0001 C CNN
-F 3 "" H 10625 20075 50  0001 C CNN
-	1    10625 20075
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:SW_Push-Switch-doddle60-rescue SWRST1
-U 1 1 5E070BED
-P 9450 17600
-F 0 "SWRST1" H 9450 17800 31  0000 C CNN
-F 1 "SW_Push" H 9450 17779 31  0001 C CNN
-F 2 "acheron_Hardware:smdPushBtn" H 9450 17800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810121646_C-K-RS-187R05A2-DSMTRT_C221929.pdf" H 9450 17800 50  0001 C CNN
-F 4 "	C221929" H 9450 17600 50  0001 C CNN "LCSC Part#"
-F 5 "	C&K" H 9450 17600 50  0001 C CNN "Mfr"
-F 6 "RS-187R05A2-DSMTRT" H 9450 17600 50  0001 C CNN "Part#"
-	1    9450 17600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:D_Schottky-Device-doddle60-rescue DRST1
-U 1 1 5E071566
-P 9950 17600
-F 0 "DRST1" V 9919 17679 31  0000 L CNN
-F 1 "B0520LW" V 9981 17679 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 9950 17600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810061612_Changjiang-Electronics-Tech-CJ-B0520LW_C8570.pdf" H 9950 17600 50  0001 C CNN
-F 4 "	C8570" H 9950 17600 50  0001 C CNN "LCSC Part#"
-F 5 "Changjiang Electronics Tech (CJ)" H 9950 17600 50  0001 C CNN "Mfr"
-F 6 "B0520LW" H 9950 17600 50  0001 C CNN "Part#"
-	1    9950 17600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RRST1
-U 1 1 5E07225E
-P 10225 17800
-F 0 "RRST1" V 10150 17725 31  0000 L CNN
-F 1 "100k" V 10225 17750 31  0000 L CNN
-F 2 "acheron_Components:R_SMD_1206" H 10225 17800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf" H 10225 17800 50  0001 C CNN
-F 4 "C346155" H 10225 17800 50  0001 C CNN "LCSC Part#"
-F 5 "	KOA Speer Elec" H 10225 17800 50  0001 C CNN "Mfr"
-F 6 "RN73H2BTTD1003B25" H 10225 17800 50  0001 C CNN "Part#"
-	1    10225 17800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CRST1
-U 1 1 5E072855
-P 10375 17800
-F 0 "CRST1" H 10325 17725 31  0000 R CNN
-F 1 "10u" H 10350 17875 31  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10375 17800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811061719_FH-Guangdong-Fenghua-Advanced-Tech-0805X106K250NT_C40894.pdf" H 10375 17800 50  0001 C CNN
-F 4 "C40894" H 10375 17800 50  0001 C CNN "LCSC Part#"
-F 5 "FH(Guangdong Fenghua Advanced Tech)" H 10375 17800 50  0001 C CNN "Mfr"
-F 6 "0805X106K250NT" H 10375 17800 50  0001 C CNN "Part#"
-	1    10375 17800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CRST2
-U 1 1 5E0C1B45
-P 10375 16850
-F 0 "CRST2" H 10575 16800 31  0000 R CNN
-F 1 "4.7n" H 10500 16925 31  0000 R CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10375 16850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf" H 10375 16850 50  0001 C CNN
-F 4 "C50131" H 10375 16850 50  0001 C CNN "LCSC Part#"
-F 5 "Samsung Electro-Mechanics" H 10375 16850 50  0001 C CNN "Mfr"
-F 6 "CL21B472KBANNNC" H 10375 16850 50  0001 C CNN "Part#"
-	1    10375 16850
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR05
-U 1 1 5E65AF3C
-P 9475 17000
-F 0 "#PWR05" H 9475 16750 50  0001 C CNN
-F 1 "GND" V 9480 16873 31  0000 R CNN
-F 2 "" H 9475 17000 50  0001 C CNN
-F 3 "" H 9475 17000 50  0001 C CNN
-	1    9475 17000
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5E65C8C3
-P 10225 17950
-F 0 "#PWR09" H 10225 17700 50  0001 C CNN
-F 1 "GND" H 10230 17791 31  0000 C CNN
-F 2 "" H 10225 17950 50  0001 C CNN
-F 3 "" H 10225 17950 50  0001 C CNN
-	1    10225 17950
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR011
-U 1 1 5E65CDAB
-P 10375 17950
-F 0 "#PWR011" H 10375 17700 50  0001 C CNN
-F 1 "GND" H 10380 17791 31  0000 C CNN
-F 2 "" H 10375 17950 50  0001 C CNN
-F 3 "" H 10375 17950 50  0001 C CNN
-	1    10375 17950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10375 17950 10375 17900
-Wire Wire Line
-	10225 17950 10225 17900
-Wire Wire Line
-	9475 17000 9525 17000
-Wire Wire Line
-	10100 17600 10225 17600
-Wire Wire Line
-	10375 17600 10375 17700
-Connection ~ 10375 17600
-Wire Wire Line
-	10375 17600 10675 17600
-Wire Wire Line
-	10225 17600 10225 17700
-Connection ~ 10225 17600
-Wire Wire Line
-	10225 17600 10375 17600
-Wire Wire Line
-	10375 16950 10375 17000
-Connection ~ 10375 17000
-Wire Wire Line
-	10375 17000 10675 17000
-Wire Wire Line
-	10375 16750 10375 16700
-$Comp
-L power:GND #PWR010
-U 1 1 5EA2B7B0
-P 10375 16700
-F 0 "#PWR010" H 10375 16450 50  0001 C CNN
-F 1 "GND" H 10380 16541 31  0000 C CNN
-F 2 "" H 10375 16700 50  0001 C CNN
-F 3 "" H 10375 16700 50  0001 C CNN
-	1    10375 16700
-	-1   0    0    1   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB5
-U 1 1 5ED231C7
-P 18525 18350
-F 0 "CB5" V 18675 18350 31  0000 C CNN
-F 1 "100n" V 18625 18350 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 18525 18350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf" H 18525 18350 50  0001 C CNN
-F 4 "	C169292" H 18525 18350 50  0001 C CNN "LCSC Part#"
-F 5 "Vishay Intertech" H 18525 18350 50  0001 C CNN "Mfr"
-F 6 "	VJ0402G104KXQCW1BC" H 18525 18350 50  0001 C CNN "Part#"
-	1    18525 18350
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	9925 17000 10375 17000
-Text GLabel 10675 17000 2    50   BiDi ~ 0
-NRST
-Text GLabel 10675 17600 2    50   BiDi ~ 0
-BOOT0
-Text GLabel 15500 16575 0    50   Input ~ 0
-NRST
-Text GLabel 16900 14675 1    50   Input ~ 0
-BOOT0
-Wire Wire Line
-	15500 16575 15550 16575
-Wire Wire Line
-	16900 14675 16900 14725
-Text Notes 9150 16225 0    100  Italic 20
-Hard reset circuit
-Text Notes 8700 18725 0    100  Italic 20
-Power supply and protection circuit
-Text GLabel 10075 19625 1    50   Output ~ 0
-5V
-Wire Wire Line
-	10075 19625 10075 19700
-Wire Wire Line
-	10775 19225 10975 19225
-Wire Wire Line
-	10275 19225 10475 19225
-Connection ~ 10975 19700
-Text GLabel 9250 17600 0    50   Input ~ 0
-3.3V
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue G2
-U 1 1 5C66B5D5
-P 3650 13825
-F 0 "G2" H 3750 13871 50  0000 L CNN
-F 1 "OSHLogo" H 3750 13780 50  0000 L CNN
-F 2 "oshLogo:osh-logo" H 3650 13825 50  0001 C CNN
-F 3 "~" H 3650 13825 50  0001 C CNN
-	1    3650 13825
-	1    0    0    -1  
-$EndComp
-Text Notes 3375 13525 0    100  ~ 20
-Logos and flags
-Wire Notes Line width 20
-	3300 13325 4725 13325
-Wire Notes Line width 20
-	3300 15175 4725 15175
-Text GLabel 19050 15625 2    50   Input ~ 0
-SWDIO
-Wire Wire Line
-	19050 15625 19000 15625
-Text GLabel 18650 14675 1    50   Input ~ 0
-SWCLK
-Wire Wire Line
-	18650 14675 18650 14725
-Text Notes 8825 13575 0    100  Italic 20
-Serial programming
-Wire Wire Line
-	10100 14700 10025 14700
-Text GLabel 10100 14700 2    50   Input ~ 0
-SWDIO
-Wire Wire Line
-	9525 15300 9525 15375
-Text GLabel 9525 14025 1    50   Input ~ 0
-3.3V
-Wire Wire Line
-	9525 14100 9525 14025
-Wire Wire Line
-	10100 14400 10025 14400
-Text GLabel 10100 14400 2    50   Input ~ 0
-NRST
-$Comp
-L Joker60-NoArrows-rescue:DTC123J-Transistor_BJT-doddle60-rescue QRST1
-U 1 1 5D249555
-P 9725 17100
-F 0 "QRST1" V 10050 17100 50  0000 C CNN
-F 1 "DTC123J" V 9959 17100 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 9725 17100 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1808272202_ROHM-Semicon-DTC123JKAT146_C111724.pdf" H 9725 17100 50  0001 L CNN
-F 4 "C111724" H 9725 17100 50  0001 C CNN "LCSC Part#"
-F 5 "ROHM Semicon" H 9725 17100 50  0001 C CNN "Mfr"
-F 6 "DTC123JKAT146" H 9725 17100 50  0001 C CNN "Part#"
-	1    9725 17100
-	0    1    -1   0   
-$EndComp
-Wire Wire Line
-	9650 17600 9725 17600
-Wire Wire Line
-	9725 17350 9725 17600
-Connection ~ 9725 17600
-Wire Wire Line
-	9725 17600 9800 17600
 Text GLabel 2500 3025 0    50   Input ~ 0
 Row2
 Text GLabel 2500 2050 0    50   Input ~ 0
@@ -567,542 +255,6 @@ Text GLabel 2850 1700 1    50   Input ~ 0
 Col1
 Wire Wire Line
 	3000 2700 2850 2700
-$Comp
-L Joker60-NoArrows-rescue:STM32F072-LQFP48-acheronSymbols U1
-U 1 1 5D4108EC
-P 17250 16475
-F 0 "U1" H 17175 16600 79  0000 L CNB
-F 1 "STM32F072-LQFP48" H 16650 16425 79  0000 L CNB
-F 2 "acheron_Components:LQFP-48_7x7mm_P0.5mm" H 17250 16475 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811151533_STMicroelectronics-STM32F072CBT6_C81720.pdf" H 17250 16475 50  0001 C CNN
-F 4 "C81720" H 17250 16475 50  0001 C CNN "LCSC Part#"
-F 5 "STMicroelectronics" H 17250 16475 50  0001 C CNN "Mfr"
-F 6 "STM32F072CBT6" H 17250 16475 50  0001 C CNN "Part#"
-	1    17250 16475
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18400 18175 18400 18350
-Wire Wire Line
-	18400 18350 18425 18350
-Wire Wire Line
-	18650 18175 18650 18350
-Wire Wire Line
-	18650 18350 18625 18350
-Connection ~ 18650 18350
-Connection ~ 18400 18350
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB2
-U 1 1 5DBAA682
-P 15375 16950
-F 0 "CB2" V 15525 16950 31  0000 C CNN
-F 1 "100n" V 15475 16950 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 15375 16950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf" H 15375 16950 50  0001 C CNN
-F 4 "	C169292" H 15375 16950 50  0001 C CNN "LCSC Part#"
-F 5 "Vishay Intertech" H 15375 16950 50  0001 C CNN "Mfr"
-F 6 "	VJ0402G104KXQCW1BC" H 15375 16950 50  0001 C CNN "Part#"
-	1    15375 16950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15550 16825 15375 16825
-Wire Wire Line
-	15375 16825 15375 16850
-Wire Wire Line
-	15550 17075 15375 17075
-Wire Wire Line
-	15375 17075 15375 17050
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB3
-U 1 1 5DC1D2A1
-P 19175 15250
-F 0 "CB3" V 19325 15250 31  0000 C CNN
-F 1 "100n" V 19275 15250 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 19175 15250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf" H 19175 15250 50  0001 C CNN
-F 4 "	C169292" H 19175 15250 50  0001 C CNN "LCSC Part#"
-F 5 "Vishay Intertech" H 19175 15250 50  0001 C CNN "Mfr"
-F 6 "	VJ0402G104KXQCW1BC" H 19175 15250 50  0001 C CNN "Part#"
-	1    19175 15250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	19000 15375 19175 15375
-Wire Wire Line
-	19175 15375 19175 15350
-Wire Wire Line
-	19000 15125 19175 15125
-Wire Wire Line
-	19175 15125 19175 15150
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB8
-U 1 1 5DC916F5
-P 16025 14550
-F 0 "CB8" V 16175 14550 31  0000 C CNN
-F 1 "100n" V 16125 14550 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 16025 14550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf" H 16025 14550 50  0001 C CNN
-F 4 "	C169292" H 16025 14550 50  0001 C CNN "LCSC Part#"
-F 5 "Vishay Intertech" H 16025 14550 50  0001 C CNN "Mfr"
-F 6 "	VJ0402G104KXQCW1BC" H 16025 14550 50  0001 C CNN "Part#"
-	1    16025 14550
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	16150 14725 16150 14550
-Wire Wire Line
-	16150 14550 16125 14550
-Wire Wire Line
-	15900 14725 15900 14550
-Wire Wire Line
-	15900 14550 15925 14550
-Wire Wire Line
-	15900 14475 15900 14550
-Connection ~ 15900 14550
-Wire Wire Line
-	16150 14475 16150 14550
-Connection ~ 16150 14550
-Wire Wire Line
-	15475 15075 15525 15075
-Text Notes 800  20250 0    50   ~ 10
-[1] STM32F072x8 / STM32F072xB datasheet
-Text Notes 800  20100 0    100  ~ 20
-REFERENCES
-Text Notes 800  20350 0    50   ~ 0
-https://www.st.com/resource/en/datasheet/stm32f072rb.pdf
-Text Notes 800  20550 0    50   ~ 10
-[2] AN4080 Application note
-Text Notes 800  20650 0    50   ~ 0
-https://www.st.com/content/ccc/resource/technical/document/application_note/c9/19/d7/b8/6b/0e/4c/d3/DM00051986.pdf/files/DM00051986.pdf/jcr:content/translations/en.DM00051986.pdf
-Wire Wire Line
-	15525 15075 15525 15025
-Wire Wire Line
-	15525 14825 15525 14775
-Connection ~ 15525 15075
-Wire Wire Line
-	15525 15075 15550 15075
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB4
-U 1 1 5E067AA7
-P 19450 15250
-F 0 "CB4" V 19600 15250 31  0000 C CNN
-F 1 "1µ" V 19550 15250 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 19450 15250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf" H 19450 15250 50  0001 C CNN
-F 4 "C408910" H 19450 15250 50  0001 C CNN "LCSC Part#"
-F 5 "Walsin Tech Corp" H 19450 15250 50  0001 C CNN "Mfr"
-F 6 "0402F105M6R3CT" H 19450 15250 50  0001 C CNN "Part#"
-	1    19450 15250
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	19175 15125 19450 15125
-Connection ~ 19175 15125
-Wire Wire Line
-	19175 15375 19450 15375
-Connection ~ 19175 15375
-Wire Wire Line
-	19450 15125 19450 15150
-Wire Wire Line
-	19450 15350 19450 15375
-Connection ~ 19450 15125
-Wire Wire Line
-	19450 15125 19700 15125
-Connection ~ 19450 15375
-Wire Wire Line
-	19450 15375 19700 15375
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB1
-U 1 1 5E2290BA
-P 15125 16950
-F 0 "CB1" V 15275 16950 31  0000 C CNN
-F 1 "1µ" V 15225 16950 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 15125 16950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf" H 15125 16950 50  0001 C CNN
-F 4 "C408910" H 15125 16950 50  0001 C CNN "LCSC Part#"
-F 5 "Walsin Tech Corp" H 15125 16950 50  0001 C CNN "Mfr"
-F 6 "0402F105M6R3CT" H 15125 16950 50  0001 C CNN "Part#"
-	1    15125 16950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14900 16825 15125 16825
-Connection ~ 15375 16825
-Wire Wire Line
-	14900 17075 15125 17075
-Connection ~ 15375 17075
-Wire Wire Line
-	15125 16825 15125 16850
-Wire Wire Line
-	15125 17050 15125 17075
-Connection ~ 15125 16825
-Wire Wire Line
-	15125 16825 15375 16825
-Connection ~ 15125 17075
-Wire Wire Line
-	15125 17075 15375 17075
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB6
-U 1 1 5E3EEF07
-P 18525 18625
-F 0 "CB6" V 18675 18625 31  0000 C CNN
-F 1 "1µ" V 18625 18625 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 18525 18625 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf" H 18525 18625 50  0001 C CNN
-F 4 "C408910" H 18525 18625 50  0001 C CNN "LCSC Part#"
-F 5 "Walsin Tech Corp" H 18525 18625 50  0001 C CNN "Mfr"
-F 6 "0402F105M6R3CT" H 18525 18625 50  0001 C CNN "Part#"
-	1    18525 18625
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	18400 18625 18425 18625
-Wire Wire Line
-	18650 18350 18650 18625
-Wire Wire Line
-	18400 18350 18400 18625
-Wire Wire Line
-	18625 18625 18650 18625
-Wire Wire Line
-	18400 18675 18400 18625
-Connection ~ 18400 18625
-Wire Wire Line
-	18650 18675 18650 18625
-Connection ~ 18650 18625
-Wire Notes Line width 20
-	12150 13300 20400 13300
-Wire Notes Line width 20
-	20400 13300 20400 19300
-Wire Notes Line width 20
-	20400 19300 12150 19300
-Wire Notes Line width 20
-	12150 19300 12150 13300
-Text Notes 12250 13550 0    100  ~ 20
-MCU
-Wire Notes Line width 20
-	12150 13650 12700 13650
-Wire Notes Line width 20
-	12700 13650 12700 13300
-Wire Notes Line width 20
-	3300 13600 4725 13600
-Wire Notes Line width 20
-	8625 16000 11175 16000
-Wire Notes Line width 20
-	11175 16000 11175 18300
-Wire Notes Line width 20
-	11175 18300 8625 18300
-Wire Notes Line width 20
-	8625 18500 11600 18500
-Wire Notes Line width 20
-	11600 18500 11600 20750
-Wire Notes Line width 20
-	11600 20750 8625 20750
-Wire Notes Line width 20
-	8625 20750 8625 18500
-Wire Notes Line width 20
-	8625 16000 8625 18300
-Wire Notes Line width 20
-	8625 18800 11600 18800
-$Comp
-L Joker60-NoArrows-rescue:D_Schottky-Device-doddle60-rescue DS1
-U 1 1 5C44EA7A
-P 10625 19225
-F 0 "DS1" H 10625 19375 31  0000 C CNN
-F 1 "RB060M-60TR" H 10625 19325 31  0000 C CNN
-F 2 "acheron_Components:D_SOD-123" H 10625 19225 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf" H 10625 19225 50  0001 C CNN
-F 4 "C114257" H 10625 19225 50  0001 C CNN "LCSC Part#"
-F 5 "ROHM Semicon" H 10625 19225 50  0001 C CNN "Mfr"
-F 6 "RB060M-60TR" H 10625 19225 50  0001 C CNN "Part#"
-	1    10625 19225
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue G1
-U 1 1 5D3B6D2E
-P 3650 14125
-F 0 "G1" H 3750 14171 50  0000 L CNN
-F 1 "Doddle60Logo" H 3750 14080 50  0000 L CNN
-F 2 "doddle60Graphics:doddle60Logo" H 3650 14125 50  0001 C CNN
-F 3 "~" H 3650 14125 50  0001 C CNN
-	1    3650 14125
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:TYPE-C-31-M12_13-acheronSymbols J1
-U 1 1 5D5405DA
-P 6400 17675
-F 0 "J1" H 6400 19100 50  0000 C CNN
-F 1 "TYPE-C-31-M12_13" H 6400 19000 50  0000 C CNN
-F 2 "acheron_Connectors:TYPE-C-31-M-12" V 5900 17725 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811101526_Korean-Hroparts-Elec-TYPE-C-31-M-13_C223906.pdf" H 6600 17725 50  0001 C CNN
-F 4 "C223906" H 6400 17675 50  0001 C CNN "LCSC Part#"
-F 5 "Korean Hroparts Elec" H 6400 17675 50  0001 C CNN "Mfr"
-F 6 "	TYPE-C-31-M-13" H 6400 17675 50  0001 C CNN "Part#"
-	1    6400 17675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RSH1
-U 1 1 5D5416FE
-P 6100 19325
-F 0 "RSH1" H 6159 19356 31  0000 L CNN
-F 1 "1M" H 6159 19294 31  0000 L CNN
-F 2 "acheron_Components:R_SMD_1206" H 6100 19325 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf" H 6100 19325 50  0001 C CNN
-F 4 "C325894" H 6100 19325 50  0001 C CNN "LCSC Part#"
-F 5 "TyoHM" H 6100 19325 50  0001 C CNN "Mfr"
-F 6 "RMC12061M1%N" H 6100 19325 50  0001 C CNN "Part#"
-	1    6100 19325
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CSH1
-U 1 1 5D54218D
-P 5975 19325
-F 0 "CSH1" V 6125 19325 31  0000 C CNN
-F 1 "4.7nF" V 6075 19325 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5975 19325 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf" H 5975 19325 50  0001 C CNN
-F 4 "	C50131" H 5975 19325 50  0001 C CNN "LCSC Part#"
-F 5 "Samsung Electro-Mechanics" H 5975 19325 50  0001 C CNN "Mfr"
-F 6 "CL21B472KBANNNC" H 5975 19325 50  0001 C CNN "Part#"
-	1    5975 19325
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6100 19125 6100 19175
-Wire Wire Line
-	6100 19175 5975 19175
-Wire Wire Line
-	5975 19175 5975 19225
-Connection ~ 6100 19175
-Wire Wire Line
-	6100 19175 6100 19225
-Wire Wire Line
-	5975 19425 5975 19475
-Wire Wire Line
-	5975 19475 6100 19475
-Wire Wire Line
-	6100 19475 6100 19425
-Wire Wire Line
-	6100 19475 6100 19525
-Connection ~ 6100 19475
-$Comp
-L power:GND #PWR0102
-U 1 1 5D6F2C4A
-P 6100 19525
-F 0 "#PWR0102" H 6100 19275 50  0001 C CNN
-F 1 "GND" H 6100 19400 31  0000 C CNN
-F 2 "" H 6100 19525 50  0001 C CNN
-F 3 "" H 6100 19525 50  0001 C CNN
-	1    6100 19525
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0105
-U 1 1 5D7660D9
-P 6400 19225
-F 0 "#PWR0105" H 6400 18975 50  0001 C CNN
-F 1 "GND" H 6400 19100 31  0000 C CNN
-F 2 "" H 6400 19225 50  0001 C CNN
-F 3 "" H 6400 19225 50  0001 C CNN
-	1    6400 19225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 19125 6300 19175
-Wire Wire Line
-	6300 19175 6400 19175
-Wire Wire Line
-	6400 19175 6400 19125
-Wire Wire Line
-	6400 19225 6400 19175
-Connection ~ 6400 19175
-NoConn ~ 7000 18725
-NoConn ~ 7000 18825
-Wire Wire Line
-	7000 17975 7000 18075
-Text GLabel 7250 17775 2    40   BiDi ~ 0
-DBus-
-Text GLabel 7250 18075 2    40   BiDi ~ 0
-DBus+
-Wire Wire Line
-	7000 17675 7000 17775
-Connection ~ 7000 17775
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RCC1
-U 1 1 5DAD119A
-P 7150 17225
-F 0 "RCC1" V 7075 17225 31  0000 C CNN
-F 1 "5.1k" V 7150 17225 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 7150 17225 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf" H 7150 17225 50  0001 C CNN
-F 4 "C351456" H 7150 17225 50  0001 C CNN "LCSC Part#"
-F 5 "Resistor.Today" H 7150 17225 50  0001 C CNN "Mfr"
-F 6 "	PTFR1206B5K10P9" H 7150 17225 50  0001 C CNN "Part#"
-	1    7150 17225
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR0106
-U 1 1 5DCFB88B
-P 7275 17225
-F 0 "#PWR0106" H 7275 16975 50  0001 C CNN
-F 1 "GND" H 7275 17100 31  0000 C CNN
-F 2 "" H 7275 17225 50  0001 C CNN
-F 3 "" H 7275 17225 50  0001 C CNN
-	1    7275 17225
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7250 17225 7275 17225
-Wire Wire Line
-	7000 16525 7000 16625
-Wire Wire Line
-	7125 16625 7000 16625
-Connection ~ 7000 16625
-Text GLabel 7125 16625 2    50   Output ~ 0
-VBUS
-Text GLabel 7125 14625 2    50   BiDi ~ 0
-DBus-
-Text GLabel 7475 15150 2    50   BiDi ~ 0
-D-
-Text GLabel 6025 14625 0    50   BiDi ~ 0
-DBus+
-Text GLabel 7475 15350 2    50   BiDi ~ 0
-D+
-Wire Wire Line
-	7125 14625 7075 14625
-Wire Wire Line
-	7475 15150 7425 15150
-Wire Wire Line
-	7425 15350 7475 15350
-Wire Wire Line
-	6075 14625 6025 14625
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CUSB1
-U 1 1 5E01896F
-P 6725 14175
-F 0 "CUSB1" V 6625 14175 31  0000 C CNN
-F 1 "100n" V 6825 14175 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6725 14175 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf" H 6725 14175 50  0001 C CNN
-F 4 "C49678" H 6725 14175 50  0001 C CNN "LCSC Part#"
-F 5 "	YAGEO" H 6725 14175 50  0001 C CNN "Mfr"
-F 6 "CC0805KRX7R9BB104" H 6725 14175 50  0001 C CNN "Part#"
-	1    6725 14175
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6575 14225 6575 14175
-Wire Wire Line
-	6625 14175 6575 14175
-Connection ~ 6575 14175
-Wire Wire Line
-	6825 14175 6875 14175
-$Comp
-L power:GND #PWR0112
-U 1 1 5E173141
-P 6875 14175
-F 0 "#PWR0112" H 6875 13925 50  0001 C CNN
-F 1 "GND" H 6875 14050 31  0000 C CNN
-F 2 "" H 6875 14175 50  0001 C CNN
-F 3 "" H 6875 14175 50  0001 C CNN
-	1    6875 14175
-	0    -1   -1   0   
-$EndComp
-Text GLabel 6575 14100 1    50   Input ~ 0
-VBUS
-Wire Wire Line
-	6575 14100 6575 14175
-$Comp
-L power:GND #PWR0113
-U 1 1 5E1E97BE
-P 6575 15275
-F 0 "#PWR0113" H 6575 15025 50  0001 C CNN
-F 1 "GND" H 6575 15150 31  0000 C CNN
-F 2 "" H 6575 15275 50  0001 C CNN
-F 3 "" H 6575 15275 50  0001 C CNN
-	1    6575 15275
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6575 15275 6575 15225
-Wire Notes Line width 20
-	8625 13375 10525 13375
-Wire Notes Line width 20
-	8625 15825 10525 15825
-Wire Notes Line width 20
-	5575 15650 5575 20075
-Wire Notes Line width 20
-	5575 20075 8325 20075
-Wire Notes Line width 20
-	8325 20075 8325 15650
-Wire Notes Line width 20
-	8325 15650 5575 15650
-Text Notes 6300 15875 0    100  Italic 20
-USB Connector
-Wire Notes Line
-	5775 19025 6175 19025
-Wire Notes Line
-	6175 19025 6175 19700
-Wire Notes Line
-	6175 19700 5775 19700
-Wire Notes Line
-	5775 19700 5775 19025
-Text Notes 5750 19475 1    50   ~ 0
-Shield
-Wire Notes Line width 20
-	8625 13675 10525 13675
-Wire Notes Line width 20
-	8625 16325 11175 16325
-Wire Notes Line width 20
-	5575 15950 8325 15950
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue G3
-U 1 1 5D430F2E
-P 3650 14400
-F 0 "G3" H 3750 14446 50  0000 L CNN
-F 1 "Acheron Logo" H 3750 14355 50  0000 L CNN
-F 2 "acheron_Logos:acheronLong" H 3650 14400 50  0001 C CNN
-F 3 "~" H 3650 14400 50  0001 C CNN
-	1    3650 14400
-	1    0    0    -1  
-$EndComp
-Text Notes 6325 13575 0    100  Italic 20
-USD ESD
-Wire Notes Line width 20
-	5575 13375 5575 15525
-Wire Notes Line width 20
-	5575 15525 7775 15525
-Wire Notes Line width 20
-	7775 15525 7775 13375
-Wire Notes Line width 20
-	7775 13375 5575 13375
-Wire Notes Line width 20
-	5575 13625 7775 13625
-Text Label 5975 19175 2    20   ~ 0
-SHIELD
-$Comp
-L Joker60-NoArrows-rescue:Polyfuse_Small-Device-doddle60-rescue F1
-U 1 1 5ECE83A7
-P 9225 19700
-F 0 "F1" V 9050 19700 50  0000 C CNN
-F 1 "1A trip PTC" V 9125 19700 30  0000 C CNN
-F 2 "acheron_Components:Fuse_1812_4532" H 9275 19500 50  0001 L CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2010191134_BHFUSE-BSMD1812-050-24V_C883140.pdf" H 9225 19700 50  0001 C CNN
-F 4 "	C883140" H 9225 19700 50  0001 C CNN "LCSC Part#"
-F 5 "BHFUSE" H 9225 19700 50  0001 C CNN "Mfr"
-F 6 "BSMD1812-050-24V" H 9225 19700 50  0001 C CNN "Part#"
-	1    9225 19700
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9050 19700 9125 19700
-Text GLabel 9050 19700 0    50   Input ~ 0
-VBUS
 Text GLabel 14850 1700 1    50   Input ~ 0
 Col13
 $Comp
@@ -1188,88 +340,6 @@ F 5 "	Slkor(SLKORMICRO Elec.)" H 3350 2200 50  0001 C CNN "Mfr"
 F 6 "	1N4148W" H 3350 2200 50  0001 C CNN "Part#"
 	1    3350 2200
 	0    1    1    0   
-$EndComp
-Text Notes 12225 19200 0    50   ~ 10
-CBx are the bypass capacitors. Their value is specified in reference [2].
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H1
-U 1 1 5D878439
-P 3800 16050
-F 0 "H1" H 3900 16096 50  0000 L CNN
-F 1 "Half Side Hole " H 3900 16005 50  0000 L CNN
-F 2 "acheron_MountingHoles:halfSideHole" H 3800 16050 50  0001 C CNN
-F 3 "~" H 3800 16050 50  0001 C CNN
-	1    3800 16050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H2
-U 1 1 5D878CA4
-P 3800 16300
-F 0 "H2" H 3900 16346 50  0000 L CNN
-F 1 "Mounting Hole" H 3900 16255 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 16300 50  0001 C CNN
-F 3 "~" H 3800 16300 50  0001 C CNN
-	1    3800 16300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H3
-U 1 1 5D8862CE
-P 3800 16550
-F 0 "H3" H 3900 16596 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 16505 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 16550 50  0001 C CNN
-F 3 "~" H 3800 16550 50  0001 C CNN
-	1    3800 16550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H4
-U 1 1 5D8866EC
-P 3800 16800
-F 0 "H4" H 3900 16846 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 16755 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 16800 50  0001 C CNN
-F 3 "~" H 3800 16800 50  0001 C CNN
-	1    3800 16800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H5
-U 1 1 5D886A2F
-P 3800 17050
-F 0 "H5" H 3900 17096 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 17005 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 17050 50  0001 C CNN
-F 3 "~" H 3800 17050 50  0001 C CNN
-	1    3800 17050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H6
-U 1 1 5D9357B9
-P 3800 17300
-F 0 "H6" H 3900 17346 50  0000 L CNN
-F 1 "Half Side Hole " H 3900 17255 50  0000 L CNN
-F 2 "acheron_MountingHoles:halfSideHole" H 3800 17300 50  0001 C CNN
-F 3 "~" H 3800 17300 50  0001 C CNN
-	1    3800 17300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:USBLC6-2SC6-Power_Protection-doddle60-rescue U2
-U 1 1 5DE4F198
-P 6575 14725
-F 0 "U2" H 6100 15200 50  0000 C CNN
-F 1 "USBLC6-2SC6" H 6100 15125 50  0000 C CNN
-F 2 "acheron_Components:SOT-23-6" H 5825 15125 50  0001 C CNN
-F 3 "http://www2.st.com/resource/en/datasheet/CD00050750.pdf" H 6775 15075 50  0001 C CNN
-F 4 "	C7519" H 6575 14725 50  0001 C CNN "LCSC Part#"
-F 5 "STMicroelectronics" H 6575 14725 50  0001 C CNN "Mfr"
-F 6 "USBLC6-2SC6" H 6575 14725 50  0001 C CNN "Part#"
-	1    6575 14725
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 2050 4350 2050
@@ -1867,50 +937,6 @@ Wire Wire Line
 Connection ~ 4850 2700
 Wire Wire Line
 	4850 2700 4850 3675
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H7
-U 1 1 5E63D297
-P 3800 17550
-F 0 "H7" H 3900 17596 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 17505 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 17550 50  0001 C CNN
-F 3 "~" H 3800 17550 50  0001 C CNN
-	1    3800 17550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole_Pad-Mechanical-doddle60-rescue H8
-U 1 1 5E63D4E1
-P 3850 17800
-F 0 "H8" V 3875 17425 50  0000 R CNN
-F 1 "Oval Mounting Hole" V 3775 17425 50  0000 R CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3850 17800 50  0001 C CNN
-F 3 "~" H 3850 17800 50  0001 C CNN
-	1    3850 17800
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H9
-U 1 1 5E63D910
-P 3800 18050
-F 0 "H9" H 3900 18096 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 18005 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 18050 50  0001 C CNN
-F 3 "~" H 3800 18050 50  0001 C CNN
-	1    3800 18050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue H10
-U 1 1 5E64C744
-P 3800 18300
-F 0 "H10" H 3900 18346 50  0000 L CNN
-F 1 "Oval Mounting Hole" H 3900 18255 50  0000 L CNN
-F 2 "acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm" H 3800 18300 50  0001 C CNN
-F 3 "~" H 3800 18300 50  0001 C CNN
-	1    3800 18300
-	1    0    0    -1  
-$EndComp
 Text GLabel 2500 4000 0    50   Input ~ 0
 Row3
 Wire Wire Line
@@ -2571,430 +1597,13 @@ Wire Wire Line
 	15850 4650 15850 3675
 Wire Wire Line
 	15350 4000 16350 4000
-Text GLabel 1800 14925 0    40   Input ~ 0
-Extra8
-Text GLabel 1800 14825 0    40   Input ~ 0
-Extra7
-Text GLabel 1800 14725 0    40   Input ~ 0
-Extra6
-Text GLabel 1800 14625 0    40   Input ~ 0
-Extra5
-Text GLabel 1800 14525 0    40   Input ~ 0
-Extra4
-Text GLabel 1800 14425 0    40   Input ~ 0
-Extra3
-Text GLabel 18150 14675 1    50   Input ~ 0
-Extra3
-Text GLabel 18400 14675 1    50   Input ~ 0
-Extra4
-Wire Wire Line
-	1800 14925 1850 14925
-Wire Wire Line
-	1850 14825 1800 14825
-Wire Wire Line
-	1800 14725 1850 14725
-Wire Wire Line
-	1850 14625 1800 14625
-Wire Wire Line
-	1800 14525 1850 14525
-Wire Wire Line
-	1850 14425 1800 14425
-Wire Wire Line
-	18150 14675 18150 14725
-Wire Wire Line
-	18400 14675 18400 14725
-Text GLabel 19050 16375 2    50   Input ~ 0
-Extra5
-Wire Wire Line
-	19050 16375 19000 16375
-Text GLabel 19050 16625 2    50   Input ~ 0
-Extra6
-Wire Wire Line
-	19050 16625 19000 16625
-Text GLabel 19050 16875 2    50   Input ~ 0
-Extra7
-Wire Wire Line
-	19050 16875 19000 16875
-Text GLabel 19050 17125 2    50   Input ~ 0
-Extra8
-Wire Wire Line
-	19050 17125 19000 17125
-Text GLabel 1800 15525 0    40   Input ~ 0
-Extra14
-Text GLabel 1800 15425 0    40   Input ~ 0
-Extra13
-Text GLabel 1800 15325 0    40   Input ~ 0
-Extra12
-Text GLabel 1800 15225 0    40   Input ~ 0
-Extra11
-Text GLabel 1800 15125 0    40   Input ~ 0
-Extra10
-Text GLabel 1800 15025 0    40   Input ~ 0
-Extra9
-Wire Wire Line
-	1800 15525 1850 15525
-Wire Wire Line
-	1850 15425 1800 15425
-Wire Wire Line
-	1800 15325 1850 15325
-Wire Wire Line
-	1850 15225 1800 15225
-Wire Wire Line
-	1800 15125 1850 15125
-Wire Wire Line
-	1850 15025 1800 15025
-Text GLabel 19050 17375 2    50   Input ~ 0
-Extra9
-Wire Wire Line
-	19050 17375 19000 17375
-Text GLabel 19050 17625 2    50   Input ~ 0
-Extra10
-Wire Wire Line
-	19050 17625 19000 17625
-Text GLabel 19050 17875 2    50   Input ~ 0
-Extra11
-Wire Wire Line
-	19050 17875 19000 17875
-Text GLabel 18150 18225 3    50   Input ~ 0
-Extra12
-Wire Wire Line
-	18150 18225 18150 18175
-Text GLabel 17650 18225 3    50   Input ~ 0
-Extra14
-Wire Wire Line
-	17650 18225 17650 18175
-Text GLabel 17900 18225 3    50   Input ~ 0
-Extra13
-Wire Wire Line
-	17900 18225 17900 18175
 Wire Wire Line
 	2500 3025 3350 3025
 Connection ~ 3350 3025
 Wire Wire Line
 	3350 3025 4350 3025
-Wire Wire Line
-	10025 14600 10100 14600
-Text GLabel 10100 14600 2    50   Input ~ 0
-SWCLK
-$Comp
-L power:GND #PWR0103
-U 1 1 5CFDFC6D
-P 9525 15375
-F 0 "#PWR0103" H 9525 15125 50  0001 C CNN
-F 1 "GND" V 9530 15247 50  0000 R CNN
-F 2 "" H 9525 15375 50  0001 C CNN
-F 3 "" H 9525 15375 50  0001 C CNN
-	1    9525 15375
-	1    0    0    -1  
-$EndComp
-Text GLabel 16150 18225 3    50   Input ~ 0
-Col3
-Wire Wire Line
-	16150 18225 16150 18175
-Text GLabel 15900 18225 3    50   Input ~ 0
-Col4
-Wire Wire Line
-	15900 18225 15900 18175
-Text GLabel 15500 17825 0    50   Input ~ 0
-Col5
-Wire Wire Line
-	15500 17825 15550 17825
-Text GLabel 15500 17575 0    50   Input ~ 0
-Col6
-Wire Wire Line
-	15500 17575 15550 17575
-Text GLabel 15500 17325 0    50   Input ~ 0
-Col7
-Wire Wire Line
-	15500 17325 15550 17325
-Text GLabel 15500 16325 0    50   Input ~ 0
-Col8
-Wire Wire Line
-	15500 16325 15550 16325
-Text GLabel 15500 16075 0    50   Input ~ 0
-Col9
-Wire Wire Line
-	15500 16075 15550 16075
-Text GLabel 15500 15825 0    50   Input ~ 0
-Col10
-Wire Wire Line
-	15500 15825 15550 15825
-Text GLabel 15500 15575 0    50   Input ~ 0
-Col11
-Wire Wire Line
-	15500 15575 15550 15575
-Text GLabel 15500 15325 0    50   Input ~ 0
-Col12
-Wire Wire Line
-	15500 15325 15550 15325
-Text GLabel 16400 14675 1    50   Input ~ 0
-Col13
-Wire Wire Line
-	16400 14675 16400 14725
-Text GLabel 16400 18225 3    50   Input ~ 0
-Col2
-Wire Wire Line
-	16400 18225 16400 18175
-Text GLabel 16650 18225 3    50   Input ~ 0
-Row3
-Wire Wire Line
-	16650 18225 16650 18175
-Text GLabel 16900 18225 3    50   Input ~ 0
-Row4
-Wire Wire Line
-	16900 18225 16900 18175
-Text GLabel 17400 18225 3    50   Input ~ 0
-Row5
-Wire Wire Line
-	17400 18225 17400 18175
-Text GLabel 17150 18225 3    50   Input ~ 0
-Col1
-Wire Wire Line
-	17150 18225 17150 18175
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RSH2
-U 1 1 5D45B6A0
-P 1875 16850
-F 0 "RSH2" H 1934 16881 31  0000 L CNN
-F 1 "1M" H 1934 16819 31  0000 L CNN
-F 2 "acheron_Components:R_SMD_1206" H 1875 16850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf" H 1875 16850 50  0001 C CNN
-F 4 "C325894" H 1875 16850 50  0001 C CNN "LCSC Part#"
-F 5 "TyoHM" H 1875 16850 50  0001 C CNN "Mfr"
-F 6 "RMC12061M1%N" H 1875 16850 50  0001 C CNN "Part#"
-	1    1875 16850
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CSH2
-U 1 1 5D45B6A6
-P 1750 16850
-F 0 "CSH2" V 1900 16850 31  0000 C CNN
-F 1 "4.7nF" V 1850 16850 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1750 16850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf" H 1750 16850 50  0001 C CNN
-F 4 "	C50131" H 1750 16850 50  0001 C CNN "LCSC Part#"
-F 5 "Samsung Electro-Mechanics" H 1750 16850 50  0001 C CNN "Mfr"
-F 6 "CL21B472KBANNNC" H 1750 16850 50  0001 C CNN "Part#"
-	1    1750 16850
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	1875 16700 1875 16750
-Wire Wire Line
-	1750 16950 1750 17000
-Wire Wire Line
-	1750 17000 1875 17000
-Wire Wire Line
-	1875 17000 1875 16950
-Wire Wire Line
-	1875 17000 1875 17050
-Connection ~ 1875 17000
-$Comp
-L power:GND #PWR0111
-U 1 1 5D45B6B6
-P 1875 17050
-F 0 "#PWR0111" H 1875 16800 50  0001 C CNN
-F 1 "GND" H 1875 16925 31  0000 C CNN
-F 2 "" H 1875 17050 50  0001 C CNN
-F 3 "" H 1875 17050 50  0001 C CNN
-	1    1875 17050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:D_Schottky-Device-doddle60-rescue DSH1
-U 1 1 5D48318C
-P 1400 16700
-F 0 "DSH1" V 1369 16779 31  0000 L CNN
-F 1 "RB060M-60TR" V 1431 16779 31  0000 L CNN
-F 2 "acheron_Components:D_SOD-123" H 1400 16700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf" H 1400 16700 50  0001 C CNN
-F 4 "C114257" H 1400 16700 50  0001 C CNN "LCSC Part#"
-F 5 "ROHM Semicon" H 1400 16700 50  0001 C CNN "Mfr"
-F 6 "RB060M-60TR" H 1400 16700 50  0001 C CNN "Part#"
-	1    1400 16700
-	-1   0    0    1   
-$EndComp
-Text GLabel 1250 16700 0    50   Input ~ 0
-CASE
-Wire Notes Line width 20
-	800  16025 2300 16025
-Wire Notes Line width 20
-	2300 16025 2300 17525
-Wire Notes Line width 20
-	2300 17525 800  17525
-Wire Notes Line width 20
-	800  16275 2300 16275
-Wire Notes Line width 20
-	800  16025 800  17525
-Text Notes 1150 16225 0    100  Italic 20
-Case ESD
-Wire Wire Line
-	1750 16750 1750 16700
-Wire Wire Line
-	1750 16700 1875 16700
-Text GLabel 3950 17800 2    50   Input ~ 0
-CASE
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RCC2
-U 1 1 5D726BAA
-P 7150 17025
-F 0 "RCC2" V 7075 17025 31  0000 C CNN
-F 1 "5.1k" V 7150 17025 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 7150 17025 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf" H 7150 17025 50  0001 C CNN
-F 4 "C351456" H 7150 17025 50  0001 C CNN "LCSC Part#"
-F 5 "Resistor.Today" H 7150 17025 50  0001 C CNN "Mfr"
-F 6 "	PTFR1206B5K10P9" H 7150 17025 50  0001 C CNN "Part#"
-	1    7150 17025
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7250 17025 7275 17025
-$Comp
-L power:GND #PWR0114
-U 1 1 5D750DE4
-P 7275 17025
-F 0 "#PWR0114" H 7275 16775 50  0001 C CNN
-F 1 "GND" H 7275 16900 31  0000 C CNN
-F 2 "" H 7275 17025 50  0001 C CNN
-F 3 "" H 7275 17025 50  0001 C CNN
-	1    7275 17025
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	7000 17025 7050 17025
-Wire Wire Line
-	7000 17225 7050 17225
-Text Notes 2550 950  0    0    ~ 0
-Switch matrix
-Text Notes 2125 950  0    100  ~ 20
-Switch matrix
-Wire Notes Line width 20
-	2050 1000 3275 1000
 Wire Notes Line width 20
 	3275 1000 3275 750 
-Wire Notes Line width 20
-	2050 750  18100 750 
-Wire Wire Line
-	17400 14675 17400 14725
-Text GLabel 17400 14675 1    50   Input ~ 0
-Row2
-Wire Wire Line
-	17150 14675 17150 14725
-Text GLabel 17150 14675 1    50   Input ~ 0
-Row1
-Wire Wire Line
-	16650 14675 16650 14725
-Text GLabel 16650 14675 1    50   Input ~ 0
-Col14
-Wire Notes Line width 20
-	3300 15300 5300 15300
-Wire Notes Line width 20
-	5300 15300 5300 18800
-Wire Notes Line width 20
-	5300 18800 3300 18800
-Wire Notes Line width 20
-	3300 18800 3300 15300
-Text Notes 3650 15525 0    100  ~ 20
-Mounting holes
-Wire Notes Line width 20
-	3300 15600 5300 15600
-Wire Notes Line
-	5300 15600 5300 15575
-Text GLabel 1800 14225 0    40   Input ~ 0
-Extra1
-Text GLabel 1800 14325 0    40   Input ~ 0
-Extra2
-Text GLabel 17900 14650 1    40   Input ~ 0
-Extra2
-Wire Wire Line
-	17650 14650 17650 14725
-Wire Wire Line
-	17900 14650 17900 14725
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue G4
-U 1 1 5D8978A5
-P 3650 14675
-F 0 "G4" H 3750 14721 50  0000 L CNN
-F 1 "Doddle60Label" H 3750 14630 50  0000 L CNN
-F 2 "doddle60Graphics:doddle60Label" H 3650 14675 50  0001 C CNN
-F 3 "~" H 3650 14675 50  0001 C CNN
-	1    3650 14675
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:MountingHole-Mechanical-doddle60-rescue G5
-U 1 1 5D8978AB
-P 3650 14950
-F 0 "G5" H 3750 14996 50  0000 L CNN
-F 1 "LabelMask" H 3750 14905 50  0000 L CNN
-F 2 "doddle60Graphics:doddle60LabelMask" H 3650 14950 50  0001 C CNN
-F 3 "~" H 3650 14950 50  0001 C CNN
-	1    3650 14950
-	1    0    0    -1  
-$EndComp
-Wire Notes Line width 20
-	3300 13325 3300 15175
-Wire Notes Line width 20
-	4725 13325 4725 15175
-$Comp
-L Joker60-NoArrows-rescue:Conn_01x14-Connector_Generic-doddle60-rescue J2
-U 1 1 5DBB9F27
-P 2050 14825
-F 0 "J2" H 2130 14818 50  0000 L CNN
-F 1 "Conn_01x14" H 2130 14725 50  0000 L CNN
-F 2 "acheron_Connectors:PinHeader_1x14_P2.54mm_Vertical" H 2050 14825 50  0001 C CNN
-F 3 "~" H 2050 14825 50  0001 C CNN
-	1    2050 14825
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1800 14325 1850 14325
-Wire Wire Line
-	1800 14225 1850 14225
-$Comp
-L Joker60-NoArrows-rescue:Conn_ARM_JTAG_SWD_10-Connector-doddle60-rescue J3
-U 1 1 5D8D65B1
-P 9525 14700
-F 0 "J3" V 8900 14750 50  0000 R CNN
-F 1 "Conn_ARM_JTAG_SWD_10" V 9025 14700 50  0000 C CNN
-F 2 "acheron_Connectors:Conn_ARM_JTAG_SWD_10" H 9525 14700 50  0001 C CNN
-F 3 "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" V 9175 13450 50  0001 C CNN
-	1    9525 14700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9425 15300 9425 15375
-$Comp
-L power:GND #PWR0115
-U 1 1 5D94EDF9
-P 9425 15375
-F 0 "#PWR0115" H 9425 15125 50  0001 C CNN
-F 1 "GND" V 9430 15247 50  0000 R CNN
-F 2 "" H 9425 15375 50  0001 C CNN
-F 3 "" H 9425 15375 50  0001 C CNN
-	1    9425 15375
-	1    0    0    -1  
-$EndComp
-NoConn ~ 10025 14800
-NoConn ~ 10025 14900
-Wire Notes Line width 20
-	800  15800 2900 15800
-Wire Notes Line width 20
-	2900 15800 2900 13350
-Wire Notes Line width 20
-	2900 13350 800  13350
-Wire Notes Line width 20
-	8625 13375 8625 15825
-Wire Notes Line width 20
-	10525 13375 10525 15825
-Wire Notes Line width 20
-	800  13350 800  15800
-Text Notes 1450 13575 0    100  Italic 20
-Extra pins
-Wire Notes Line width 20
-	800  13700 2900 13700
 Connection ~ 2850 3675
 Connection ~ 2850 4650
 Connection ~ 2850 5625
@@ -3079,12 +1688,6 @@ F 6 "	1N4148W" H 13350 6100 50  0001 C CNN "Part#"
 	1    13350 6100
 	0    1    1    0   
 $EndComp
-Wire Notes Line width 20
-	2125 13075 18175 13075
-Wire Notes Line width 20
-	2050 750  2050 8000
-Wire Notes Line width 20
-	18100 750  18100 8000
 Connection ~ 16350 6250
 Wire Wire Line
 	13350 4975 14350 4975
@@ -3444,110 +2047,6 @@ Wire Wire Line
 Connection ~ 15350 5950
 Wire Wire Line
 	15350 5950 16350 5950
-Text GLabel 7275 17975 2    40   Output ~ 0
-VBUS
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RSI1
-U 1 1 5DBF1EBA
-P 10075 19925
-F 0 "RSI1" V 10000 19925 31  0000 C CNN
-F 1 "100k" V 10075 19925 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 10075 19925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf" H 10075 19925 50  0001 C CNN
-F 4 "	C346155" H 10075 19925 50  0001 C CNN "LCSC Part#"
-F 5 "KOA Speer Elec" H 10075 19925 50  0001 C CNN "Mfr"
-F 6 "RN73H2BTTD1003B25" H 10075 19925 50  0001 C CNN "Part#"
-	1    10075 19925
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RSO1
-U 1 1 5DBF6496
-P 11175 19925
-F 0 "RSO1" V 11100 19925 31  0000 C CNN
-F 1 "100k" V 11175 19925 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 11175 19925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf" H 11175 19925 50  0001 C CNN
-F 4 "	C346155" H 11175 19925 50  0001 C CNN "LCSC Part#"
-F 5 "KOA Speer Elec" H 11175 19925 50  0001 C CNN "Mfr"
-F 6 "RN73H2BTTD1003B25" H 11175 19925 50  0001 C CNN "Part#"
-	1    11175 19925
-	1    0    0    -1  
-$EndComp
-Connection ~ 10075 19700
-Wire Wire Line
-	10075 19700 10275 19700
-Wire Wire Line
-	10975 19700 11175 19700
-$Comp
-L power:GND #PWR0116
-U 1 1 5E306A9A
-P 10275 20075
-F 0 "#PWR0116" H 10275 19825 50  0001 C CNN
-F 1 "GND" H 10275 19900 50  0000 C CNN
-F 2 "" H 10275 20075 50  0001 C CNN
-F 3 "" H 10275 20075 50  0001 C CNN
-	1    10275 20075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0117
-U 1 1 5E306DC3
-P 10075 20075
-F 0 "#PWR0117" H 10075 19825 50  0001 C CNN
-F 1 "GND" H 10075 19900 50  0000 C CNN
-F 2 "" H 10075 20075 50  0001 C CNN
-F 3 "" H 10075 20075 50  0001 C CNN
-	1    10075 20075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0118
-U 1 1 5E30707B
-P 10975 20075
-F 0 "#PWR0118" H 10975 19825 50  0001 C CNN
-F 1 "GND" H 10975 19900 50  0000 C CNN
-F 2 "" H 10975 20075 50  0001 C CNN
-F 3 "" H 10975 20075 50  0001 C CNN
-	1    10975 20075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0119
-U 1 1 5E307464
-P 11175 20075
-F 0 "#PWR0119" H 11175 19825 50  0001 C CNN
-F 1 "GND" H 11175 19900 50  0000 C CNN
-F 2 "" H 11175 20075 50  0001 C CNN
-F 3 "" H 11175 20075 50  0001 C CNN
-	1    11175 20075
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10075 20025 10075 20075
-Wire Wire Line
-	10275 20025 10275 20075
-Wire Wire Line
-	10075 19700 10075 19825
-Wire Wire Line
-	10625 20000 10625 20075
-Wire Wire Line
-	10975 20025 10975 20075
-Wire Wire Line
-	11175 19700 11175 19825
-Wire Wire Line
-	11175 20025 11175 20075
-Connection ~ 11175 19700
-Wire Wire Line
-	11175 19700 11275 19700
-Wire Wire Line
-	10975 19700 10975 19825
-Wire Wire Line
-	10975 19225 10975 19700
-Wire Wire Line
-	10275 19700 10275 19825
-Wire Wire Line
-	10275 19225 10275 19700
 $Comp
 L Joker60-NoArrows-rescue:MXSwitch-acheronSymbols SW73
 U 1 1 5E5CCD32
@@ -3595,389 +2094,6 @@ F 3 "" H 16350 5625 50  0001 C CNN
 	1    16350 5625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9900 19700 10075 19700
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RPU1
-U 1 1 5DB69551
-P 7150 17975
-F 0 "RPU1" V 7075 17975 31  0000 C CNN
-F 1 "1.5k" V 7150 17975 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 7150 17975 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810241211_YAGEO-RC1206FR-071K5L_C114929.pdf" H 7150 17975 50  0001 C CNN
-F 4 "C114929" H 7150 17975 50  0001 C CNN "LCSC Part#"
-F 5 "YAGEO" H 7150 17975 50  0001 C CNN "Mfr"
-F 6 "RC1206FR-071K5L" H 7150 17975 50  0001 C CNN "Part#"
-	1    7150 17975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7275 17975 7250 17975
-Wire Wire Line
-	7050 17975 7000 17975
-Connection ~ 7000 17975
-Connection ~ 9450 19700
-Wire Wire Line
-	9450 19700 9600 19700
-Wire Wire Line
-	9325 19700 9450 19700
-$Comp
-L Joker60-NoArrows-rescue:D_TVS-Device-doddle60-rescue DF1
-U 1 1 5ECEA097
-P 9450 19900
-F 0 "DF1" H 9450 19725 50  0000 C CNN
-F 1 "SMF9.0CA" H 9450 19800 30  0000 C CNN
-F 2 "acheron_Components:D_SOD-123_Bidirectional" H 9450 19900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_AnBon-SMF9-0CA_C435473.pdf" H 9450 19900 50  0001 C CNN
-F 4 "C435473" H 9450 19900 50  0001 C CNN "LCSC Part#"
-F 5 "	AnBon" H 9450 19900 50  0001 C CNN "Mfr"
-F 6 "SMF9.0CA" H 9450 19900 50  0001 C CNN "Part#"
-	1    9450 19900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	9450 20050 9450 20100
-$Comp
-L power:GND #PWR0110
-U 1 1 5ED7F608
-P 9450 20100
-F 0 "#PWR0110" H 9450 19850 50  0001 C CNN
-F 1 "GND" H 9450 19925 50  0000 C CNN
-F 2 "" H 9450 20100 50  0001 C CNN
-F 3 "" H 9450 20100 50  0001 C CNN
-	1    9450 20100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9450 19750 9450 19700
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB7
-U 1 1 5DE73924
-P 15525 14925
-F 0 "CB7" H 15700 14900 31  0000 C CNN
-F 1 "100nF" H 15700 14950 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 15525 14925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811061035_Walsin-Tech-Corp-0402X104K160CT_C301997.pdf" H 15525 14925 50  0001 C CNN
-F 4 "	C301997" H 15525 14925 50  0001 C CNN "LCSC Part#"
-F 5 "Walsin Tech Corp" H 15525 14925 50  0001 C CNN "Mfr"
-F 6 "0402X104K160CT" H 15525 14925 50  0001 C CNN "Part#"
-	1    15525 14925
-	-1   0    0    1   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:L_Core_Ferrite-Device-doddle60-rescue L2
-U 1 1 5EA52E12
-P 9750 19700
-F 0 "L2" V 9945 19700 50  0000 C CNN
-F 1 "MGFL1608F1R0MT-LF" V 9868 19700 30  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 9750 19700 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811141852_microgate-MGFL1608F1R0MT-LF_C281108.pdf" H 9750 19700 50  0001 C CNN
-F 4 "C281108" H 9750 19700 50  0001 C CNN "LCSC Part#"
-F 5 "microgate" H 9750 19700 50  0001 C CNN "Mfr"
-F 6 "MGFL1608F1R0MT-LF" H 9750 19700 50  0001 C CNN "Part#"
-	1    9750 19700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB10
-U 1 1 5F81CD7C
-P 14250 14550
-F 0 "CB10" H 14425 14525 31  0000 C CNN
-F 1 "1µ" H 14425 14575 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 14250 14550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf" H 14250 14550 50  0001 C CNN
-F 4 "	C92829" H 14250 14550 50  0001 C CNN "LCSC Part#"
-F 5 "Taiyo Yuden" H 14250 14550 50  0001 C CNN "Mfr"
-F 6 "TMK212BJ105KG-T" H 14250 14550 50  0001 C CNN "Part#"
-	1    14250 14550
-	1    0    0    1   
-$EndComp
-$Comp
-L power:GNDD #PWR0108
-U 1 1 5F81D979
-P 14250 14650
-F 0 "#PWR0108" H 14250 14400 50  0001 C CNN
-F 1 "GNDD" H 14254 14511 30  0000 C CNN
-F 2 "" H 14250 14650 50  0001 C CNN
-F 3 "" H 14250 14650 50  0001 C CNN
-	1    14250 14650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR0109
-U 1 1 5F81E0AA
-P 14250 14225
-F 0 "#PWR0109" H 14250 14075 50  0001 C CNN
-F 1 "VDD" H 14250 14375 30  0000 C CNN
-F 2 "" H 14250 14225 50  0001 C CNN
-F 3 "" H 14250 14225 50  0001 C CNN
-	1    14250 14225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14250 14375 14250 14225
-Wire Wire Line
-	14250 14375 14250 14450
-Connection ~ 14250 14375
-$Comp
-L power:GNDD #PWR0120
-U 1 1 5F9C2BC6
-P 16150 14475
-F 0 "#PWR0120" H 16150 14225 50  0001 C CNN
-F 1 "GNDD" H 16155 14335 30  0000 C CNN
-F 2 "" H 16150 14475 50  0001 C CNN
-F 3 "" H 16150 14475 50  0001 C CNN
-	1    16150 14475
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDD #PWR0121
-U 1 1 5FA00E09
-P 15525 14775
-F 0 "#PWR0121" H 15525 14525 50  0001 C CNN
-F 1 "GNDD" H 15530 14635 30  0000 C CNN
-F 2 "" H 15525 14775 50  0001 C CNN
-F 3 "" H 15525 14775 50  0001 C CNN
-	1    15525 14775
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDD #PWR0122
-U 1 1 5FA3E2D3
-P 14900 16825
-F 0 "#PWR0122" H 14900 16575 50  0001 C CNN
-F 1 "GNDD" V 14904 16715 30  0000 R CNN
-F 2 "" H 14900 16825 50  0001 C CNN
-F 3 "" H 14900 16825 50  0001 C CNN
-	1    14900 16825
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GNDD #PWR0123
-U 1 1 5FA400A2
-P 18400 18675
-F 0 "#PWR0123" H 18400 18425 50  0001 C CNN
-F 1 "GNDD" H 18404 18536 30  0000 C CNN
-F 2 "" H 18400 18675 50  0001 C CNN
-F 3 "" H 18400 18675 50  0001 C CNN
-	1    18400 18675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR0124
-U 1 1 5FA7E45E
-P 19700 15375
-F 0 "#PWR0124" H 19700 15125 50  0001 C CNN
-F 1 "GNDD" V 19705 15266 30  0000 R CNN
-F 2 "" H 19700 15375 50  0001 C CNN
-F 3 "" H 19700 15375 50  0001 C CNN
-	1    19700 15375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR0125
-U 1 1 5FD17580
-P 15900 14475
-F 0 "#PWR0125" H 15900 14325 50  0001 C CNN
-F 1 "VDD" H 15900 14625 30  0000 C CNN
-F 2 "" H 15900 14475 50  0001 C CNN
-F 3 "" H 15900 14475 50  0001 C CNN
-	1    15900 14475
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:VDD #PWR0126
-U 1 1 5FD17902
-P 15475 15075
-F 0 "#PWR0126" H 15475 14925 50  0001 C CNN
-F 1 "VDD" V 15475 15225 30  0000 C CNN
-F 2 "" H 15475 15075 50  0001 C CNN
-F 3 "" H 15475 15075 50  0001 C CNN
-	1    15475 15075
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR0127
-U 1 1 5FD1AAD1
-P 14900 17075
-F 0 "#PWR0127" H 14900 16925 50  0001 C CNN
-F 1 "VDD" V 14900 17225 30  0000 C CNN
-F 2 "" H 14900 17075 50  0001 C CNN
-F 3 "" H 14900 17075 50  0001 C CNN
-	1    14900 17075
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:VDD #PWR0128
-U 1 1 5FD1D695
-P 18650 18675
-F 0 "#PWR0128" H 18650 18525 50  0001 C CNN
-F 1 "VDD" H 18650 18825 30  0000 C CNN
-F 2 "" H 18650 18675 50  0001 C CNN
-F 3 "" H 18650 18675 50  0001 C CNN
-	1    18650 18675
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:VDD #PWR0129
-U 1 1 5FD1ED02
-P 19700 15125
-F 0 "#PWR0129" H 19700 14975 50  0001 C CNN
-F 1 "VDD" V 19700 15300 30  0000 C CNN
-F 2 "" H 19700 15125 50  0001 C CNN
-F 3 "" H 19700 15125 50  0001 C CNN
-	1    19700 15125
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	7000 18075 7250 18075
-Connection ~ 7000 18075
-Wire Wire Line
-	7000 17775 7250 17775
-Wire Wire Line
-	6075 14825 6075 15450
-Wire Wire Line
-	6075 15450 6875 15450
-Wire Wire Line
-	6875 15450 6875 15350
-Wire Wire Line
-	6875 15350 7025 15350
-Wire Wire Line
-	7075 14825 7075 15000
-Wire Wire Line
-	7075 15000 7025 15000
-Wire Wire Line
-	7025 15000 7025 15150
-$Comp
-L Joker60-NoArrows-rescue:L_Core_Ferrite_Coupled_1423-acheronSymbols L1
-U 1 1 5E34BB30
-P 7225 15250
-F 0 "L1" H 7225 15535 50  0000 C CNN
-F 1 "ACM2012-900-2P-T002" H 7225 15442 25  0000 C CNN
-F 2 "acheron_Components:ACM2012-2P" H 7225 15250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2006291108_TDK-ACM2012-900-2P-T002_C19972.pdf" H 7225 15250 50  0001 C CNN
-F 4 "C19972" H 7225 15250 50  0001 C CNN "LCSC Part#"
-F 5 "	TDK" H 7225 15250 50  0001 C CNN "Mfr"
-F 6 "ACM2012-900-2P-T002" H 7225 15250 50  0001 C CNN "Part#"
-	1    7225 15250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:LED_Small-Device-doddle60-rescue DL1
-U 1 1 5E513BD6
-P 11950 20200
-F 0 "DL1" V 11980 20132 50  0000 R CNN
-F 1 "19-217/R6C-AL1M2VY/3T" V 11904 20132 30  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric" V 11950 20200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-R6C-AL1M2VY-3T_C72044.pdf" V 11950 20200 50  0001 C CNN
-F 4 "	C72044" H 11950 20200 50  0001 C CNN "LCSC Part#"
-F 5 "Everlight Elec" H 11950 20200 50  0001 C CNN "Mfr"
-F 6 "	19-217/R6C-AL1M2VY/3T" H 11950 20200 50  0001 C CNN "Part#"
-	1    11950 20200
-	0    -1   -1   0   
-$EndComp
-Text GLabel 11950 19775 1    50   Input ~ 0
-5V
-$Comp
-L power:GND #PWR0104
-U 1 1 5E553C7D
-P 11950 20375
-F 0 "#PWR0104" H 11950 20125 50  0001 C CNN
-F 1 "GND" H 11950 20225 30  0000 C CNN
-F 2 "" H 11950 20375 50  0001 C CNN
-F 3 "" H 11950 20375 50  0001 C CNN
-	1    11950 20375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11950 19775 11950 19825
-Wire Wire Line
-	11950 20025 11950 20100
-Wire Wire Line
-	11950 20300 11950 20375
-Wire Wire Line
-	14125 14375 14250 14375
-Wire Wire Line
-	13700 14375 13825 14375
-Wire Wire Line
-	13700 14450 13700 14375
-$Comp
-L Joker60-NoArrows-rescue:C_Small-Device-doddle60-rescue CB9
-U 1 1 5F717A1D
-P 13700 14550
-F 0 "CB9" H 13875 14525 31  0000 C CNN
-F 1 "1µ" H 13875 14575 31  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 13700 14550 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf" H 13700 14550 50  0001 C CNN
-F 4 "	C92829" H 13700 14550 50  0001 C CNN "LCSC Part#"
-F 5 "Taiyo Yuden" H 13700 14550 50  0001 C CNN "Mfr"
-F 6 "TMK212BJ105KG-T" H 13700 14550 50  0001 C CNN "Part#"
-	1    13700 14550
-	1    0    0    1   
-$EndComp
-Text GLabel 13625 14375 0    50   Input ~ 0
-3.3V
-Wire Wire Line
-	13625 14375 13700 14375
-$Comp
-L Joker60-NoArrows-rescue:L_Core_Ferrite-Device-doddle60-rescue L3
-U 1 1 5F75AC01
-P 13975 14375
-F 0 "L3" V 14170 14375 50  0000 C CNN
-F 1 "CMI322513U1R0KT" V 14093 14375 30  0000 C CNN
-F 2 "Inductor_SMD:L_1210_3225Metric" H 13975 14375 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811141420_FH-Guangdong-Fenghua-Advanced-Tech-CMI322513U1R0KT_C99412.pdf" H 13975 14375 50  0001 C CNN
-F 4 "C99412" H 13975 14375 50  0001 C CNN "LCSC Part#"
-F 5 "FH(Guangdong Fenghua Advanced Tech)" H 13975 14375 50  0001 C CNN "Mfr"
-F 6 "	CMI322513U1R0KT" H 13975 14375 50  0001 C CNN "Part#"
-	1    13975 14375
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR0101
-U 1 1 5F49C651
-P 13700 14650
-F 0 "#PWR0101" H 13700 14400 50  0001 C CNN
-F 1 "GND" H 13700 14500 30  0000 C CNN
-F 2 "" H 13700 14650 50  0001 C CNN
-F 3 "" H 13700 14650 50  0001 C CNN
-	1    13700 14650
-	1    0    0    -1  
-$EndComp
-Connection ~ 13700 14375
-$Comp
-L power:GNDD #PWR0131
-U 1 1 5F15263B
-P 13325 14650
-F 0 "#PWR0131" H 13325 14400 50  0001 C CNN
-F 1 "GNDD" H 13329 14511 30  0000 C CNN
-F 2 "" H 13325 14650 50  0001 C CNN
-F 3 "" H 13325 14650 50  0001 C CNN
-	1    13325 14650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RVDD1
-U 1 1 5F1992E4
-P 13500 14650
-F 0 "RVDD1" V 13425 14575 31  0000 L CNN
-F 1 "R010 1%" V 13500 14650 15  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 13500 14650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811081724_RALEC-RTT06R010FTP_C104920.pdf" H 13500 14650 50  0001 C CNN
-F 4 "C104920" H 13500 14650 50  0001 C CNN "LCSC Part#"
-F 5 "RALEC" H 13500 14650 50  0001 C CNN "Mfr"
-F 6 "RTT06R010FTP" H 13500 14650 50  0001 C CNN "Part#"
-	1    13500 14650
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	13400 14650 13325 14650
-Connection ~ 13700 14650
-Wire Wire Line
-	13600 14650 13700 14650
-Wire Wire Line
-	1550 16700 1750 16700
-Connection ~ 1750 16700
 $Comp
 L Joker60-NoArrows-rescue:MXSwitch-acheronSymbols SW76
 U 1 1 5F928B86
@@ -4010,8 +2126,6 @@ Text GLabel 16800 1700 1    50   Input ~ 0
 Col15
 Wire Wire Line
 	16800 3675 16800 1700
-Text GLabel 17650 14650 1    50   Input ~ 0
-Col15
 $Comp
 L Joker60-NoArrows-rescue:MXSwitch-acheronSymbols SW77
 U 1 1 5FA240E1
@@ -4520,7 +2634,7 @@ U 1 1 5FDECEF8
 P 15425 5700
 F 0 "SW96" H 15750 5600 50  0000 C CNN
 F 1 "BKSLSH_1U" H 15825 5550 30  0000 C CNN
-F 2 "acheron_MX_SolderMask:MX200R" H 15425 5700 50  0001 C CNN
+F 2 "acheron_MX_SolderMask:MX200" H 15425 5700 50  0001 C CNN
 F 3 "" H 15425 5700 50  0001 C CNN
 	1    15425 5700
 	1    0    0    -1  
@@ -5243,18 +3357,735 @@ Wire Wire Line
 Wire Wire Line
 	16750 9025 16750 7775
 Connection ~ 16750 7775
+Wire Wire Line
+	6275 15125 6275 15075
 $Comp
-L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RL1
-U 1 1 5E5122FD
-P 11950 19925
-F 0 "RL1" V 11875 19925 31  0000 C CNN
-F 1 "620R" V 11950 19925 31  0000 C CNN
-F 2 "acheron_Components:R_SMD_1206" H 11950 19925 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810301439_UNI-ROYAL-Uniroyal-Elec-1206W4J0621T5E_C25391.pdf" H 11950 19925 50  0001 C CNN
-F 4 "C25391" H 11950 19925 50  0001 C CNN "LCSC Part#"
-F 5 "	UNI-ROYAL(Uniroyal Elec)" H 11950 19925 50  0001 C CNN "Mfr"
-F 6 "	1206W4J0621T5E" H 11950 19925 50  0001 C CNN "Part#"
-	1    11950 19925
+L power:GND #PWR0105
+U 1 1 5D7660D9
+P 6275 15125
+F 0 "#PWR0105" H 6275 14875 50  0001 C CNN
+F 1 "GND" H 6275 15000 31  0000 C CNN
+F 2 "" H 6275 15125 50  0001 C CNN
+F 3 "" H 6275 15125 50  0001 C CNN
+	1    6275 15125
 	1    0    0    -1  
 $EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega32U4-MU U2
+U 1 1 61593063
+P 15075 12725
+F 0 "U2" H 15075 10836 50  0000 C CNN
+F 1 "ATmega32U4-MU" H 15500 10950 50  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm" H 15075 12725 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 15075 12725 50  0001 C CNN
+F 4 "C112161" H 15075 12725 50  0001 C CNN "LCSC Part#"
+F 5 "Microchip Tech" H 15075 12725 50  0001 C CNN "Mfr"
+F 6 "ATMEGA32U4-MU" H 15075 12725 50  0001 C CNN "Part#"
+	1    15075 12725
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 6159A721
+P 16875 10775
+F 0 "J2" H 16925 11092 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 16925 11001 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 16875 10775 50  0001 C CNN
+F 3 "~" H 16875 10775 50  0001 C CNN
+	1    16875 10775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15175 10925 15075 10925
+Wire Wire Line
+	14975 10925 15075 10925
+Connection ~ 15075 10925
+Wire Wire Line
+	14975 10925 14975 10750
+Connection ~ 14975 10925
+$Comp
+L power:+5V #PWR0101
+U 1 1 6164C3C4
+P 14975 10750
+F 0 "#PWR0101" H 14975 10600 50  0001 C CNN
+F 1 "+5V" H 14990 10923 50  0000 C CNN
+F 2 "" H 14975 10750 50  0001 C CNN
+F 3 "" H 14975 10750 50  0001 C CNN
+	1    14975 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14475 11225 14275 11225
+Wire Wire Line
+	14275 11225 14275 10950
+Connection ~ 14275 11225
+Wire Wire Line
+	14275 11225 14025 11225
+$Comp
+L Device:R_Small R3
+U 1 1 616C576B
+P 14275 10850
+F 0 "R3" H 14334 10896 50  0000 L CNN
+F 1 "10kΩ" H 14334 10805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14275 10850 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101830_TyoHM-RMC-0603-10K-F-N_C269701.pdf" H 14275 10850 50  0001 C CNN
+F 4 "C269701" H 14275 10850 50  0001 C CNN "LCSC Part#"
+F 5 "RMC 0603 10K F N" H 14275 10850 50  0001 C CNN "Mfr"
+F 6 "RMC 0603 10K F N" H 14275 10850 50  0001 C CNN "Part#"
+	1    14275 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14275 10750 14275 10550
+$Comp
+L power:+5V #PWR0102
+U 1 1 61703ADF
+P 14275 10550
+F 0 "#PWR0102" H 14275 10400 50  0001 C CNN
+F 1 "+5V" H 14290 10723 50  0000 C CNN
+F 2 "" H 14275 10550 50  0001 C CNN
+F 3 "" H 14275 10550 50  0001 C CNN
+	1    14275 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L kbd:SW_PUSH SW118
+U 1 1 6170649B
+P 13550 11225
+F 0 "SW118" H 13550 11480 50  0000 C CNN
+F 1 "SW_PUSH" H 13550 11389 50  0000 C CNN
+F 2 "random-keyboard-parts:SKQG-1155865" H 13550 11225 50  0001 C CNN
+F 3 "" H 13550 11225 50  0000 C CNN
+	1    13550 11225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13250 11225 13000 11225
+Wire Wire Line
+	13000 11225 13000 11475
+$Comp
+L power:GND #PWR0103
+U 1 1 617456ED
+P 13000 11475
+F 0 "#PWR0103" H 13000 11225 50  0001 C CNN
+F 1 "GND" H 13005 11302 50  0000 C CNN
+F 2 "" H 13000 11475 50  0001 C CNN
+F 3 "" H 13000 11475 50  0001 C CNN
+	1    13000 11475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Resonator_Small Y1
+U 1 1 61746251
+P 14025 11525
+F 0 "Y1" V 13720 11475 50  0000 C CNN
+F 1 "Resonator_Small" V 13811 11475 50  0000 C CNN
+F 2 "proj_local:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering_Compact" H 14000 11525 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1912111437_Murata-Electronics-CSTNE16M0V530000R0_C341521.pdf" H 14000 11525 50  0001 C CNN
+F 4 "C341521" H 14025 11525 50  0001 C CNN "LCSC Part#"
+F 5 "Murata Electronixs" H 14025 11525 50  0001 C CNN "Mfr"
+F 6 "CSTNE16MOV530000R0" H 14025 11525 50  0001 C CNN "Part#"
+	1    14025 11525
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14475 11425 14125 11425
+Wire Wire Line
+	14475 11625 14125 11625
+Wire Wire Line
+	13825 11525 13700 11525
+Wire Wire Line
+	13700 11525 13700 11675
+$Comp
+L power:GND #PWR0104
+U 1 1 61805A1F
+P 13700 11675
+F 0 "#PWR0104" H 13700 11425 50  0001 C CNN
+F 1 "GND" H 13705 11502 50  0000 C CNN
+F 2 "" H 13700 11675 50  0001 C CNN
+F 3 "" H 13700 11675 50  0001 C CNN
+	1    13700 11675
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14475 11825
+Wire Wire Line
+	14475 12025 14175 12025
+Wire Wire Line
+	14175 12025 14175 11875
+$Comp
+L power:+5V #PWR0107
+U 1 1 61882177
+P 14175 11875
+F 0 "#PWR0107" H 14175 11725 50  0001 C CNN
+F 1 "+5V" H 14190 12048 50  0000 C CNN
+F 2 "" H 14175 11875 50  0001 C CNN
+F 3 "" H 14175 11875 50  0001 C CNN
+	1    14175 11875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14475 12225 14100 12225
+Wire Wire Line
+	14475 12325 13700 12325
+Wire Wire Line
+	13900 12225 13200 12225
+Wire Wire Line
+	13500 12325 13200 12325
+Text GLabel 13200 12325 0    50   Input ~ 0
+D-
+Wire Wire Line
+	14475 12525 14100 12525
+Wire Wire Line
+	14100 12525 14100 12725
+$Comp
+L Device:C_Small C1
+U 1 1 619C9E1E
+P 14100 12825
+F 0 "C1" H 14192 12871 50  0000 L CNN
+F 1 "1uF" H 14192 12780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 14100 12825 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf" H 14100 12825 50  0001 C CNN
+F 4 "C15849" H 14100 12825 50  0001 C CNN "LCSC Part#"
+F 5 "Samsung Electro-Mechanics" H 14100 12825 50  0001 C CNN "Mfr"
+F 6 "CL10A105KB8NNNC" H 14100 12825 50  0001 C CNN "Part#"
+	1    14100 12825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14100 12925 14100 13300
+$Comp
+L power:GND #PWR0108
+U 1 1 61A0BA88
+P 14100 13300
+F 0 "#PWR0108" H 14100 13050 50  0001 C CNN
+F 1 "GND" H 14105 13127 50  0000 C CNN
+F 2 "" H 14100 13300 50  0001 C CNN
+F 3 "" H 14100 13300 50  0001 C CNN
+	1    14100 13300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15075 14525 14975 14525
+Wire Wire Line
+	14975 14525 14975 14600
+Connection ~ 14975 14525
+$Comp
+L power:GND #PWR0109
+U 1 1 61A90795
+P 14975 14600
+F 0 "#PWR0109" H 14975 14350 50  0001 C CNN
+F 1 "GND" H 14980 14427 50  0000 C CNN
+F 2 "" H 14975 14600 50  0001 C CNN
+F 3 "" H 14975 14600 50  0001 C CNN
+	1    14975 14600
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	16175 11325 16275 11425
+Entry Wire Line
+	16175 11425 16275 11525
+Entry Wire Line
+	16175 11525 16275 11625
+Wire Wire Line
+	16175 11325 15675 11325
+Wire Wire Line
+	16175 11425 15675 11425
+Wire Wire Line
+	16175 11525 15675 11525
+Entry Wire Line
+	16375 11325 16275 11425
+Entry Wire Line
+	16375 11425 16275 11525
+Entry Wire Line
+	16375 11525 16275 11625
+Text Label 16000 11325 0    50   ~ 0
+SCK
+Text Label 16000 11425 0    50   ~ 0
+MOSI
+Text Label 16000 11525 0    50   ~ 0
+MISO
+Wire Wire Line
+	16375 11325 16750 11325
+Wire Wire Line
+	16375 11425 16750 11425
+Wire Wire Line
+	16375 11525 16750 11525
+Text Label 16400 11325 0    50   ~ 0
+SCK
+Text Label 16400 11425 0    50   ~ 0
+MOSI
+Text Label 16400 11525 0    50   ~ 0
+MISO
+Entry Wire Line
+	16375 10675 16275 10775
+Wire Wire Line
+	16675 10675 16375 10675
+Entry Wire Line
+	16375 10775 16275 10875
+Wire Wire Line
+	16675 10775 16375 10775
+Text Label 16400 10775 0    50   ~ 0
+SCK
+Text Label 16400 10675 0    50   ~ 0
+MISO
+Wire Wire Line
+	17175 10675 17425 10675
+Wire Wire Line
+	17425 10675 17425 10400
+Wire Wire Line
+	17175 10775 17425 10775
+Wire Wire Line
+	17425 10775 17425 11075
+Entry Wire Line
+	16375 11075 16275 11175
+Wire Wire Line
+	16375 11075 17425 11075
+Text Label 16400 11075 0    50   ~ 0
+MOSI
+$Comp
+L power:+5V #PWR0110
+U 1 1 61F1D43F
+P 17425 10400
+F 0 "#PWR0110" H 17425 10250 50  0001 C CNN
+F 1 "+5V" H 17440 10573 50  0000 C CNN
+F 2 "" H 17425 10400 50  0001 C CNN
+F 3 "" H 17425 10400 50  0001 C CNN
+	1    17425 10400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17175 10875 17175 11275
+$Comp
+L power:GND #PWR0111
+U 1 1 61F63BCB
+P 17175 11275
+F 0 "#PWR0111" H 17175 11025 50  0001 C CNN
+F 1 "GND" H 17180 11102 50  0000 C CNN
+F 2 "" H 17175 11275 50  0001 C CNN
+F 3 "" H 17175 11275 50  0001 C CNN
+	1    17175 11275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	16675 10875 16550 10875
+Wire Wire Line
+	16550 10875 16550 10950
+Wire Wire Line
+	16550 10950 16075 10950
+Wire Wire Line
+	16075 10300 14025 10300
+Wire Wire Line
+	14025 10300 14025 11225
+Wire Wire Line
+	16075 10300 16075 10950
+Connection ~ 14025 11225
+Wire Wire Line
+	14025 11225 13850 11225
+Text GLabel 16750 11325 2    50   Input ~ 0
+Row1
+Text GLabel 15675 13625 2    50   Input ~ 0
+Row2
+Text GLabel 15675 11725 2    50   Input ~ 0
+Row3
+Text GLabel 15675 11825 2    50   Input ~ 0
+Row4
+Text GLabel 15675 12225 2    50   Input ~ 0
+Row5
+Text GLabel 15675 12125 2    50   Input ~ 0
+Col1
+Text GLabel 15675 13825 2    50   Input ~ 0
+Col2
+Text GLabel 15675 11625 2    50   Input ~ 0
+Col3
+Text GLabel 15675 13125 2    50   Input ~ 0
+Col4
+Text GLabel 15675 13025 2    50   Input ~ 0
+Col5
+Text GLabel 15675 12825 2    50   Input ~ 0
+Col6
+Text GLabel 15675 12925 2    50   Input ~ 0
+Col7
+Text GLabel 15675 12725 2    50   Input ~ 0
+Col8
+Text GLabel 15675 12625 2    50   Input ~ 0
+Col9
+Text GLabel 15675 12525 2    50   Input ~ 0
+Col10
+Text GLabel 15675 12425 2    50   Input ~ 0
+Col11
+Wire Wire Line
+	15675 13325 16000 13325
+$Comp
+L Device:R_Small R4
+U 1 1 6201645B
+P 16100 13325
+F 0 "R4" V 15904 13325 50  0000 C CNN
+F 1 "10kΩ" V 15995 13325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 16100 13325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101830_TyoHM-RMC-0603-10K-F-N_C269701.pdf" H 16100 13325 50  0001 C CNN
+F 4 "C269701" H 16100 13325 50  0001 C CNN "LCSC Part#"
+F 5 "RMC 0603 10K F N" H 16100 13325 50  0001 C CNN "Mfr"
+F 6 "RMC 0603 10K F N" H 16100 13325 50  0001 C CNN "Part#"
+	1    16100 13325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	16200 13325 16325 13325
+Wire Wire Line
+	16325 13325 16325 13575
+$Comp
+L power:GND #PWR0112
+U 1 1 6205E8EE
+P 16325 13575
+F 0 "#PWR0112" H 16325 13325 50  0001 C CNN
+F 1 "GND" H 16330 13402 50  0000 C CNN
+F 2 "" H 16325 13575 50  0001 C CNN
+F 3 "" H 16325 13575 50  0001 C CNN
+	1    16325 13575
+	1    0    0    -1  
+$EndComp
+Text GLabel 15675 11925 2    50   Input ~ 0
+Col12
+Text GLabel 16750 11525 2    50   Input ~ 0
+Col13
+Text GLabel 16750 11425 2    50   Input ~ 0
+Col14
+Text GLabel 15675 11225 2    50   Input ~ 0
+Col15
+$Comp
+L Power_Protection:SRV05-4 U1
+U 1 1 620B5103
+P 10525 12650
+F 0 "U1" H 10525 13331 50  0000 C CNN
+F 1 "SRV05-4" H 10525 13240 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 11225 12200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2005211233_TECH-PUBLIC-SRV05-4_C558418.pdf" H 10525 12650 50  0001 C CNN
+F 4 "C558418" H 10525 12650 50  0001 C CNN "LCSC Part#"
+F 5 "TECH PUBLIC" H 10525 12650 50  0001 C CNN "Mfr"
+F 6 "SRV05-4" H 10525 12650 50  0001 C CNN "Part#"
+	1    10525 12650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6225 14075 6575 14075
+Text GLabel 6400 14075 1    50   Input ~ 0
+VBUS
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 6238B347
+P 6750 14075
+F 0 "F1" V 6545 14075 50  0000 C CNN
+F 1 "Polyfuse_Small" V 6636 14075 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" H 6800 13875 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/TECHFUSE-nSMD025_C70068.pdf" H 6750 14075 50  0001 C CNN
+F 4 "C70068" H 6750 14075 50  0001 C CNN "LCSC Part#"
+F 5 "TECHFUSE" H 6750 14075 50  0001 C CNN "Mfr"
+F 6 "nSMD025" H 6750 14075 50  0001 C CNN "Part#"
+	1    6750 14075
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6850 14075 7100 14075
+Wire Wire Line
+	7100 14075 7100 13875
+Wire Wire Line
+	6575 14075 6575 13875
+Connection ~ 6575 14075
+Wire Wire Line
+	6575 14075 6650 14075
+$Comp
+L power:+5V #PWR0113
+U 1 1 62412571
+P 7100 13875
+F 0 "#PWR0113" H 7100 13725 50  0001 C CNN
+F 1 "+5V" H 7115 14048 50  0000 C CNN
+F 2 "" H 7100 13875 50  0001 C CNN
+F 3 "" H 7100 13875 50  0001 C CNN
+	1    7100 13875
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 62415EF4
+P 6575 13875
+F 0 "#PWR0115" H 6575 13725 50  0001 C CNN
+F 1 "VCC" H 6590 14048 50  0000 C CNN
+F 2 "" H 6575 13875 50  0001 C CNN
+F 3 "" H 6575 13875 50  0001 C CNN
+	1    6575 13875
+	1    0    0    -1  
+$EndComp
+Text GLabel 10525 12150 1    50   Input ~ 0
+VBUS
+$Comp
+L power:GND #PWR0116
+U 1 1 6241C6FE
+P 10525 13150
+F 0 "#PWR0116" H 10525 12900 50  0001 C CNN
+F 1 "GND" H 10530 12977 50  0000 C CNN
+F 2 "" H 10525 13150 50  0001 C CNN
+F 3 "" H 10525 13150 50  0001 C CNN
+	1    10525 13150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10025 12550 0    50   Input ~ 0
+D-ESD
+Text GLabel 11025 12750 2    50   Input ~ 0
+D+ESD
+$Comp
+L power:+5V #PWR0117
+U 1 1 6244320D
+P 11075 11150
+F 0 "#PWR0117" H 11075 11000 50  0001 C CNN
+F 1 "+5V" H 11090 11323 50  0000 C CNN
+F 2 "" H 11075 11150 50  0001 C CNN
+F 3 "" H 11075 11150 50  0001 C CNN
+	1    11075 11150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 62444C9D
+P 10825 11400
+F 0 "C3" H 10917 11446 50  0000 L CNN
+F 1 "0.1uF" H 10917 11355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10825 11400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 10825 11400 50  0001 C CNN
+F 4 "C14663" H 10825 11400 50  0001 C CNN "LCSC Part#"
+F 5 "YAGEO" H 10825 11400 50  0001 C CNN "Mfr"
+F 6 "CC0603KRX7R9BB104" H 10825 11400 50  0001 C CNN "Part#"
+	1    10825 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6244618A
+P 10350 11400
+F 0 "C2" H 10442 11446 50  0000 L CNN
+F 1 "0.1uF" H 10442 11355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10350 11400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 10350 11400 50  0001 C CNN
+F 4 "C14663" H 10350 11400 50  0001 C CNN "LCSC Part#"
+F 5 "YAGEO" H 10350 11400 50  0001 C CNN "Mfr"
+F 6 "CC0603KRX7R9BB104" H 10350 11400 50  0001 C CNN "Part#"
+	1    10350 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C4
+U 1 1 62447F3C
+P 11300 11400
+F 0 "C4" H 11392 11446 50  0000 L CNN
+F 1 "0.1uF" H 11392 11355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11300 11400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 11300 11400 50  0001 C CNN
+F 4 "C14663" H 11300 11400 50  0001 C CNN "LCSC Part#"
+F 5 "YAGEO" H 11300 11400 50  0001 C CNN "Mfr"
+F 6 "CC0603KRX7R9BB104" H 11300 11400 50  0001 C CNN "Part#"
+	1    11300 11400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C5
+U 1 1 624497F2
+P 11775 11400
+F 0 "C5" H 11867 11446 50  0000 L CNN
+F 1 "10uF" H 11867 11355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 11775 11400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261515_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf" H 11775 11400 50  0001 C CNN
+F 4 "C1644" H 11775 11400 50  0001 C CNN "LCSC Part#"
+F 5 "Samsung Electro-Mechanics" H 11775 11400 50  0001 C CNN "Mfr"
+F 6 "CL10C150JB8NNNC" H 11775 11400 50  0001 C CNN "Part#"
+	1    11775 11400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11775 11300 11300 11300
+Wire Wire Line
+	11300 11300 11075 11300
+Connection ~ 11300 11300
+Connection ~ 10825 11300
+Wire Wire Line
+	10825 11300 10350 11300
+Connection ~ 11075 11300
+Wire Wire Line
+	11075 11300 10825 11300
+Wire Wire Line
+	10350 11500 10825 11500
+Connection ~ 10825 11500
+Wire Wire Line
+	10825 11500 11075 11500
+Connection ~ 11300 11500
+Wire Wire Line
+	11300 11500 11775 11500
+$Comp
+L power:GND #PWR0118
+U 1 1 625146C8
+P 11075 11625
+F 0 "#PWR0118" H 11075 11375 50  0001 C CNN
+F 1 "GND" H 11080 11452 50  0000 C CNN
+F 2 "" H 11075 11625 50  0001 C CNN
+F 3 "" H 11075 11625 50  0001 C CNN
+	1    11075 11625
+	1    0    0    -1  
+$EndComp
+Connection ~ 11075 11500
+Wire Wire Line
+	11075 11500 11300 11500
+Wire Wire Line
+	11075 11500 11075 11625
+Wire Wire Line
+	11075 11150 11075 11300
+$Comp
+L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RCC1
+U 1 1 5DAD119A
+P 6050 14875
+F 0 "RCC1" V 5975 14875 31  0000 C CNN
+F 1 "5.1k" V 6050 14875 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 14875 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf" H 6050 14875 50  0001 C CNN
+F 4 "C351456" H 6050 14875 50  0001 C CNN "LCSC Part#"
+F 5 "Resistor.Today" H 6050 14875 50  0001 C CNN "Mfr"
+F 6 "	PTFR1206B5K10P9" H 6050 14875 50  0001 C CNN "Part#"
+	1    6050 14875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5DCFB88B
+P 6175 14875
+F 0 "#PWR0106" H 6175 14625 50  0001 C CNN
+F 1 "GND" H 6175 14750 31  0000 C CNN
+F 2 "" H 6175 14875 50  0001 C CNN
+F 3 "" H 6175 14875 50  0001 C CNN
+	1    6175 14875
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 14875 6175 14875
+$Comp
+L Joker60-NoArrows-rescue:R_Small-Device-doddle60-rescue RCC2
+U 1 1 5D726BAA
+P 6050 14275
+F 0 "RCC2" V 5975 14275 31  0000 C CNN
+F 1 "5.1k" V 6050 14275 31  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6050 14275 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf" H 6050 14275 50  0001 C CNN
+F 4 "C351456" H 6050 14275 50  0001 C CNN "LCSC Part#"
+F 5 "Resistor.Today" H 6050 14275 50  0001 C CNN "Mfr"
+F 6 "	PTFR1206B5K10P9" H 6050 14275 50  0001 C CNN "Part#"
+	1    6050 14275
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6150 14275 6175 14275
+$Comp
+L power:GND #PWR0114
+U 1 1 5D750DE4
+P 6175 14275
+F 0 "#PWR0114" H 6175 14025 50  0001 C CNN
+F 1 "GND" H 6175 14150 31  0000 C CNN
+F 2 "" H 6175 14275 50  0001 C CNN
+F 3 "" H 6175 14275 50  0001 C CNN
+	1    6175 14275
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5900 14275 5950 14275
+Wire Wire Line
+	5900 14875 5950 14875
+$Comp
+L keebio:HRO-TYPE-C-31-M-12 USB1
+U 1 1 616065AA
+P 5800 14525
+F 0 "USB1" H 5633 15322 60  0000 C CNN
+F 1 "HRO-TYPE-C-31-M-12" H 5633 15216 60  0000 C CNN
+F 2 "Keebio-Parts:HRO-TYPE-C-31-M-12-Assembly" H 5800 14525 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf" H 5800 14525 60  0001 C CNN
+F 4 "C165948" H 5800 14525 50  0001 C CNN "LCSC Part#"
+F 5 "Korean Hroparts Elec" H 5800 14525 50  0001 C CNN "Mfr"
+F 6 "TYPE-C-31-M-12" H 5800 14525 50  0001 C CNN "Part#"
+	1    5800 14525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 14975 6225 14975
+Wire Wire Line
+	6225 14975 6225 14075
+Wire Wire Line
+	6225 14075 5900 14075
+Connection ~ 6225 14075
+Wire Wire Line
+	5900 13975 6075 13975
+Wire Wire Line
+	6075 13975 6075 15075
+Wire Wire Line
+	6075 15075 5900 15075
+Connection ~ 6075 15075
+Wire Wire Line
+	6075 15075 6275 15075
+Wire Wire Line
+	5900 15175 6075 15175
+Wire Wire Line
+	6075 15075 6075 15175
+NoConn ~ 5900 14775
+NoConn ~ 5900 14175
+$Comp
+L Device:R_Small R1
+U 1 1 61905397
+P 13600 12325
+F 0 "R1" V 13404 12325 50  0000 C CNN
+F 1 "22Ω" V 13495 12325 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 13600 12325 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAJ0220T5E_C1203.pdf" H 13600 12325 50  0001 C CNN
+F 4 "C1203" H 13600 12325 50  0001 C CNN "LCSC Part#"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 13600 12325 50  0001 C CNN "Mfr"
+F 6 "0603WAJ0220T5E" H 13600 12325 50  0001 C CNN "Part#"
+	1    13600 12325
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R2
+U 1 1 618C4173
+P 14000 12225
+F 0 "R2" V 13804 12225 50  0000 C CNN
+F 1 "22Ω" V 13895 12225 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 14000 12225 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAJ0220T5E_C1203.pdf" H 14000 12225 50  0001 C CNN
+F 4 "C1203" H 14000 12225 50  0001 C CNN "LCSC Part#"
+F 5 "UNI-ROYAL(Uniroyal Elec)" H 14000 12225 50  0001 C CNN "Mfr"
+F 6 "0603WAJ0220T5E" H 14000 12225 50  0001 C CNN "Part#"
+	1    14000 12225
+	0    1    1    0   
+$EndComp
+Text GLabel 13200 12225 0    50   Input ~ 0
+D+
+Text GLabel 6300 14475 3    50   Input ~ 0
+D+ESD
+Text GLabel 6400 14375 3    50   Input ~ 0
+D-ESD
+Text GLabel 6525 14475 2    50   Input ~ 0
+D+
+Text GLabel 6475 14375 2    50   Input ~ 0
+D-
+Wire Wire Line
+	6000 14675 5900 14675
+Wire Wire Line
+	5950 14575 5900 14575
+Wire Wire Line
+	5900 14375 5950 14375
+Wire Wire Line
+	5950 14375 6475 14375
+Connection ~ 5950 14375
+Wire Wire Line
+	5950 14375 5950 14575
+Wire Wire Line
+	5900 14475 6000 14475
+Wire Wire Line
+	6000 14475 6525 14475
+Connection ~ 6000 14475
+Wire Wire Line
+	6000 14475 6000 14675
+Wire Bus Line
+	16275 10550 16275 11875
 $EndSCHEMATC
