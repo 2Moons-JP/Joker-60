@@ -14,9 +14,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text GLabel 2500 3025 0    50   Input ~ 0
-Row2
-Text GLabel 2500 2050 0    50   Input ~ 0
 Row1
+Text GLabel 2500 2050 0    50   Input ~ 0
+Row0
 $Comp
 L Joker60-NoArrows-rescue:D-Device-doddle60-rescue D13
 U 1 1 5C1B87EA
@@ -230,33 +230,33 @@ F 3 "" H 3350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 13850 1700 1    50   Input ~ 0
-Col12
-Text GLabel 12850 1700 1    50   Input ~ 0
 Col11
-Text GLabel 11850 1700 1    50   Input ~ 0
+Text GLabel 12850 1700 1    50   Input ~ 0
 Col10
-Text GLabel 10850 1700 1    50   Input ~ 0
+Text GLabel 11850 1700 1    50   Input ~ 0
 Col9
-Text GLabel 9850 1700 1    50   Input ~ 0
+Text GLabel 10850 1700 1    50   Input ~ 0
 Col8
-Text GLabel 8850 1700 1    50   Input ~ 0
+Text GLabel 9850 1700 1    50   Input ~ 0
 Col7
-Text GLabel 7850 1700 1    50   Input ~ 0
+Text GLabel 8850 1700 1    50   Input ~ 0
 Col6
-Text GLabel 6850 1700 1    50   Input ~ 0
+Text GLabel 7850 1700 1    50   Input ~ 0
 Col5
-Text GLabel 5850 1700 1    50   Input ~ 0
+Text GLabel 6850 1700 1    50   Input ~ 0
 Col4
-Text GLabel 4850 1700 1    50   Input ~ 0
+Text GLabel 5850 1700 1    50   Input ~ 0
 Col3
-Text GLabel 3850 1700 1    50   Input ~ 0
+Text GLabel 4850 1700 1    50   Input ~ 0
 Col2
-Text GLabel 2850 1700 1    50   Input ~ 0
+Text GLabel 3850 1700 1    50   Input ~ 0
 Col1
+Text GLabel 2850 1700 1    50   Input ~ 0
+Col0
 Wire Wire Line
 	3000 2700 2850 2700
 Text GLabel 14850 1700 1    50   Input ~ 0
-Col13
+Col12
 $Comp
 L Joker60-NoArrows-rescue:D-Device-doddle60-rescue D7
 U 1 1 5C12DA65
@@ -403,7 +403,7 @@ F 3 "" H 16350 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 15850 1700 1    50   Input ~ 0
-Col14
+Col13
 Wire Wire Line
 	15350 2050 16350 2050
 Connection ~ 15350 2050
@@ -938,7 +938,7 @@ Connection ~ 4850 2700
 Wire Wire Line
 	4850 2700 4850 3675
 Text GLabel 2500 4000 0    50   Input ~ 0
-Row3
+Row2
 Wire Wire Line
 	3000 4650 2850 4650
 $Comp
@@ -1349,7 +1349,7 @@ Wire Wire Line
 Wire Wire Line
 	4850 3675 4850 4650
 Text GLabel 2500 4975 0    50   Input ~ 0
-Row4
+Row3
 Wire Wire Line
 	3000 5625 2850 5625
 $Comp
@@ -1408,7 +1408,7 @@ Connection ~ 3350 4000
 Wire Wire Line
 	3350 4000 4350 4000
 Text GLabel 2500 5950 0    50   Input ~ 0
-Row5
+Row4
 Wire Wire Line
 	3000 6600 2850 6600
 $Comp
@@ -2123,7 +2123,7 @@ Wire Wire Line
 	16350 3025 17150 3025
 Connection ~ 16350 3025
 Text GLabel 16800 1700 1    50   Input ~ 0
-Col15
+Col14
 Wire Wire Line
 	16800 3675 16800 1700
 $Comp
@@ -3682,15 +3682,15 @@ Connection ~ 14025 11225
 Wire Wire Line
 	14025 11225 13850 11225
 Text GLabel 16750 11325 2    50   Input ~ 0
-Row1
+Row0
 Text GLabel 15675 13625 2    50   Input ~ 0
-Row2
+Row1
 Text GLabel 15675 11725 2    50   Input ~ 0
-Row3
+Row2
 Text GLabel 15675 11825 2    50   Input ~ 0
-Row4
+Row3
 Text GLabel 15675 12225 2    50   Input ~ 0
-Row5
+Row4
 Text GLabel 15675 12125 2    50   Input ~ 0
 Col1
 Text GLabel 15675 13825 2    50   Input ~ 0
