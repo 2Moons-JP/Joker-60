@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\ZEUS-NOTE\Documents\GitHub\Joker-60\PCB\Joker60-NoArrows.sch</source>
-    <date>26/02/2021 14:45:47</date>
-    <tool>Eeschema (5.1.9)-1</tool>
+    <source>C:\Users\Zeus\Documents\GitHub\Joker-60\PCB\Joker60-NoArrows.sch</source>
+    <date>11/1/2021 8:04:39 PM</date>
+    <tool>Eeschema (5.1.10)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Joker60-NoArrows</title>
@@ -19,144 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="CSI1">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C77080</field>
-        <field name="Mfr">	Murata Electronics</field>
-        <field name="Part#">GRM21BR71E105KA99L</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C44CEDC</tstamp>
-    </comp>
-    <comp ref="CSO1">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810201211_Murata-Electronics-GRM21BR71E105KA99L_C77080.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C77080</field>
-        <field name="Mfr">	Murata Electronics</field>
-        <field name="Part#">GRM21BR71E105KA99L</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C44DAFA</tstamp>
-    </comp>
-    <comp ref="U3">
-      <value>MCP1700-3302E_SOT23</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/20001826C.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C39051</field>
-        <field name="Mfr">Microchip Tech</field>
-        <field name="Part#">MCP1700T-3302E/TT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="MCP1700-3302E_SOT23-Regulator_Linear-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D83639E</tstamp>
-    </comp>
-    <comp ref="SWRST1">
-      <value>SW_Push</value>
-      <footprint>acheron_Hardware:smdPushBtn</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810121646_C-K-RS-187R05A2-DSMTRT_C221929.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C221929</field>
-        <field name="Mfr">	C&amp;K</field>
-        <field name="Part#">RS-187R05A2-DSMTRT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="SW_Push-Switch-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E070BED</tstamp>
-    </comp>
-    <comp ref="DRST1">
-      <value>B0520LW</value>
-      <footprint>acheron_Components:D_SOD-123</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810061612_Changjiang-Electronics-Tech-CJ-B0520LW_C8570.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C8570</field>
-        <field name="Mfr">Changjiang Electronics Tech (CJ)</field>
-        <field name="Part#">B0520LW</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="D_Schottky-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E071566</tstamp>
-    </comp>
-    <comp ref="RRST1">
-      <value>100k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C346155</field>
-        <field name="Mfr">	KOA Speer Elec</field>
-        <field name="Part#">RN73H2BTTD1003B25</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E07225E</tstamp>
-    </comp>
-    <comp ref="CRST1">
-      <value>10u</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811061719_FH-Guangdong-Fenghua-Advanced-Tech-0805X106K250NT_C40894.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C40894</field>
-        <field name="Mfr">FH(Guangdong Fenghua Advanced Tech)</field>
-        <field name="Part#">0805X106K250NT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E072855</tstamp>
-    </comp>
-    <comp ref="CRST2">
-      <value>4.7n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C50131</field>
-        <field name="Mfr">Samsung Electro-Mechanics</field>
-        <field name="Part#">CL21B472KBANNNC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E0C1B45</tstamp>
-    </comp>
-    <comp ref="CB5">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C169292</field>
-        <field name="Mfr">Vishay Intertech</field>
-        <field name="Part#">	VJ0402G104KXQCW1BC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ED231C7</tstamp>
-    </comp>
-    <comp ref="G2">
-      <value>OSHLogo</value>
-      <footprint>oshLogo:osh-logo</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C66B5D5</tstamp>
-    </comp>
-    <comp ref="QRST1">
-      <value>DTC123J</value>
-      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1808272202_ROHM-Semicon-DTC123JKAT146_C111724.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C111724</field>
-        <field name="Mfr">ROHM Semicon</field>
-        <field name="Part#">DTC123JKAT146</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="DTC123J-Transistor_BJT-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D249555</tstamp>
-    </comp>
     <comp ref="D13">
       <value>1N4148</value>
       <footprint>acheron_Components:D_SOD-123</footprint>
@@ -318,204 +180,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C015E05</tstamp>
     </comp>
-    <comp ref="U1">
-      <value>STM32F072-LQFP48</value>
-      <footprint>acheron_Components:LQFP-48_7x7mm_P0.5mm</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811151533_STMicroelectronics-STM32F072CBT6_C81720.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C81720</field>
-        <field name="Mfr">STMicroelectronics</field>
-        <field name="Part#">STM32F072CBT6</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="STM32F072-LQFP48-acheronSymbols" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D4108EC</tstamp>
-    </comp>
-    <comp ref="CB2">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C169292</field>
-        <field name="Mfr">Vishay Intertech</field>
-        <field name="Part#">	VJ0402G104KXQCW1BC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DBAA682</tstamp>
-    </comp>
-    <comp ref="CB3">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C169292</field>
-        <field name="Mfr">Vishay Intertech</field>
-        <field name="Part#">	VJ0402G104KXQCW1BC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DC1D2A1</tstamp>
-    </comp>
-    <comp ref="CB8">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1809301915_Vishay-Intertech-VJ0402G104KXQCW1BC_C169292.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C169292</field>
-        <field name="Mfr">Vishay Intertech</field>
-        <field name="Part#">	VJ0402G104KXQCW1BC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DC916F5</tstamp>
-    </comp>
-    <comp ref="CB4">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C408910</field>
-        <field name="Mfr">Walsin Tech Corp</field>
-        <field name="Part#">0402F105M6R3CT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E067AA7</tstamp>
-    </comp>
-    <comp ref="CB1">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C408910</field>
-        <field name="Mfr">Walsin Tech Corp</field>
-        <field name="Part#">0402F105M6R3CT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E2290BA</tstamp>
-    </comp>
-    <comp ref="CB6">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_Walsin-Tech-Corp-0402F105M6R3CT_C408910.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C408910</field>
-        <field name="Mfr">Walsin Tech Corp</field>
-        <field name="Part#">0402F105M6R3CT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E3EEF07</tstamp>
-    </comp>
-    <comp ref="DS1">
-      <value>RB060M-60TR</value>
-      <footprint>acheron_Components:D_SOD-123</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C114257</field>
-        <field name="Mfr">ROHM Semicon</field>
-        <field name="Part#">RB060M-60TR</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="D_Schottky-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C44EA7A</tstamp>
-    </comp>
-    <comp ref="G1">
-      <value>Doddle60Logo</value>
-      <footprint>doddle60Graphics:doddle60Logo</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D3B6D2E</tstamp>
-    </comp>
-    <comp ref="J1">
-      <value>TYPE-C-31-M12_13</value>
-      <footprint>acheron_Connectors:TYPE-C-31-M-12</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811101526_Korean-Hroparts-Elec-TYPE-C-31-M-13_C223906.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C223906</field>
-        <field name="Mfr">Korean Hroparts Elec</field>
-        <field name="Part#">	TYPE-C-31-M-13</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="TYPE-C-31-M12_13-acheronSymbols" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D5405DA</tstamp>
-    </comp>
-    <comp ref="RSH1">
-      <value>1M</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C325894</field>
-        <field name="Mfr">TyoHM</field>
-        <field name="Part#">RMC12061M1%N</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D5416FE</tstamp>
-    </comp>
-    <comp ref="CSH1">
-      <value>4.7nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C50131</field>
-        <field name="Mfr">Samsung Electro-Mechanics</field>
-        <field name="Part#">CL21B472KBANNNC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D54218D</tstamp>
-    </comp>
-    <comp ref="RCC1">
-      <value>5.1k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C351456</field>
-        <field name="Mfr">Resistor.Today</field>
-        <field name="Part#">	PTFR1206B5K10P9</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DAD119A</tstamp>
-    </comp>
-    <comp ref="CUSB1">
-      <value>100n</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810101813_YAGEO-CC0805KRX7R9BB104_C49678.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C49678</field>
-        <field name="Mfr">	YAGEO</field>
-        <field name="Part#">CC0805KRX7R9BB104</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E01896F</tstamp>
-    </comp>
-    <comp ref="G3">
-      <value>Acheron Logo</value>
-      <footprint>acheron_Logos:acheronLong</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D430F2E</tstamp>
-    </comp>
-    <comp ref="F1">
-      <value>1A trip PTC</value>
-      <footprint>acheron_Components:Fuse_1812_4532</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/2010191134_BHFUSE-BSMD1812-050-24V_C883140.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C883140</field>
-        <field name="Mfr">BHFUSE</field>
-        <field name="Part#">BSMD1812-050-24V</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="Polyfuse_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECE83A7</tstamp>
-    </comp>
     <comp ref="D7">
       <value>1N4148</value>
       <footprint>acheron_Components:D_SOD-123</footprint>
@@ -593,67 +257,6 @@
       <libsource lib="Joker60-NoArrows-rescue" part="D-Device-doddle60-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C0AF46E</tstamp>
-    </comp>
-    <comp ref="H1">
-      <value>Half Side Hole </value>
-      <footprint>acheron_MountingHoles:halfSideHole</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D878439</tstamp>
-    </comp>
-    <comp ref="H2">
-      <value>Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D878CA4</tstamp>
-    </comp>
-    <comp ref="H3">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8862CE</tstamp>
-    </comp>
-    <comp ref="H4">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8866EC</tstamp>
-    </comp>
-    <comp ref="H5">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D886A2F</tstamp>
-    </comp>
-    <comp ref="H6">
-      <value>Half Side Hole </value>
-      <footprint>acheron_MountingHoles:halfSideHole</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D9357B9</tstamp>
-    </comp>
-    <comp ref="U2">
-      <value>USBLC6-2SC6</value>
-      <footprint>acheron_Components:SOT-23-6</footprint>
-      <datasheet>http://www2.st.com/resource/en/datasheet/CD00050750.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C7519</field>
-        <field name="Mfr">STMicroelectronics</field>
-        <field name="Part#">USBLC6-2SC6</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="USBLC6-2SC6-Power_Protection-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DE4F198</tstamp>
     </comp>
     <comp ref="D14">
       <value>1N4148</value>
@@ -968,38 +571,6 @@
       <libsource lib="Joker60-NoArrows-rescue" part="MXSwitch-acheronSymbols" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C12DA5E</tstamp>
-    </comp>
-    <comp ref="H7">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E63D297</tstamp>
-    </comp>
-    <comp ref="H8">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole_Pad-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E63D4E1</tstamp>
-    </comp>
-    <comp ref="H9">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E63D910</tstamp>
-    </comp>
-    <comp ref="H10">
-      <value>Oval Mounting Hole</value>
-      <footprint>acheron_MountingHoles:MoutingHole_Oval_7mm_5.0x2.5mm</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E64C744</tstamp>
     </comp>
     <comp ref="D29">
       <value>1N4148</value>
@@ -1401,90 +972,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E993FC5</tstamp>
     </comp>
-    <comp ref="RSH2">
-      <value>1M</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_TyoHM-RMC12061M1-N_C325894.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C325894</field>
-        <field name="Mfr">TyoHM</field>
-        <field name="Part#">RMC12061M1%N</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D45B6A0</tstamp>
-    </comp>
-    <comp ref="CSH2">
-      <value>4.7nF</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811021932_Samsung-Electro-Mechanics-CL21B472KBANNNC_C50131.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C50131</field>
-        <field name="Mfr">Samsung Electro-Mechanics</field>
-        <field name="Part#">CL21B472KBANNNC</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D45B6A6</tstamp>
-    </comp>
-    <comp ref="DSH1">
-      <value>RB060M-60TR</value>
-      <footprint>acheron_Components:D_SOD-123</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810231731_ROHM-Semicon-RB060M-60TR_C114257.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C114257</field>
-        <field name="Mfr">ROHM Semicon</field>
-        <field name="Part#">RB060M-60TR</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="D_Schottky-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D48318C</tstamp>
-    </comp>
-    <comp ref="RCC2">
-      <value>5.1k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C351456</field>
-        <field name="Mfr">Resistor.Today</field>
-        <field name="Part#">	PTFR1206B5K10P9</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D726BAA</tstamp>
-    </comp>
-    <comp ref="G4">
-      <value>Doddle60Label</value>
-      <footprint>doddle60Graphics:doddle60Label</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8978A5</tstamp>
-    </comp>
-    <comp ref="G5">
-      <value>LabelMask</value>
-      <footprint>doddle60Graphics:doddle60LabelMask</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8978AB</tstamp>
-    </comp>
-    <comp ref="J2">
-      <value>Conn_01x14</value>
-      <footprint>acheron_Connectors:PinHeader_1x14_P2.54mm_Vertical</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="Conn_01x14-Connector_Generic-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DBB9F27</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>Conn_ARM_JTAG_SWD_10</value>
-      <footprint>acheron_Connectors:Conn_ARM_JTAG_SWD_10</footprint>
-      <datasheet>http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf</datasheet>
-      <libsource lib="Joker60-NoArrows-rescue" part="Conn_ARM_JTAG_SWD_10-Connector-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5D8D65B1</tstamp>
-    </comp>
     <comp ref="SW65">
       <value>ISO_Enter</value>
       <footprint>acheron_MX_SolderMask:MX_ISOEnter_Vertical</footprint>
@@ -1753,32 +1240,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E6F3BE3</tstamp>
     </comp>
-    <comp ref="RSI1">
-      <value>100k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C346155</field>
-        <field name="Mfr">KOA Speer Elec</field>
-        <field name="Part#">RN73H2BTTD1003B25</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DBF1EBA</tstamp>
-    </comp>
-    <comp ref="RSO1">
-      <value>100k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_KOA-Speer-Elec-RN73H2BTTD1003B25_C346155.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C346155</field>
-        <field name="Mfr">KOA Speer Elec</field>
-        <field name="Part#">RN73H2BTTD1003B25</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DBF6496</tstamp>
-    </comp>
     <comp ref="SW73">
       <value>LSHIFT_225</value>
       <footprint>acheron_MX_SolderMask:MX225R</footprint>
@@ -1805,136 +1266,6 @@
       <libsource lib="Joker60-NoArrows-rescue" part="MXSwitch-acheronSymbols" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5E78468E</tstamp>
-    </comp>
-    <comp ref="RPU1">
-      <value>1.5k</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810241211_YAGEO-RC1206FR-071K5L_C114929.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C114929</field>
-        <field name="Mfr">YAGEO</field>
-        <field name="Part#">RC1206FR-071K5L</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DB69551</tstamp>
-    </comp>
-    <comp ref="DF1">
-      <value>SMF9.0CA</value>
-      <footprint>acheron_Components:D_SOD-123_Bidirectional</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1912111437_AnBon-SMF9-0CA_C435473.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C435473</field>
-        <field name="Mfr">	AnBon</field>
-        <field name="Part#">SMF9.0CA</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="D_TVS-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5ECEA097</tstamp>
-    </comp>
-    <comp ref="CB7">
-      <value>100nF</value>
-      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811061035_Walsin-Tech-Corp-0402X104K160CT_C301997.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C301997</field>
-        <field name="Mfr">Walsin Tech Corp</field>
-        <field name="Part#">0402X104K160CT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5DE73924</tstamp>
-    </comp>
-    <comp ref="L2">
-      <value>MGFL1608F1R0MT-LF</value>
-      <footprint>Inductor_SMD:L_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811141852_microgate-MGFL1608F1R0MT-LF_C281108.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C281108</field>
-        <field name="Mfr">microgate</field>
-        <field name="Part#">MGFL1608F1R0MT-LF</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="L_Core_Ferrite-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5EA52E12</tstamp>
-    </comp>
-    <comp ref="CB10">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C92829</field>
-        <field name="Mfr">Taiyo Yuden</field>
-        <field name="Part#">TMK212BJ105KG-T</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F81CD7C</tstamp>
-    </comp>
-    <comp ref="L1">
-      <value>ACM2012-900-2P-T002</value>
-      <footprint>acheron_Components:ACM2012-2P</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/2006291108_TDK-ACM2012-900-2P-T002_C19972.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C19972</field>
-        <field name="Mfr">	TDK</field>
-        <field name="Part#">ACM2012-900-2P-T002</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="L_Core_Ferrite_Coupled_1423-acheronSymbols" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E34BB30</tstamp>
-    </comp>
-    <comp ref="DL1">
-      <value>19-217/R6C-AL1M2VY/3T</value>
-      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811101510_Everlight-Elec-19-217-R6C-AL1M2VY-3T_C72044.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C72044</field>
-        <field name="Mfr">Everlight Elec</field>
-        <field name="Part#">	19-217/R6C-AL1M2VY/3T</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="LED_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E513BD6</tstamp>
-    </comp>
-    <comp ref="CB9">
-      <value>1µ</value>
-      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810091431_Taiyo-Yuden-TMK212BJ105KG-T_C92829.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">	C92829</field>
-        <field name="Mfr">Taiyo Yuden</field>
-        <field name="Part#">TMK212BJ105KG-T</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F717A1D</tstamp>
-    </comp>
-    <comp ref="L3">
-      <value>CMI322513U1R0KT</value>
-      <footprint>Inductor_SMD:L_1210_3225Metric</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811141420_FH-Guangdong-Fenghua-Advanced-Tech-CMI322513U1R0KT_C99412.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C99412</field>
-        <field name="Mfr">FH(Guangdong Fenghua Advanced Tech)</field>
-        <field name="Part#">	CMI322513U1R0KT</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="L_Core_Ferrite-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F75AC01</tstamp>
-    </comp>
-    <comp ref="RVDD1">
-      <value>R010 1%</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1811081724_RALEC-RTT06R010FTP_C104920.pdf</datasheet>
-      <fields>
-        <field name="LCSC Part#">C104920</field>
-        <field name="Mfr">RALEC</field>
-        <field name="Part#">RTT06R010FTP</field>
-      </fields>
-      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5F1992E4</tstamp>
     </comp>
     <comp ref="SW76">
       <value>150U_BKSLH</value>
@@ -2218,7 +1549,7 @@
     </comp>
     <comp ref="SW96">
       <value>BKSLSH_1U</value>
-      <footprint>acheron_MX_SolderMask:MX200R</footprint>
+      <footprint>acheron_MX_SolderMask:MX200</footprint>
       <libsource lib="Joker60-NoArrows-rescue" part="MXSwitch-acheronSymbols" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FDECEF8</tstamp>
@@ -2417,41 +1748,240 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>62265582</tstamp>
     </comp>
-    <comp ref="RL1">
-      <value>620R</value>
-      <footprint>acheron_Components:R_SMD_1206</footprint>
-      <datasheet>https://datasheet.lcsc.com/szlcsc/1810301439_UNI-ROYAL-Uniroyal-Elec-1206W4J0621T5E_C25391.pdf</datasheet>
+    <comp ref="U2">
+      <value>ATmega32U4-MU</value>
+      <footprint>Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</datasheet>
       <fields>
-        <field name="LCSC Part#">C25391</field>
-        <field name="Mfr">	UNI-ROYAL(Uniroyal Elec)</field>
-        <field name="Part#">	1206W4J0621T5E</field>
+        <field name="LCSC Part#">C112161</field>
+        <field name="Mfr">Microchip Tech</field>
+        <field name="Part#">ATMEGA32U4-MU</field>
+      </fields>
+      <libsource lib="MCU_Microchip_ATmega" part="ATmega32U4-MU" description="16MHz, 32kB Flash, 2.5kB SRAM, 1kB EEPROM, USB 2.0, QFN-44"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61593063</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6159A721</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101830_TyoHM-RMC-0603-10K-F-N_C269701.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C269701</field>
+        <field name="Mfr">RMC 0603 10K F N</field>
+        <field name="Part#">RMC 0603 10K F N</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616C576B</tstamp>
+    </comp>
+    <comp ref="SW118">
+      <value>SW_PUSH</value>
+      <footprint>random-keyboard-parts:SKQG-1155865</footprint>
+      <libsource lib="kbd" part="SW_PUSH" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6170649B</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Resonator_Small</value>
+      <footprint>proj_local:Resonator_SMD_muRata_CSTxExxV-3Pin_3.0x1.1mm_HandSoldering_Compact</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_Murata-Electronics-CSTNE16M0V530000R0_C341521.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C341521</field>
+        <field name="Mfr">Murata Electronixs</field>
+        <field name="Part#">CSTNE16MOV530000R0</field>
+      </fields>
+      <libsource lib="Device" part="Resonator_Small" description="Three pin ceramic resonator, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61746251</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261812_Samsung-Electro-Mechanics-CL10A105KB8NNNC_C15849.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C15849</field>
+        <field name="Mfr">Samsung Electro-Mechanics</field>
+        <field name="Part#">CL10A105KB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>619C9E1E</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10kΩ</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101830_TyoHM-RMC-0603-10K-F-N_C269701.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C269701</field>
+        <field name="Mfr">RMC 0603 10K F N</field>
+        <field name="Part#">RMC 0603 10K F N</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6201645B</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>SRV05-4</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2005211233_TECH-PUBLIC-SRV05-4_C558418.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C558418</field>
+        <field name="Mfr">TECH PUBLIC</field>
+        <field name="Part#">SRV05-4</field>
+      </fields>
+      <libsource lib="Power_Protection" part="SRV05-4" description="ESD Protection Diodes with Low Clamping Voltage, SOT-23-6"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>620B5103</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse_Small</value>
+      <footprint>Fuse:Fuse_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/TECHFUSE-nSMD025_C70068.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C70068</field>
+        <field name="Mfr">TECHFUSE</field>
+        <field name="Part#">nSMD025</field>
+      </fields>
+      <libsource lib="Device" part="Polyfuse_Small" description="Resettable fuse, polymeric positive temperature coefficient, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6238B347</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C14663</field>
+        <field name="Mfr">YAGEO</field>
+        <field name="Part#">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62444C9D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C14663</field>
+        <field name="Mfr">YAGEO</field>
+        <field name="Part#">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>6244618A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C14663</field>
+        <field name="Mfr">YAGEO</field>
+        <field name="Part#">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62447F3C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810261515_Samsung-Electro-Mechanics-CL10C150JB8NNNC_C1644.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C1644</field>
+        <field name="Mfr">Samsung Electro-Mechanics</field>
+        <field name="Part#">CL10C150JB8NNNC</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>624497F2</tstamp>
+    </comp>
+    <comp ref="RCC1">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C351456</field>
+        <field name="Mfr">Resistor.Today</field>
+        <field name="Part#">	PTFR1206B5K10P9</field>
       </fields>
       <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5E5122FD</tstamp>
+      <tstamp>5DAD119A</tstamp>
+    </comp>
+    <comp ref="RCC2">
+      <value>5.1k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/2004211006_Resistor-Today-PTFR1206B5K10P9_C351456.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C351456</field>
+        <field name="Mfr">Resistor.Today</field>
+        <field name="Part#">	PTFR1206B5K10P9</field>
+      </fields>
+      <libsource lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D726BAA</tstamp>
+    </comp>
+    <comp ref="USB1">
+      <value>HRO-TYPE-C-31-M-12</value>
+      <footprint>Keebio-Parts:HRO-TYPE-C-31-M-12-Assembly</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811131825_Korean-Hroparts-Elec-TYPE-C-31-M-12_C165948.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C165948</field>
+        <field name="Mfr">Korean Hroparts Elec</field>
+        <field name="Part#">TYPE-C-31-M-12</field>
+      </fields>
+      <libsource lib="keebio" part="HRO-TYPE-C-31-M-12" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>616065AA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAJ0220T5E_C1203.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C1203</field>
+        <field name="Mfr">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part#">0603WAJ0220T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>61905397</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>22Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811081710_UNI-ROYAL-Uniroyal-Elec-0603WAJ0220T5E_C1203.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part#">C1203</field>
+        <field name="Mfr">UNI-ROYAL(Uniroyal Elec)</field>
+        <field name="Part#">0603WAJ0220T5E</field>
+      </fields>
+      <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>618C4173</tstamp>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Joker60-NoArrows-rescue" part="C_Small-Device-doddle60-rescue">
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
       <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C_Small-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="Conn_01x14-Connector_Generic-doddle60-rescue">
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
+        <fp>Connector*:*_2x??_*</fp>
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">Conn_01x14-Connector_Generic-doddle60-rescue</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -2460,35 +1990,69 @@
         <pin num="4" name="Pin_4" type="passive"/>
         <pin num="5" name="Pin_5" type="passive"/>
         <pin num="6" name="Pin_6" type="passive"/>
-        <pin num="7" name="Pin_7" type="passive"/>
-        <pin num="8" name="Pin_8" type="passive"/>
-        <pin num="9" name="Pin_9" type="passive"/>
-        <pin num="10" name="Pin_10" type="passive"/>
-        <pin num="11" name="Pin_11" type="passive"/>
-        <pin num="12" name="Pin_12" type="passive"/>
-        <pin num="13" name="Pin_13" type="passive"/>
-        <pin num="14" name="Pin_14" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="Conn_ARM_JTAG_SWD_10-Connector-doddle60-rescue">
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
       <footprints>
-        <fp>PinHeader?2x05?P1.27mm*</fp>
+        <fp>C_*</fp>
       </footprints>
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_ARM_JTAG_SWD_10-Connector-doddle60-rescue</field>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
       </fields>
       <pins>
-        <pin num="1" name="VTref" type="power_in"/>
-        <pin num="2" name="SWDIO/TMS" type="BiDi"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="SWDCLK/TCK" type="output"/>
-        <pin num="5" name="GND" type="passive"/>
-        <pin num="6" name="SWO/TDO" type="input"/>
-        <pin num="7" name="KEY" type="NotConnected"/>
-        <pin num="8" name="NC/TDI" type="output"/>
-        <pin num="9" name="GNDDetect" type="passive"/>
-        <pin num="10" name="~RESET~" type="openCol"/>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse_Small">
+      <description>Resettable fuse, polymeric positive temperature coefficient, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Resonator_Small">
+      <description>Three pin ceramic resonator, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Filter*</fp>
+        <fp>Resonator*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Resonator_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Joker60-NoArrows-rescue" part="D-Device-doddle60-rescue">
@@ -2507,117 +2071,6 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="DTC123J-Transistor_BJT-doddle60-rescue">
-      <footprints>
-        <fp>SOT?23*</fp>
-        <fp>SC?59*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">DTC123J-Transistor_BJT-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="E" type="passive"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="D_Schottky-Device-doddle60-rescue">
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_Schottky-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="D_TVS-Device-doddle60-rescue">
-      <footprints>
-        <fp>TO-???*</fp>
-        <fp>*_Diode_*</fp>
-        <fp>*SingleDiode*</fp>
-        <fp>D_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">D_TVS-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A1" type="passive"/>
-        <pin num="2" name="A2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="LED_Small-Device-doddle60-rescue">
-      <footprints>
-        <fp>LED*</fp>
-        <fp>LED_SMD:*</fp>
-        <fp>LED_THT:*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED_Small-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="L_Core_Ferrite-Device-doddle60-rescue">
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_Core_Ferrite-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="L_Core_Ferrite_Coupled_1423-acheronSymbols">
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_Core_Ferrite_Coupled_1423-acheronSymbols</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="MCP1700-3302E_SOT23-Regulator_Linear-doddle60-rescue">
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP1700-3302E_SOT23-Regulator_Linear-doddle60-rescue</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="VO" type="power_out"/>
-        <pin num="3" name="VI" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="Joker60-NoArrows-rescue" part="MXSwitch-acheronSymbols">
       <fields>
         <field name="Reference">SW</field>
@@ -2626,41 +2079,6 @@
       <pins>
         <pin num="1" name="Col" type="output"/>
         <pin num="2" name="Row" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="MountingHole-Mechanical-doddle60-rescue">
-      <footprints>
-        <fp>MountingHole*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">MountingHole-Mechanical-doddle60-rescue</field>
-      </fields>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="MountingHole_Pad-Mechanical-doddle60-rescue">
-      <footprints>
-        <fp>MountingHole*Pad*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">MountingHole_Pad-Mechanical-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="Polyfuse_Small-Device-doddle60-rescue">
-      <footprints>
-        <fp>*polyfuse*</fp>
-        <fp>*PTC*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">Polyfuse_Small-Device-doddle60-rescue</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="Joker60-NoArrows-rescue" part="R_Small-Device-doddle60-rescue">
@@ -2676,936 +2094,846 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="STM32F072-LQFP48-acheronSymbols">
+    <libpart lib="MCU_Microchip_ATmega" part="ATmega16U4-MU">
+      <aliases>
+        <alias>ATmega16U4RC-MU</alias>
+        <alias>ATmega32U4-MU</alias>
+        <alias>ATmega32U4RC-MU</alias>
+      </aliases>
+      <description>16MHz, 16kB Flash, 1.25kB SRAM, 512B EEPROM, USB 2.0, QFN-44</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf</docs>
+      <footprints>
+        <fp>QFN*1EP*7x7mm*P0.5mm*</fp>
+      </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">STM32F072-LQFP48-acheronSymbols</field>
-        <field name="Footprint">acheron_Components:TQPF-44_10x10mm_P0.8mm</field>
+        <field name="Value">ATmega16U4-MU</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-44-1EP_7x7mm_P0.5mm_EP5.2x5.2mm</field>
       </fields>
       <pins>
-        <pin num="1" name="VBAT" type="power_in"/>
-        <pin num="2" name="PC13" type="BiDi"/>
-        <pin num="3" name="PC14/OSC32_IN" type="BiDi"/>
-        <pin num="4" name="PC15/OSC32_OUT" type="BiDi"/>
-        <pin num="5" name="PF0/OSC_IN" type="BiDi"/>
-        <pin num="6" name="PF1/OSC_OUT" type="BiDi"/>
-        <pin num="7" name="NRST" type="input"/>
-        <pin num="8" name="VSSA" type="power_in"/>
-        <pin num="9" name="VDDA" type="power_in"/>
-        <pin num="10" name="PA0/ADC_IN0" type="BiDi"/>
-        <pin num="11" name="PA1/ADC_IN1" type="BiDi"/>
-        <pin num="12" name="PA2/ADC_IN2" type="BiDi"/>
-        <pin num="13" name="PA3/TIM15_CH2/ADC_IN3" type="BiDi"/>
-        <pin num="14" name="PA4/TIM14_CH1/ADC_IN4" type="BiDi"/>
-        <pin num="15" name="PA5/ADC_IN5/DAC_OUT2" type="BiDi"/>
-        <pin num="16" name="PA6/ADC_IN6/TIM3_CH1/TIM16_CH1" type="BiDi"/>
-        <pin num="17" name="PA7/TIM3_CH2/TIM14_CH1/ADC_IN7" type="BiDi"/>
-        <pin num="18" name="PB0/TIM3_CH3/ADC_IN8" type="BiDi"/>
-        <pin num="19" name="PB1/TIM3_CH4/TIM14_CH1/ADC_IN9" type="BiDi"/>
-        <pin num="20" name="PB2" type="BiDi"/>
-        <pin num="21" name="PB10/SPI2_SCK/I2C2_SCL/TIM2_CH3" type="BiDi"/>
-        <pin num="22" name="PB11/TIM2_CH4/I2C2_SDA" type="BiDi"/>
-        <pin num="23" name="VSS" type="power_in"/>
-        <pin num="24" name="VDD" type="power_in"/>
-        <pin num="25" name="PB12" type="BiDi"/>
-        <pin num="26" name="SPI2_SCK/I2S2_CK/I2C2_SCL/PB13" type="BiDi"/>
-        <pin num="27" name="PB14/SPI2_MISO/I2S2_MCK/I2C2_SDA/TIM15_CH1/PB15" type="BiDi"/>
-        <pin num="28" name="SPI2_MOSI/I2S2_SD/PB15" type="BiDi"/>
-        <pin num="29" name="TIM1_CH1/PA8" type="BiDi"/>
-        <pin num="30" name="TIM1_CH2/PA9" type="BiDi"/>
-        <pin num="31" name="TIM1_CH3/PA10" type="BiDi"/>
-        <pin num="32" name="USB_DM/TIM1_CH4/PA11" type="BiDi"/>
-        <pin num="33" name="USB_DP/PA12" type="BiDi"/>
-        <pin num="34" name="SWDIO/PA13" type="BiDi"/>
-        <pin num="35" name="VSS" type="power_in"/>
-        <pin num="36" name="VDDIO2" type="power_in"/>
-        <pin num="37" name="SWCLK/PA14" type="BiDi"/>
-        <pin num="38" name="PA2" type="BiDi"/>
-        <pin num="39" name="SPI1_SCK/I2S1_CK/TIM2_CH2/PB3" type="BiDi"/>
-        <pin num="40" name="SPI1_MISO/I2S1_MCK/TIM3_CH1/PB4" type="BiDi"/>
-        <pin num="41" name="SPI1_MOSI/I2S1_SD/TIM3_CH2/PB5" type="BiDi"/>
-        <pin num="42" name="I2C1_SCL/PB6" type="BiDi"/>
-        <pin num="43" name="2C1_SDA/PB7" type="BiDi"/>
-        <pin num="44" name="BOOT0" type="output"/>
-        <pin num="45" name="I2C1_SCL/TIM16_CH1/PB8" type="BiDi"/>
-        <pin num="46" name="SPI2_NSS/I2S2_WS/I2C1_SDA/TIM17_CH1/PB9" type="input"/>
-        <pin num="47" name="VSS" type="input"/>
-        <pin num="48" name="VDD" type="input"/>
+        <pin num="1" name="PE6" type="BiDi"/>
+        <pin num="2" name="UVCC" type="power_in"/>
+        <pin num="3" name="D-" type="BiDi"/>
+        <pin num="4" name="D+" type="BiDi"/>
+        <pin num="5" name="UGND" type="passive"/>
+        <pin num="6" name="UCAP" type="passive"/>
+        <pin num="7" name="VBUS" type="input"/>
+        <pin num="8" name="PB0" type="BiDi"/>
+        <pin num="9" name="PB1" type="BiDi"/>
+        <pin num="10" name="PB2" type="BiDi"/>
+        <pin num="11" name="PB3" type="BiDi"/>
+        <pin num="12" name="PB7" type="BiDi"/>
+        <pin num="13" name="~RESET" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="XTAL2" type="output"/>
+        <pin num="17" name="XTAL1" type="input"/>
+        <pin num="18" name="PD0" type="BiDi"/>
+        <pin num="19" name="PD1" type="BiDi"/>
+        <pin num="20" name="PD2" type="BiDi"/>
+        <pin num="21" name="PD3" type="BiDi"/>
+        <pin num="22" name="PD5" type="BiDi"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="AVCC" type="power_in"/>
+        <pin num="25" name="PD4" type="BiDi"/>
+        <pin num="26" name="PD6" type="BiDi"/>
+        <pin num="27" name="PD7" type="BiDi"/>
+        <pin num="28" name="PB4" type="BiDi"/>
+        <pin num="29" name="PB5" type="BiDi"/>
+        <pin num="30" name="PB6" type="BiDi"/>
+        <pin num="31" name="PC6" type="BiDi"/>
+        <pin num="32" name="PC7" type="BiDi"/>
+        <pin num="33" name="~HWB~/PE2" type="BiDi"/>
+        <pin num="34" name="VCC" type="passive"/>
+        <pin num="35" name="GND" type="passive"/>
+        <pin num="36" name="PF7" type="BiDi"/>
+        <pin num="37" name="PF6" type="BiDi"/>
+        <pin num="38" name="PF5" type="BiDi"/>
+        <pin num="39" name="PF4" type="BiDi"/>
+        <pin num="40" name="PF1" type="BiDi"/>
+        <pin num="41" name="PF0" type="BiDi"/>
+        <pin num="42" name="AREF" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="AVCC" type="passive"/>
+        <pin num="45" name="GND" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="SW_Push-Switch-doddle60-rescue">
+    <libpart lib="Power_Protection" part="SRV05-4">
+      <description>ESD Protection Diodes with Low Clamping Voltage, SOT-23-6</description>
+      <docs>http://www.onsemi.com/pub/Collateral/SRV05-4-D.PDF</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SRV05-4</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IO1" type="passive"/>
+        <pin num="2" name="VN" type="passive"/>
+        <pin num="3" name="IO2" type="passive"/>
+        <pin num="4" name="IO3" type="passive"/>
+        <pin num="5" name="VP" type="passive"/>
+        <pin num="6" name="IO4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="kbd" part="SW_PUSH">
       <fields>
         <field name="Reference">SW</field>
-        <field name="Value">SW_Push-Switch-doddle60-rescue</field>
+        <field name="Value">SW_PUSH</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="TYPE-C-31-M12_13-acheronSymbols">
-      <footprints>
-        <fp>USB*C*Receptacle*</fp>
-      </footprints>
+    <libpart lib="keebio" part="HRO-TYPE-C-31-M-12">
       <fields>
-        <field name="Reference">J</field>
-        <field name="Value">TYPE-C-31-M12_13-acheronSymbols</field>
-        <field name="Footprint">acheronConnectors:TYPE-C-31-M-12</field>
+        <field name="Reference">USB</field>
+        <field name="Value">HRO-TYPE-C-31-M-12</field>
       </fields>
       <pins>
-        <pin num="A1" name="GND" type="power_out"/>
-        <pin num="A4" name="VBUS" type="power_out"/>
-        <pin num="A5" name="CC1" type="BiDi"/>
-        <pin num="A6" name="D+" type="BiDi"/>
-        <pin num="A7" name="D-" type="BiDi"/>
-        <pin num="A8" name="SBU1" type="BiDi"/>
-        <pin num="B1" name="GND" type="power_out"/>
-        <pin num="B4" name="VBUS" type="power_out"/>
-        <pin num="B5" name="CC2" type="BiDi"/>
-        <pin num="B6" name="D+" type="BiDi"/>
-        <pin num="B7" name="D-" type="BiDi"/>
-        <pin num="B8" name="SBU2" type="BiDi"/>
-        <pin num="S" name="SHIELD" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Joker60-NoArrows-rescue" part="USBLC6-2SC6-Power_Protection-doddle60-rescue">
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">USBLC6-2SC6-Power_Protection-doddle60-rescue</field>
-        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IO1" type="passive"/>
-        <pin num="2" name="GND" type="passive"/>
-        <pin num="3" name="IO2" type="passive"/>
-        <pin num="4" name="IO2" type="passive"/>
-        <pin num="5" name="VBUS" type="passive"/>
-        <pin num="6" name="IO1" type="passive"/>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="VBUS" type="input"/>
+        <pin num="3" name="SBU2" type="input"/>
+        <pin num="4" name="CC1" type="input"/>
+        <pin num="5" name="DN2" type="input"/>
+        <pin num="6" name="DP1" type="input"/>
+        <pin num="7" name="DN1" type="input"/>
+        <pin num="8" name="DP2" type="input"/>
+        <pin num="9" name="SBU1" type="input"/>
+        <pin num="10" name="CC2" type="input"/>
+        <pin num="11" name="VBUS" type="input"/>
+        <pin num="12" name="GND" type="input"/>
+        <pin num="13" name="SHIELD" type="input"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
     <library logical="Joker60-NoArrows-rescue">
-      <uri>C:\Users\ZEUS-NOTE\Documents\GitHub\Joker-60\PCB/Joker60-NoArrows-rescue.lib</uri>
+      <uri>C:\Users\Zeus\Documents\GitHub\Joker-60\PCB/Joker60-NoArrows-rescue.lib</uri>
+    </library>
+    <library logical="MCU_Microchip_ATmega">
+      <uri>C:\Program Files\KiCad\share\kicad\library/MCU_Microchip_ATmega.lib</uri>
+    </library>
+    <library logical="Power_Protection">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Power_Protection.lib</uri>
+    </library>
+    <library logical="kbd">
+      <uri>C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/kbd.lib</uri>
+    </library>
+    <library logical="keebio">
+      <uri>C:/Users/Zeus/Documents/GitHub/2moons-library/kicad-symbols/keebio.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(DF1-Pad1)">
-      <node ref="F1" pin="1"/>
-      <node ref="DF1" pin="1"/>
-      <node ref="L2" pin="1"/>
+    <net code="1" name="Net-(D59-Pad2)">
+      <node ref="D59" pin="2"/>
+      <node ref="SW116" pin="2"/>
+      <node ref="SW104" pin="2"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="CSH2" pin="1"/>
-      <node ref="RSH2" pin="2"/>
-      <node ref="CRST2" pin="2"/>
-      <node ref="RVDD1" pin="2"/>
-      <node ref="CB9" pin="1"/>
-      <node ref="DL1" pin="1"/>
-      <node ref="RSI1" pin="2"/>
-      <node ref="J3" pin="5"/>
-      <node ref="J3" pin="9"/>
-      <node ref="J3" pin="3"/>
-      <node ref="RCC2" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="CUSB1" pin="1"/>
-      <node ref="QRST1" pin="2"/>
-      <node ref="CSI1" pin="1"/>
-      <node ref="CSO1" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="RRST1" pin="2"/>
-      <node ref="CRST1" pin="1"/>
-      <node ref="CSH1" pin="1"/>
-      <node ref="RSH1" pin="2"/>
-      <node ref="J1" pin="B1"/>
-      <node ref="J1" pin="A1"/>
-      <node ref="RCC1" pin="1"/>
-      <node ref="DF1" pin="2"/>
-      <node ref="RSO1" pin="2"/>
+    <net code="2" name="Net-(D69-Pad2)">
+      <node ref="SW68" pin="2"/>
+      <node ref="SW101" pin="2"/>
+      <node ref="SW83" pin="2"/>
+      <node ref="SW111" pin="2"/>
+      <node ref="D69" pin="2"/>
     </net>
-    <net code="3" name="Net-(L1-Pad1)">
-      <node ref="L1" pin="1"/>
-      <node ref="U2" pin="3"/>
+    <net code="3" name="Net-(D62-Pad2)">
+      <node ref="SW74" pin="2"/>
+      <node ref="SW99" pin="2"/>
+      <node ref="SW78" pin="2"/>
+      <node ref="D62" pin="2"/>
+      <node ref="SW96" pin="2"/>
     </net>
-    <net code="4" name="Net-(L1-Pad2)">
-      <node ref="L1" pin="2"/>
-      <node ref="U2" pin="1"/>
+    <net code="4" name="Net-(D61-Pad2)">
+      <node ref="SW102" pin="2"/>
+      <node ref="SW84" pin="2"/>
+      <node ref="SW58" pin="2"/>
+      <node ref="D61" pin="2"/>
+      <node ref="SW112" pin="2"/>
     </net>
-    <net code="5" name="DBus+">
-      <node ref="U2" pin="6"/>
-      <node ref="J1" pin="A6"/>
-      <node ref="J1" pin="B6"/>
-      <node ref="RPU1" pin="2"/>
-    </net>
-    <net code="6" name="VBUS">
-      <node ref="RPU1" pin="1"/>
-      <node ref="J1" pin="A4"/>
-      <node ref="U2" pin="5"/>
-      <node ref="CUSB1" pin="2"/>
-      <node ref="F1" pin="2"/>
-      <node ref="J1" pin="B4"/>
-    </net>
-    <net code="7" name="Net-(D42-Pad2)">
-      <node ref="D42" pin="2"/>
-      <node ref="SW42" pin="2"/>
-      <node ref="SW73" pin="2"/>
-      <node ref="SW98" pin="2"/>
-      <node ref="SW66" pin="2"/>
-    </net>
-    <net code="8" name="Net-(D66-Pad2)">
-      <node ref="SW89" pin="2"/>
-      <node ref="D66" pin="2"/>
-    </net>
-    <net code="9" name="Net-(D70-Pad2)">
-      <node ref="SW70" pin="2"/>
-      <node ref="D70" pin="2"/>
-    </net>
-    <net code="10" name="Net-(D67-Pad2)">
-      <node ref="SW80" pin="2"/>
+    <net code="5" name="Net-(D67-Pad2)">
       <node ref="SW110" pin="2"/>
-      <node ref="SW82" pin="2"/>
+      <node ref="SW80" pin="2"/>
       <node ref="D67" pin="2"/>
+      <node ref="SW82" pin="2"/>
     </net>
-    <net code="11" name="Net-(D57-Pad2)">
-      <node ref="D57" pin="2"/>
-      <node ref="SW57" pin="2"/>
-      <node ref="SW86" pin="2"/>
-      <node ref="SW100" pin="2"/>
-      <node ref="SW109" pin="2"/>
+    <net code="6" name="Net-(D56-Pad2)">
+      <node ref="SW56" pin="2"/>
+      <node ref="SW62" pin="2"/>
+      <node ref="D56" pin="2"/>
+      <node ref="SW107" pin="2"/>
     </net>
-    <net code="12" name="VDD">
-      <node ref="U1" pin="36"/>
-      <node ref="U1" pin="24"/>
-      <node ref="CB3" pin="2"/>
-      <node ref="CB2" pin="2"/>
-      <node ref="U1" pin="9"/>
-      <node ref="U1" pin="48"/>
-      <node ref="U1" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="CB8" pin="2"/>
-      <node ref="CB6" pin="2"/>
-      <node ref="CB1" pin="2"/>
-      <node ref="CB7" pin="1"/>
-      <node ref="CB10" pin="2"/>
-      <node ref="CB5" pin="2"/>
-      <node ref="CB4" pin="2"/>
+    <net code="7" name="Net-(D44-Pad2)">
+      <node ref="SW44" pin="2"/>
+      <node ref="D44" pin="2"/>
+      <node ref="SW71" pin="2"/>
     </net>
-    <net code="13" name="3.3V">
-      <node ref="DS1" pin="2"/>
-      <node ref="J3" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="CSO1" pin="2"/>
-      <node ref="SWRST1" pin="1"/>
-      <node ref="RSO1" pin="1"/>
-      <node ref="L3" pin="1"/>
-      <node ref="CB9" pin="2"/>
+    <net code="8" name="Net-(D43-Pad2)">
+      <node ref="SW69" pin="2"/>
+      <node ref="SW43" pin="2"/>
+      <node ref="D43" pin="2"/>
     </net>
-    <net code="14" name="Net-(DL1-Pad2)">
-      <node ref="RL1" pin="2"/>
-      <node ref="DL1" pin="2"/>
+    <net code="9" name="Net-(D55-Pad2)">
+      <node ref="SW106" pin="2"/>
+      <node ref="SW54" pin="2"/>
+      <node ref="D55" pin="2"/>
+      <node ref="SW55" pin="2"/>
     </net>
-    <net code="15" name="5V">
-      <node ref="CSI1" pin="2"/>
-      <node ref="RSI1" pin="1"/>
-      <node ref="RL1" pin="1"/>
-      <node ref="DS1" pin="1"/>
-      <node ref="L2" pin="2"/>
-      <node ref="U3" pin="3"/>
+    <net code="10" name="Net-(D58-Pad2)">
+      <node ref="SW115" pin="2"/>
+      <node ref="SW103" pin="2"/>
+      <node ref="D58" pin="2"/>
+      <node ref="SW59" pin="2"/>
+      <node ref="SW113" pin="2"/>
     </net>
-    <net code="16" name="D-">
-      <node ref="U1" pin="32"/>
-      <node ref="L1" pin="4"/>
+    <net code="11" name="Net-(D42-Pad2)">
+      <node ref="SW42" pin="2"/>
+      <node ref="SW98" pin="2"/>
+      <node ref="D42" pin="2"/>
+      <node ref="SW66" pin="2"/>
+      <node ref="SW73" pin="2"/>
     </net>
-    <net code="17" name="D+">
-      <node ref="L1" pin="3"/>
-      <node ref="U1" pin="33"/>
+    <net code="12" name="Net-(D53-Pad2)">
+      <node ref="SW53" pin="2"/>
+      <node ref="D53" pin="2"/>
+      <node ref="SW95" pin="2"/>
     </net>
-    <net code="18" name="Net-(D65-Pad2)">
-      <node ref="D65" pin="2"/>
-      <node ref="SW77" pin="2"/>
-      <node ref="SW65" pin="2"/>
+    <net code="13" name="Net-(D52-Pad2)">
+      <node ref="SW52" pin="2"/>
+      <node ref="SW94" pin="2"/>
+      <node ref="D52" pin="2"/>
     </net>
-    <net code="19" name="Col15">
-      <node ref="SW76" pin="1"/>
-      <node ref="U1" pin="41"/>
-    </net>
-    <net code="20" name="Net-(D68-Pad2)">
-      <node ref="D68" pin="2"/>
-      <node ref="SW76" pin="2"/>
-    </net>
-    <net code="21" name="Net-(CSH2-Pad2)">
-      <node ref="CSH2" pin="2"/>
-      <node ref="RSH2" pin="1"/>
-      <node ref="DSH1" pin="1"/>
-    </net>
-    <net code="22" name="Net-(J3-Pad8)">
-      <node ref="J3" pin="8"/>
-    </net>
-    <net code="23" name="Net-(J3-Pad6)">
-      <node ref="J3" pin="6"/>
-    </net>
-    <net code="24" name="Net-(J3-Pad7)">
-      <node ref="J3" pin="7"/>
-    </net>
-    <net code="25" name="NRST">
-      <node ref="CRST2" pin="1"/>
-      <node ref="J3" pin="10"/>
-      <node ref="U1" pin="7"/>
-      <node ref="QRST1" pin="3"/>
-    </net>
-    <net code="26" name="Extra1">
-      <node ref="J2" pin="1"/>
-    </net>
-    <net code="27" name="Extra8">
-      <node ref="J2" pin="8"/>
-      <node ref="U1" pin="28"/>
-    </net>
-    <net code="28" name="Extra7">
-      <node ref="J2" pin="7"/>
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="29" name="Net-(J1-PadA5)">
-      <node ref="J1" pin="A5"/>
-      <node ref="RCC2" pin="2"/>
-    </net>
-    <net code="30" name="Col1">
-      <node ref="SW61" pin="1"/>
-      <node ref="SW29" pin="1"/>
-      <node ref="SW98" pin="1"/>
-      <node ref="SW73" pin="1"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="U1" pin="18"/>
-      <node ref="SW42" pin="1"/>
-      <node ref="SW15" pin="1"/>
-      <node ref="SW66" pin="1"/>
-      <node ref="SW63" pin="1"/>
-    </net>
-    <net code="31" name="Row5">
-      <node ref="D60" pin="1"/>
-      <node ref="D55" pin="1"/>
-      <node ref="D57" pin="1"/>
-      <node ref="D67" pin="1"/>
-      <node ref="U1" pin="19"/>
-      <node ref="D59" pin="1"/>
-      <node ref="D58" pin="1"/>
-      <node ref="D66" pin="1"/>
-      <node ref="D70" pin="1"/>
-      <node ref="D69" pin="1"/>
-      <node ref="D56" pin="1"/>
-      <node ref="D61" pin="1"/>
-      <node ref="D64" pin="1"/>
-      <node ref="D54" pin="1"/>
-    </net>
-    <net code="32" name="Extra2">
-      <node ref="U1" pin="40"/>
-      <node ref="J2" pin="2"/>
-    </net>
-    <net code="33" name="Col14">
-      <node ref="SW77" pin="1"/>
-      <node ref="SW14" pin="1"/>
-      <node ref="SW65" pin="1"/>
-      <node ref="SW97" pin="1"/>
-      <node ref="U1" pin="45"/>
-      <node ref="SW75" pin="1"/>
-      <node ref="SW117" pin="1"/>
-      <node ref="SW79" pin="1"/>
-      <node ref="SW114" pin="1"/>
-      <node ref="SW72" pin="1"/>
-      <node ref="SW28" pin="1"/>
-      <node ref="SW105" pin="1"/>
-      <node ref="SW60" pin="1"/>
-      <node ref="SW64" pin="1"/>
-    </net>
-    <net code="34" name="Row1">
-      <node ref="D14" pin="1"/>
-      <node ref="D13" pin="1"/>
-      <node ref="U1" pin="43"/>
-      <node ref="D12" pin="1"/>
-      <node ref="D11" pin="1"/>
-      <node ref="D10" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D9" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D7" pin="1"/>
-    </net>
-    <net code="35" name="Row2">
-      <node ref="U1" pin="42"/>
-      <node ref="D20" pin="1"/>
-      <node ref="D21" pin="1"/>
-      <node ref="D24" pin="1"/>
-      <node ref="D19" pin="1"/>
-      <node ref="D18" pin="1"/>
-      <node ref="D15" pin="1"/>
-      <node ref="D26" pin="1"/>
-      <node ref="D16" pin="1"/>
-      <node ref="D23" pin="1"/>
-      <node ref="D28" pin="1"/>
-      <node ref="D68" pin="1"/>
-      <node ref="D27" pin="1"/>
-      <node ref="D25" pin="1"/>
-      <node ref="D22" pin="1"/>
-      <node ref="D17" pin="1"/>
-    </net>
-    <net code="36" name="Net-(J1-PadB5)">
-      <node ref="J1" pin="B5"/>
-      <node ref="RCC1" pin="2"/>
-    </net>
-    <net code="37" name="Net-(D47-Pad2)">
-      <node ref="SW47" pin="2"/>
-      <node ref="SW88" pin="2"/>
-      <node ref="D47" pin="2"/>
-    </net>
-    <net code="38" name="Net-(D49-Pad2)">
-      <node ref="SW49" pin="2"/>
-      <node ref="D49" pin="2"/>
-      <node ref="SW91" pin="2"/>
-    </net>
-    <net code="39" name="Net-(D51-Pad2)">
+    <net code="14" name="Net-(D51-Pad2)">
       <node ref="D51" pin="2"/>
       <node ref="SW51" pin="2"/>
       <node ref="SW93" pin="2"/>
     </net>
-    <net code="40" name="Net-(D52-Pad2)">
-      <node ref="D52" pin="2"/>
-      <node ref="SW52" pin="2"/>
-      <node ref="SW94" pin="2"/>
+    <net code="15" name="Net-(D63-Pad2)">
+      <node ref="SW79" pin="2"/>
+      <node ref="SW75" pin="2"/>
+      <node ref="D63" pin="2"/>
+      <node ref="SW97" pin="2"/>
+      <node ref="SW72" pin="2"/>
     </net>
-    <net code="41" name="Net-(D44-Pad2)">
-      <node ref="D44" pin="2"/>
-      <node ref="SW44" pin="2"/>
-      <node ref="SW71" pin="2"/>
-    </net>
-    <net code="42" name="Net-(D43-Pad2)">
-      <node ref="SW69" pin="2"/>
-      <node ref="D43" pin="2"/>
-      <node ref="SW43" pin="2"/>
-    </net>
-    <net code="43" name="Net-(D45-Pad2)">
-      <node ref="SW45" pin="2"/>
-      <node ref="SW85" pin="2"/>
-      <node ref="D45" pin="2"/>
-    </net>
-    <net code="44" name="Net-(D46-Pad2)">
+    <net code="16" name="Net-(D46-Pad2)">
       <node ref="SW46" pin="2"/>
       <node ref="D46" pin="2"/>
       <node ref="SW87" pin="2"/>
     </net>
-    <net code="45" name="Net-(D53-Pad2)">
-      <node ref="D53" pin="2"/>
-      <node ref="SW95" pin="2"/>
-      <node ref="SW53" pin="2"/>
+    <net code="17" name="Net-(D47-Pad2)">
+      <node ref="SW88" pin="2"/>
+      <node ref="SW47" pin="2"/>
+      <node ref="D47" pin="2"/>
     </net>
-    <net code="46" name="Net-(D62-Pad2)">
-      <node ref="SW99" pin="2"/>
-      <node ref="SW74" pin="2"/>
-      <node ref="SW78" pin="2"/>
-      <node ref="SW96" pin="2"/>
-      <node ref="D62" pin="2"/>
+    <net code="18" name="Net-(D45-Pad2)">
+      <node ref="SW85" pin="2"/>
+      <node ref="SW45" pin="2"/>
+      <node ref="D45" pin="2"/>
     </net>
-    <net code="47" name="Net-(D28-Pad2)">
-      <node ref="D28" pin="2"/>
-      <node ref="SW28" pin="2"/>
-    </net>
-    <net code="48" name="Row4">
-      <node ref="D45" pin="1"/>
-      <node ref="D52" pin="1"/>
-      <node ref="D47" pin="1"/>
-      <node ref="D44" pin="1"/>
-      <node ref="D46" pin="1"/>
-      <node ref="D42" pin="1"/>
-      <node ref="D62" pin="1"/>
-      <node ref="D53" pin="1"/>
-      <node ref="D51" pin="1"/>
-      <node ref="D48" pin="1"/>
-      <node ref="U1" pin="17"/>
-      <node ref="D43" pin="1"/>
-      <node ref="D49" pin="1"/>
-      <node ref="D63" pin="1"/>
-      <node ref="D50" pin="1"/>
-    </net>
-    <net code="49" name="Net-(D60-Pad2)">
-      <node ref="SW114" pin="2"/>
-      <node ref="SW105" pin="2"/>
-      <node ref="D60" pin="2"/>
-      <node ref="SW60" pin="2"/>
-      <node ref="SW117" pin="2"/>
-    </net>
-    <net code="50" name="Net-(D64-Pad2)">
-      <node ref="SW81" pin="2"/>
-      <node ref="SW108" pin="2"/>
-      <node ref="D64" pin="2"/>
-      <node ref="SW67" pin="2"/>
-    </net>
-    <net code="51" name="Net-(D61-Pad2)">
-      <node ref="D61" pin="2"/>
-      <node ref="SW84" pin="2"/>
-      <node ref="SW112" pin="2"/>
-      <node ref="SW102" pin="2"/>
-      <node ref="SW58" pin="2"/>
-    </net>
-    <net code="52" name="Net-(D59-Pad2)">
-      <node ref="SW116" pin="2"/>
-      <node ref="D59" pin="2"/>
-      <node ref="SW104" pin="2"/>
-    </net>
-    <net code="53" name="Net-(D58-Pad2)">
-      <node ref="SW59" pin="2"/>
-      <node ref="D58" pin="2"/>
-      <node ref="SW103" pin="2"/>
-      <node ref="SW113" pin="2"/>
-      <node ref="SW115" pin="2"/>
-    </net>
-    <net code="54" name="Net-(D69-Pad2)">
-      <node ref="SW83" pin="2"/>
-      <node ref="SW68" pin="2"/>
-      <node ref="D69" pin="2"/>
-      <node ref="SW101" pin="2"/>
-      <node ref="SW111" pin="2"/>
-    </net>
-    <net code="55" name="Col13">
-      <node ref="SW41" pin="1"/>
-      <node ref="U1" pin="46"/>
-      <node ref="SW96" pin="1"/>
-      <node ref="SW13" pin="1"/>
-      <node ref="SW104" pin="1"/>
-      <node ref="SW99" pin="1"/>
-      <node ref="SW74" pin="1"/>
-      <node ref="SW78" pin="1"/>
-      <node ref="SW116" pin="1"/>
-      <node ref="SW27" pin="1"/>
-    </net>
-    <net code="56" name="Net-(D56-Pad2)">
-      <node ref="SW107" pin="2"/>
-      <node ref="SW56" pin="2"/>
-      <node ref="SW62" pin="2"/>
-      <node ref="D56" pin="2"/>
-    </net>
-    <net code="57" name="Net-(D48-Pad2)">
-      <node ref="D48" pin="2"/>
-      <node ref="SW90" pin="2"/>
-      <node ref="SW48" pin="2"/>
-    </net>
-    <net code="58" name="Net-(D50-Pad2)">
-      <node ref="SW92" pin="2"/>
+    <net code="19" name="Net-(D50-Pad2)">
       <node ref="SW50" pin="2"/>
       <node ref="D50" pin="2"/>
+      <node ref="SW92" pin="2"/>
     </net>
-    <net code="59" name="Net-(D55-Pad2)">
-      <node ref="SW55" pin="2"/>
-      <node ref="D55" pin="2"/>
-      <node ref="SW54" pin="2"/>
-      <node ref="SW106" pin="2"/>
+    <net code="20" name="Net-(D49-Pad2)">
+      <node ref="SW91" pin="2"/>
+      <node ref="D49" pin="2"/>
+      <node ref="SW49" pin="2"/>
     </net>
-    <net code="60" name="Net-(D54-Pad2)">
-      <node ref="D54" pin="2"/>
-      <node ref="SW61" pin="2"/>
+    <net code="21" name="Net-(D48-Pad2)">
+      <node ref="SW90" pin="2"/>
+      <node ref="SW48" pin="2"/>
+      <node ref="D48" pin="2"/>
     </net>
-    <net code="61" name="Net-(D63-Pad2)">
-      <node ref="SW97" pin="2"/>
-      <node ref="SW72" pin="2"/>
-      <node ref="SW75" pin="2"/>
-      <node ref="SW79" pin="2"/>
-      <node ref="D63" pin="2"/>
+    <net code="22" name="D+">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="USB1" pin="8"/>
+      <node ref="USB1" pin="6"/>
     </net>
-    <net code="62" name="/SHIELD">
-      <node ref="CSH1" pin="2"/>
-      <node ref="RSH1" pin="1"/>
-      <node ref="J1" pin="S"/>
+    <net code="23" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="63" name="Net-(J1-PadB8)">
-      <node ref="J1" pin="B8"/>
-    </net>
-    <net code="64" name="Net-(J1-PadA8)">
-      <node ref="J1" pin="A8"/>
-    </net>
-    <net code="65" name="DBus-">
-      <node ref="U2" pin="4"/>
-      <node ref="J1" pin="B7"/>
-      <node ref="J1" pin="A7"/>
-    </net>
-    <net code="66" name="GNDD">
-      <node ref="U1" pin="8"/>
-      <node ref="CB5" pin="1"/>
-      <node ref="U1" pin="35"/>
-      <node ref="U1" pin="47"/>
-      <node ref="U1" pin="23"/>
-      <node ref="CB2" pin="1"/>
-      <node ref="CB3" pin="1"/>
-      <node ref="CB4" pin="1"/>
-      <node ref="RVDD1" pin="1"/>
-      <node ref="CB8" pin="1"/>
-      <node ref="CB7" pin="2"/>
-      <node ref="CB10" pin="1"/>
-      <node ref="CB1" pin="1"/>
-      <node ref="CB6" pin="1"/>
-    </net>
-    <net code="67" name="Net-(D15-Pad2)">
-      <node ref="D15" pin="2"/>
-      <node ref="SW15" pin="2"/>
-    </net>
-    <net code="68" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2"/>
-      <node ref="SW17" pin="2"/>
-    </net>
-    <net code="69" name="Net-(D16-Pad2)">
-      <node ref="SW16" pin="2"/>
-      <node ref="D16" pin="2"/>
-    </net>
-    <net code="70" name="Net-(D14-Pad2)">
-      <node ref="D14" pin="2"/>
-      <node ref="SW14" pin="2"/>
-      <node ref="SW64" pin="2"/>
-    </net>
-    <net code="71" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="SW1" pin="2"/>
-    </net>
-    <net code="72" name="Net-(D2-Pad2)">
-      <node ref="SW2" pin="2"/>
-      <node ref="D2" pin="2"/>
-    </net>
-    <net code="73" name="Net-(D3-Pad2)">
-      <node ref="SW3" pin="2"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="74" name="Net-(D4-Pad2)">
-      <node ref="SW4" pin="2"/>
-      <node ref="D4" pin="2"/>
-    </net>
-    <net code="75" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="SW6" pin="2"/>
-    </net>
-    <net code="76" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2"/>
-      <node ref="SW7" pin="2"/>
-    </net>
-    <net code="77" name="SWDIO">
-      <node ref="J3" pin="2"/>
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="78" name="SWCLK">
-      <node ref="U1" pin="37"/>
-      <node ref="J3" pin="4"/>
-    </net>
-    <net code="79" name="BOOT0">
-      <node ref="CRST1" pin="2"/>
-      <node ref="RRST1" pin="1"/>
-      <node ref="DRST1" pin="1"/>
-      <node ref="U1" pin="44"/>
-    </net>
-    <net code="80" name="Net-(D10-Pad2)">
-      <node ref="D10" pin="2"/>
-      <node ref="SW10" pin="2"/>
-    </net>
-    <net code="81" name="Net-(D11-Pad2)">
-      <node ref="SW11" pin="2"/>
-      <node ref="D11" pin="2"/>
-    </net>
-    <net code="82" name="Net-(D12-Pad2)">
-      <node ref="SW12" pin="2"/>
-      <node ref="D12" pin="2"/>
-    </net>
-    <net code="83" name="Net-(D13-Pad2)">
-      <node ref="D13" pin="2"/>
-      <node ref="SW13" pin="2"/>
-    </net>
-    <net code="84" name="Net-(DRST1-Pad2)">
-      <node ref="DRST1" pin="2"/>
-      <node ref="SWRST1" pin="2"/>
-      <node ref="QRST1" pin="1"/>
-    </net>
-    <net code="85" name="Extra9">
-      <node ref="U1" pin="27"/>
-      <node ref="J2" pin="9"/>
-    </net>
-    <net code="86" name="Extra10">
-      <node ref="J2" pin="10"/>
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="87" name="Extra11">
-      <node ref="U1" pin="25"/>
-      <node ref="J2" pin="11"/>
-    </net>
-    <net code="88" name="Net-(D5-Pad2)">
-      <node ref="SW5" pin="2"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="89" name="Col11">
-      <node ref="SW102" pin="1"/>
-      <node ref="SW52" pin="1"/>
-      <node ref="SW58" pin="1"/>
-      <node ref="SW84" pin="1"/>
-      <node ref="SW112" pin="1"/>
-      <node ref="SW25" pin="1"/>
+    <net code="24" name="Net-(U1-Pad3)">
       <node ref="U1" pin="3"/>
-      <node ref="SW39" pin="1"/>
-      <node ref="SW11" pin="1"/>
-      <node ref="SW94" pin="1"/>
     </net>
-    <net code="90" name="Col12">
+    <net code="25" name="D-">
+      <node ref="USB1" pin="5"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="USB1" pin="7"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="43"/>
+      <node ref="SW118" pin="1"/>
+      <node ref="U2" pin="45"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="RCC2" pin="1"/>
+      <node ref="RCC1" pin="1"/>
+      <node ref="Y1" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="15"/>
       <node ref="U1" pin="2"/>
-      <node ref="SW115" pin="1"/>
-      <node ref="SW12" pin="1"/>
-      <node ref="SW40" pin="1"/>
-      <node ref="SW53" pin="1"/>
-      <node ref="SW95" pin="1"/>
-      <node ref="SW59" pin="1"/>
-      <node ref="SW113" pin="1"/>
-      <node ref="SW26" pin="1"/>
-      <node ref="SW103" pin="1"/>
-    </net>
-    <net code="91" name="Col2">
-      <node ref="SW2" pin="1"/>
-      <node ref="SW43" pin="1"/>
-      <node ref="U1" pin="15"/>
-      <node ref="SW54" pin="1"/>
-      <node ref="SW16" pin="1"/>
-      <node ref="SW106" pin="1"/>
-      <node ref="SW55" pin="1"/>
-      <node ref="SW30" pin="1"/>
-      <node ref="SW69" pin="1"/>
-    </net>
-    <net code="92" name="Net-(D8-Pad2)">
-      <node ref="SW8" pin="2"/>
-      <node ref="D8" pin="2"/>
-    </net>
-    <net code="93" name="Net-(D9-Pad2)">
-      <node ref="SW9" pin="2"/>
-      <node ref="D9" pin="2"/>
-    </net>
-    <net code="94" name="Extra12">
-      <node ref="J2" pin="12"/>
-      <node ref="U1" pin="22"/>
-    </net>
-    <net code="95" name="Extra14">
-      <node ref="J2" pin="14"/>
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="96" name="Row3">
-      <node ref="D33" pin="1"/>
-      <node ref="D38" pin="1"/>
-      <node ref="D39" pin="1"/>
-      <node ref="D32" pin="1"/>
-      <node ref="D41" pin="1"/>
-      <node ref="D40" pin="1"/>
-      <node ref="U1" pin="16"/>
-      <node ref="D34" pin="1"/>
-      <node ref="D29" pin="1"/>
-      <node ref="D30" pin="1"/>
-      <node ref="D65" pin="1"/>
-      <node ref="D31" pin="1"/>
-      <node ref="D36" pin="1"/>
-      <node ref="D35" pin="1"/>
-      <node ref="D37" pin="1"/>
-    </net>
-    <net code="97" name="Col3">
-      <node ref="SW44" pin="1"/>
-      <node ref="U1" pin="14"/>
-      <node ref="SW3" pin="1"/>
-      <node ref="SW17" pin="1"/>
-      <node ref="SW107" pin="1"/>
-      <node ref="SW71" pin="1"/>
-      <node ref="SW62" pin="1"/>
-      <node ref="SW56" pin="1"/>
-      <node ref="SW31" pin="1"/>
-    </net>
-    <net code="98" name="Col5">
-      <node ref="SW46" pin="1"/>
-      <node ref="SW33" pin="1"/>
-      <node ref="SW19" pin="1"/>
-      <node ref="SW5" pin="1"/>
-      <node ref="SW87" pin="1"/>
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="99" name="Col7">
-      <node ref="SW109" pin="1"/>
-      <node ref="SW57" pin="1"/>
-      <node ref="SW90" pin="1"/>
-      <node ref="SW86" pin="1"/>
-      <node ref="SW100" pin="1"/>
-      <node ref="SW35" pin="1"/>
-      <node ref="SW21" pin="1"/>
-      <node ref="SW7" pin="1"/>
-      <node ref="U1" pin="10"/>
-      <node ref="SW48" pin="1"/>
-    </net>
-    <net code="100" name="Net-(D29-Pad2)">
-      <node ref="SW63" pin="2"/>
-      <node ref="SW29" pin="2"/>
-      <node ref="D29" pin="2"/>
-    </net>
-    <net code="101" name="Net-(D41-Pad2)">
-      <node ref="SW41" pin="2"/>
-      <node ref="D41" pin="2"/>
-    </net>
-    <net code="102" name="Net-(D34-Pad2)">
-      <node ref="SW34" pin="2"/>
-      <node ref="D34" pin="2"/>
-    </net>
-    <net code="103" name="Extra13">
-      <node ref="U1" pin="21"/>
-      <node ref="J2" pin="13"/>
-    </net>
-    <net code="104" name="Extra4">
-      <node ref="J2" pin="4"/>
-      <node ref="U1" pin="38"/>
-    </net>
-    <net code="105" name="Extra3">
-      <node ref="U1" pin="39"/>
-      <node ref="J2" pin="3"/>
-    </net>
-    <net code="106" name="Extra5">
-      <node ref="J2" pin="5"/>
-      <node ref="U1" pin="31"/>
-    </net>
-    <net code="107" name="Extra6">
-      <node ref="U1" pin="30"/>
+      <node ref="U2" pin="35"/>
+      <node ref="U2" pin="23"/>
       <node ref="J2" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="USB1" pin="13"/>
+      <node ref="USB1" pin="12"/>
+      <node ref="USB1" pin="1"/>
     </net>
-    <net code="108" name="Net-(D27-Pad2)">
-      <node ref="D27" pin="2"/>
-      <node ref="SW27" pin="2"/>
+    <net code="27" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U2" pin="33"/>
     </net>
-    <net code="109" name="Net-(D20-Pad2)">
-      <node ref="D20" pin="2"/>
-      <node ref="SW20" pin="2"/>
+    <net code="28" name="VBUS">
+      <node ref="U1" pin="5"/>
+      <node ref="USB1" pin="11"/>
+      <node ref="F1" pin="2"/>
+      <node ref="USB1" pin="2"/>
     </net>
-    <net code="110" name="Col6">
-      <node ref="SW70" pin="1"/>
-      <node ref="SW20" pin="1"/>
-      <node ref="SW6" pin="1"/>
-      <node ref="SW47" pin="1"/>
-      <node ref="SW88" pin="1"/>
-      <node ref="SW34" pin="1"/>
-      <node ref="U1" pin="11"/>
+    <net code="29" name="Col13">
+      <node ref="SW79" pin="1"/>
+      <node ref="SW77" pin="1"/>
+      <node ref="SW60" pin="1"/>
+      <node ref="SW28" pin="1"/>
+      <node ref="SW65" pin="1"/>
+      <node ref="SW72" pin="1"/>
+      <node ref="SW64" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J2" pin="4"/>
+      <node ref="SW14" pin="1"/>
+      <node ref="SW75" pin="1"/>
+      <node ref="SW105" pin="1"/>
+      <node ref="SW117" pin="1"/>
+      <node ref="SW97" pin="1"/>
+      <node ref="SW114" pin="1"/>
     </net>
-    <net code="111" name="Col4">
-      <node ref="SW4" pin="1"/>
-      <node ref="SW81" pin="1"/>
-      <node ref="SW67" pin="1"/>
-      <node ref="SW85" pin="1"/>
-      <node ref="SW32" pin="1"/>
-      <node ref="U1" pin="13"/>
-      <node ref="SW45" pin="1"/>
-      <node ref="SW18" pin="1"/>
-      <node ref="SW108" pin="1"/>
+    <net code="30" name="Col12">
+      <node ref="SW13" pin="1"/>
+      <node ref="SW116" pin="1"/>
+      <node ref="SW99" pin="1"/>
+      <node ref="SW41" pin="1"/>
+      <node ref="SW27" pin="1"/>
+      <node ref="U2" pin="11"/>
+      <node ref="J2" pin="1"/>
+      <node ref="SW96" pin="1"/>
+      <node ref="SW78" pin="1"/>
+      <node ref="SW74" pin="1"/>
+      <node ref="SW104" pin="1"/>
     </net>
-    <net code="112" name="Col10">
+    <net code="31" name="Row0">
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="J2" pin="3"/>
+      <node ref="D14" pin="1"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D13" pin="1"/>
+      <node ref="D12" pin="1"/>
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D11" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="32" name="Net-(J2-Pad5)">
+      <node ref="R3" pin="2"/>
+      <node ref="U2" pin="13"/>
+      <node ref="SW118" pin="2"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="33" name="Net-(USB1-Pad3)">
+      <node ref="USB1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(USB1-Pad9)">
+      <node ref="USB1" pin="9"/>
+    </net>
+    <net code="35" name="Net-(RCC2-Pad2)">
+      <node ref="USB1" pin="4"/>
+      <node ref="RCC2" pin="2"/>
+    </net>
+    <net code="36" name="+5V">
+      <node ref="J2" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="44"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="34"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="F1" pin="1"/>
+    </net>
+    <net code="37" name="Net-(RCC1-Pad2)">
+      <node ref="USB1" pin="10"/>
+      <node ref="RCC1" pin="2"/>
+    </net>
+    <net code="38" name="Col8">
+      <node ref="SW110" pin="1"/>
+      <node ref="SW50" pin="1"/>
+      <node ref="SW37" pin="1"/>
+      <node ref="U2" pin="20"/>
+      <node ref="SW9" pin="1"/>
+      <node ref="SW80" pin="1"/>
+      <node ref="SW82" pin="1"/>
+      <node ref="SW23" pin="1"/>
+      <node ref="SW92" pin="1"/>
+    </net>
+    <net code="39" name="Col9">
+      <node ref="SW101" pin="1"/>
+      <node ref="SW68" pin="1"/>
+      <node ref="U2" pin="19"/>
+      <node ref="SW38" pin="1"/>
+      <node ref="SW111" pin="1"/>
+      <node ref="SW51" pin="1"/>
+      <node ref="SW83" pin="1"/>
+      <node ref="SW24" pin="1"/>
       <node ref="SW10" pin="1"/>
       <node ref="SW93" pin="1"/>
-      <node ref="SW83" pin="1"/>
-      <node ref="SW101" pin="1"/>
-      <node ref="U1" pin="4"/>
-      <node ref="SW111" pin="1"/>
-      <node ref="SW38" pin="1"/>
-      <node ref="SW24" pin="1"/>
-      <node ref="SW51" pin="1"/>
-      <node ref="SW68" pin="1"/>
     </net>
-    <net code="113" name="Net-(D23-Pad2)">
-      <node ref="D23" pin="2"/>
-      <node ref="SW23" pin="2"/>
+    <net code="40" name="Col10">
+      <node ref="SW39" pin="1"/>
+      <node ref="SW102" pin="1"/>
+      <node ref="SW11" pin="1"/>
+      <node ref="SW52" pin="1"/>
+      <node ref="SW25" pin="1"/>
+      <node ref="SW112" pin="1"/>
+      <node ref="SW84" pin="1"/>
+      <node ref="SW58" pin="1"/>
+      <node ref="SW94" pin="1"/>
+      <node ref="U2" pin="18"/>
     </net>
-    <net code="114" name="Net-(D22-Pad2)">
-      <node ref="D22" pin="2"/>
-      <node ref="SW22" pin="2"/>
+    <net code="41" name="Net-(U2-Pad17)">
+      <node ref="Y1" pin="1"/>
+      <node ref="U2" pin="17"/>
     </net>
-    <net code="115" name="Net-(D24-Pad2)">
-      <node ref="D24" pin="2"/>
-      <node ref="SW24" pin="2"/>
+    <net code="42" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+      <node ref="Y1" pin="3"/>
     </net>
-    <net code="116" name="Net-(D21-Pad2)">
-      <node ref="D21" pin="2"/>
-      <node ref="SW21" pin="2"/>
+    <net code="43" name="Col11">
+      <node ref="SW113" pin="1"/>
+      <node ref="SW26" pin="1"/>
+      <node ref="SW59" pin="1"/>
+      <node ref="SW115" pin="1"/>
+      <node ref="SW103" pin="1"/>
+      <node ref="SW53" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="SW12" pin="1"/>
+      <node ref="SW40" pin="1"/>
+      <node ref="SW95" pin="1"/>
     </net>
-    <net code="117" name="Net-(D19-Pad2)">
-      <node ref="D19" pin="2"/>
-      <node ref="SW19" pin="2"/>
-    </net>
-    <net code="118" name="Net-(D18-Pad2)">
-      <node ref="SW18" pin="2"/>
-      <node ref="D18" pin="2"/>
-    </net>
-    <net code="119" name="Net-(D26-Pad2)">
-      <node ref="D26" pin="2"/>
-      <node ref="SW26" pin="2"/>
-    </net>
-    <net code="120" name="Net-(D25-Pad2)">
-      <node ref="SW25" pin="2"/>
-      <node ref="D25" pin="2"/>
-    </net>
-    <net code="121" name="Net-(D37-Pad2)">
-      <node ref="SW37" pin="2"/>
-      <node ref="D37" pin="2"/>
-    </net>
-    <net code="122" name="Col9">
-      <node ref="SW82" pin="1"/>
-      <node ref="SW80" pin="1"/>
-      <node ref="SW50" pin="1"/>
-      <node ref="SW92" pin="1"/>
-      <node ref="SW37" pin="1"/>
-      <node ref="SW9" pin="1"/>
-      <node ref="U1" pin="5"/>
-      <node ref="SW23" pin="1"/>
-      <node ref="SW110" pin="1"/>
-    </net>
-    <net code="123" name="Net-(D36-Pad2)">
-      <node ref="D36" pin="2"/>
-      <node ref="SW36" pin="2"/>
-    </net>
-    <net code="124" name="Col8">
-      <node ref="U1" pin="6"/>
-      <node ref="SW89" pin="1"/>
+    <net code="44" name="Col7">
       <node ref="SW22" pin="1"/>
       <node ref="SW8" pin="1"/>
       <node ref="SW49" pin="1"/>
+      <node ref="U2" pin="21"/>
       <node ref="SW36" pin="1"/>
+      <node ref="SW89" pin="1"/>
       <node ref="SW91" pin="1"/>
     </net>
-    <net code="125" name="Net-(D35-Pad2)">
-      <node ref="D35" pin="2"/>
-      <node ref="SW35" pin="2"/>
+    <net code="45" name="Net-(U2-Pad1)">
+      <node ref="U2" pin="1"/>
     </net>
-    <net code="126" name="Net-(D33-Pad2)">
-      <node ref="D33" pin="2"/>
-      <node ref="SW33" pin="2"/>
+    <net code="46" name="Net-(D60-Pad2)">
+      <node ref="SW105" pin="2"/>
+      <node ref="SW114" pin="2"/>
+      <node ref="SW60" pin="2"/>
+      <node ref="D60" pin="2"/>
+      <node ref="SW117" pin="2"/>
     </net>
-    <net code="127" name="Net-(D32-Pad2)">
-      <node ref="SW32" pin="2"/>
-      <node ref="D32" pin="2"/>
+    <net code="47" name="Row3">
+      <node ref="U2" pin="30"/>
+      <node ref="D49" pin="1"/>
+      <node ref="D50" pin="1"/>
+      <node ref="D62" pin="1"/>
+      <node ref="D53" pin="1"/>
+      <node ref="D48" pin="1"/>
+      <node ref="D42" pin="1"/>
+      <node ref="D44" pin="1"/>
+      <node ref="D43" pin="1"/>
+      <node ref="D46" pin="1"/>
+      <node ref="D45" pin="1"/>
+      <node ref="D52" pin="1"/>
+      <node ref="D51" pin="1"/>
+      <node ref="D63" pin="1"/>
+      <node ref="D47" pin="1"/>
     </net>
-    <net code="128" name="Net-(D31-Pad2)">
-      <node ref="D31" pin="2"/>
-      <node ref="SW31" pin="2"/>
+    <net code="48" name="Col1">
+      <node ref="SW2" pin="1"/>
+      <node ref="SW16" pin="1"/>
+      <node ref="SW106" pin="1"/>
+      <node ref="SW55" pin="1"/>
+      <node ref="SW43" pin="1"/>
+      <node ref="SW69" pin="1"/>
+      <node ref="SW54" pin="1"/>
+      <node ref="SW30" pin="1"/>
+      <node ref="U2" pin="39"/>
     </net>
-    <net code="129" name="Net-(D40-Pad2)">
-      <node ref="SW40" pin="2"/>
-      <node ref="D40" pin="2"/>
+    <net code="49" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
     </net>
-    <net code="130" name="Net-(D30-Pad2)">
-      <node ref="D30" pin="2"/>
-      <node ref="SW30" pin="2"/>
+    <net code="50" name="Net-(U2-Pad37)">
+      <node ref="U2" pin="37"/>
     </net>
-    <net code="131" name="Net-(D39-Pad2)">
+    <net code="51" name="Net-(U2-Pad36)">
+      <node ref="U2" pin="36"/>
+    </net>
+    <net code="52" name="Row4">
+      <node ref="D57" pin="1"/>
+      <node ref="D59" pin="1"/>
+      <node ref="D67" pin="1"/>
+      <node ref="D61" pin="1"/>
+      <node ref="D70" pin="1"/>
+      <node ref="D58" pin="1"/>
+      <node ref="D69" pin="1"/>
+      <node ref="D60" pin="1"/>
+      <node ref="D54" pin="1"/>
+      <node ref="D56" pin="1"/>
+      <node ref="D55" pin="1"/>
+      <node ref="U2" pin="32"/>
+      <node ref="D64" pin="1"/>
+      <node ref="D66" pin="1"/>
+    </net>
+    <net code="53" name="Col0">
+      <node ref="SW66" pin="1"/>
+      <node ref="SW63" pin="1"/>
+      <node ref="SW15" pin="1"/>
+      <node ref="SW61" pin="1"/>
+      <node ref="SW73" pin="1"/>
+      <node ref="SW42" pin="1"/>
+      <node ref="SW98" pin="1"/>
+      <node ref="SW29" pin="1"/>
+      <node ref="U2" pin="31"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="54" name="Net-(R1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="55" name="Row2">
+      <node ref="U2" pin="29"/>
+      <node ref="D65" pin="1"/>
+      <node ref="D41" pin="1"/>
+      <node ref="D38" pin="1"/>
+      <node ref="D29" pin="1"/>
+      <node ref="D35" pin="1"/>
+      <node ref="D30" pin="1"/>
+      <node ref="D31" pin="1"/>
+      <node ref="D39" pin="1"/>
+      <node ref="D40" pin="1"/>
+      <node ref="D32" pin="1"/>
+      <node ref="D33" pin="1"/>
+      <node ref="D37" pin="1"/>
+      <node ref="D36" pin="1"/>
+      <node ref="D34" pin="1"/>
+    </net>
+    <net code="56" name="Col2">
+      <node ref="SW17" pin="1"/>
+      <node ref="SW62" pin="1"/>
+      <node ref="SW56" pin="1"/>
+      <node ref="SW44" pin="1"/>
+      <node ref="SW107" pin="1"/>
+      <node ref="SW71" pin="1"/>
+      <node ref="U2" pin="28"/>
+      <node ref="SW3" pin="1"/>
+      <node ref="SW31" pin="1"/>
+    </net>
+    <net code="57" name="Col3">
+      <node ref="SW32" pin="1"/>
+      <node ref="SW81" pin="1"/>
+      <node ref="SW67" pin="1"/>
+      <node ref="SW108" pin="1"/>
+      <node ref="SW4" pin="1"/>
+      <node ref="SW18" pin="1"/>
+      <node ref="SW45" pin="1"/>
+      <node ref="U2" pin="27"/>
+      <node ref="SW85" pin="1"/>
+    </net>
+    <net code="58" name="Col4">
+      <node ref="SW5" pin="1"/>
+      <node ref="SW46" pin="1"/>
+      <node ref="SW33" pin="1"/>
+      <node ref="SW19" pin="1"/>
+      <node ref="U2" pin="26"/>
+      <node ref="SW87" pin="1"/>
+    </net>
+    <net code="59" name="Col5">
+      <node ref="SW20" pin="1"/>
+      <node ref="SW70" pin="1"/>
+      <node ref="SW34" pin="1"/>
+      <node ref="SW88" pin="1"/>
+      <node ref="SW47" pin="1"/>
+      <node ref="U2" pin="25"/>
+      <node ref="SW6" pin="1"/>
+    </net>
+    <net code="60" name="Col6">
+      <node ref="U2" pin="22"/>
+      <node ref="SW90" pin="1"/>
+      <node ref="SW7" pin="1"/>
+      <node ref="SW109" pin="1"/>
+      <node ref="SW35" pin="1"/>
+      <node ref="SW57" pin="1"/>
+      <node ref="SW48" pin="1"/>
+      <node ref="SW86" pin="1"/>
+      <node ref="SW21" pin="1"/>
+      <node ref="SW100" pin="1"/>
+    </net>
+    <net code="61" name="Net-(D70-Pad2)">
+      <node ref="D70" pin="2"/>
+      <node ref="SW70" pin="2"/>
+    </net>
+    <net code="62" name="Net-(R2-Pad1)">
+      <node ref="U2" pin="4"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="64" name="Net-(U2-Pad42)">
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="65" name="Col14">
+      <node ref="SW76" pin="1"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="66" name="Row1">
+      <node ref="D24" pin="1"/>
+      <node ref="D22" pin="1"/>
+      <node ref="D25" pin="1"/>
+      <node ref="D28" pin="1"/>
+      <node ref="D27" pin="1"/>
+      <node ref="D23" pin="1"/>
+      <node ref="D20" pin="1"/>
+      <node ref="D17" pin="1"/>
+      <node ref="D16" pin="1"/>
+      <node ref="D15" pin="1"/>
+      <node ref="D26" pin="1"/>
+      <node ref="D18" pin="1"/>
+      <node ref="D68" pin="1"/>
+      <node ref="D19" pin="1"/>
+      <node ref="U2" pin="41"/>
+      <node ref="D21" pin="1"/>
+    </net>
+    <net code="67" name="Net-(U2-Pad40)">
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="68" name="Net-(D7-Pad2)">
+      <node ref="SW7" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="69" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2"/>
+      <node ref="SW20" pin="2"/>
+    </net>
+    <net code="70" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2"/>
+      <node ref="SW28" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2"/>
+      <node ref="SW27" pin="2"/>
+    </net>
+    <net code="72" name="Net-(D6-Pad2)">
+      <node ref="SW6" pin="2"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="73" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="SW4" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D39-Pad2)">
       <node ref="D39" pin="2"/>
       <node ref="SW39" pin="2"/>
     </net>
-    <net code="132" name="Net-(D38-Pad2)">
-      <node ref="D38" pin="2"/>
-      <node ref="SW38" pin="2"/>
+    <net code="75" name="Net-(D33-Pad2)">
+      <node ref="D33" pin="2"/>
+      <node ref="SW33" pin="2"/>
     </net>
-    <net code="133" name="CASE">
-      <node ref="H8" pin="1"/>
-      <node ref="DSH1" pin="2"/>
+    <net code="76" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2"/>
+      <node ref="SW32" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D40-Pad2)">
+      <node ref="D40" pin="2"/>
+      <node ref="SW40" pin="2"/>
+    </net>
+    <net code="78" name="Net-(D38-Pad2)">
+      <node ref="SW38" pin="2"/>
+      <node ref="D38" pin="2"/>
+    </net>
+    <net code="79" name="Net-(D37-Pad2)">
+      <node ref="SW37" pin="2"/>
+      <node ref="D37" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2"/>
+      <node ref="SW30" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D31-Pad2)">
+      <node ref="SW31" pin="2"/>
+      <node ref="D31" pin="2"/>
+    </net>
+    <net code="82" name="Net-(D35-Pad2)">
+      <node ref="SW35" pin="2"/>
+      <node ref="D35" pin="2"/>
+    </net>
+    <net code="83" name="Net-(D36-Pad2)">
+      <node ref="SW36" pin="2"/>
+      <node ref="D36" pin="2"/>
+    </net>
+    <net code="84" name="Net-(D34-Pad2)">
+      <node ref="D34" pin="2"/>
+      <node ref="SW34" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="SW3" pin="2"/>
+    </net>
+    <net code="86" name="Net-(D2-Pad2)">
+      <node ref="SW2" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="87" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="88" name="Net-(D9-Pad2)">
+      <node ref="SW9" pin="2"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="89" name="Net-(D10-Pad2)">
+      <node ref="SW10" pin="2"/>
+      <node ref="D10" pin="2"/>
+    </net>
+    <net code="90" name="Net-(D11-Pad2)">
+      <node ref="SW11" pin="2"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="91" name="Net-(D12-Pad2)">
+      <node ref="SW12" pin="2"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="92" name="Net-(D13-Pad2)">
+      <node ref="SW13" pin="2"/>
+      <node ref="D13" pin="2"/>
+    </net>
+    <net code="93" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="SW5" pin="2"/>
+    </net>
+    <net code="94" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="SW8" pin="2"/>
+    </net>
+    <net code="95" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2"/>
+      <node ref="SW25" pin="2"/>
+    </net>
+    <net code="96" name="Net-(D24-Pad2)">
+      <node ref="SW24" pin="2"/>
+      <node ref="D24" pin="2"/>
+    </net>
+    <net code="97" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2"/>
+      <node ref="SW23" pin="2"/>
+    </net>
+    <net code="98" name="Net-(D22-Pad2)">
+      <node ref="SW22" pin="2"/>
+      <node ref="D22" pin="2"/>
+    </net>
+    <net code="99" name="Net-(D21-Pad2)">
+      <node ref="SW21" pin="2"/>
+      <node ref="D21" pin="2"/>
+    </net>
+    <net code="100" name="Net-(D19-Pad2)">
+      <node ref="D19" pin="2"/>
+      <node ref="SW19" pin="2"/>
+    </net>
+    <net code="101" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2"/>
+      <node ref="SW18" pin="2"/>
+    </net>
+    <net code="102" name="Net-(D26-Pad2)">
+      <node ref="SW26" pin="2"/>
+      <node ref="D26" pin="2"/>
+    </net>
+    <net code="103" name="Net-(D14-Pad2)">
+      <node ref="SW14" pin="2"/>
+      <node ref="SW64" pin="2"/>
+      <node ref="D14" pin="2"/>
+    </net>
+    <net code="104" name="Net-(D15-Pad2)">
+      <node ref="SW15" pin="2"/>
+      <node ref="D15" pin="2"/>
+    </net>
+    <net code="105" name="Net-(D41-Pad2)">
+      <node ref="SW41" pin="2"/>
+      <node ref="D41" pin="2"/>
+    </net>
+    <net code="106" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2"/>
+      <node ref="SW17" pin="2"/>
+    </net>
+    <net code="107" name="Net-(D16-Pad2)">
+      <node ref="SW16" pin="2"/>
+      <node ref="D16" pin="2"/>
+    </net>
+    <net code="108" name="Net-(D68-Pad2)">
+      <node ref="D68" pin="2"/>
+      <node ref="SW76" pin="2"/>
+    </net>
+    <net code="109" name="Net-(D57-Pad2)">
+      <node ref="SW100" pin="2"/>
+      <node ref="SW109" pin="2"/>
+      <node ref="SW86" pin="2"/>
+      <node ref="SW57" pin="2"/>
+      <node ref="D57" pin="2"/>
+    </net>
+    <net code="110" name="Net-(D66-Pad2)">
+      <node ref="SW89" pin="2"/>
+      <node ref="D66" pin="2"/>
+    </net>
+    <net code="111" name="Net-(D54-Pad2)">
+      <node ref="D54" pin="2"/>
+      <node ref="SW61" pin="2"/>
+    </net>
+    <net code="112" name="Net-(D64-Pad2)">
+      <node ref="SW81" pin="2"/>
+      <node ref="SW108" pin="2"/>
+      <node ref="SW67" pin="2"/>
+      <node ref="D64" pin="2"/>
+    </net>
+    <net code="113" name="Net-(D65-Pad2)">
+      <node ref="SW77" pin="2"/>
+      <node ref="D65" pin="2"/>
+      <node ref="SW65" pin="2"/>
+    </net>
+    <net code="114" name="Net-(D29-Pad2)">
+      <node ref="SW29" pin="2"/>
+      <node ref="D29" pin="2"/>
+      <node ref="SW63" pin="2"/>
     </net>
   </nets>
 </export>
